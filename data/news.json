@@ -1,0 +1,52 @@
+{
+ "generated": "2026-11-24T06:00:00+00:00",
+ "items": [
+  {
+   "id": "voorbeeld1",
+   "category": "nl",
+   "title": "Voorbeeld: zo werkt je nieuws-app",
+   "text": "Elke ochtend komt hier het belangrijkste nieuws. De tekst is in makkelijk Nederlands. Selecteer een woord dat je niet kent. Druk dan op de knop onderaan het scherm. Het woord staat nu in je woordenboek.",
+   "url": "https://nos.nl",
+   "image": null,
+   "source": "NOS",
+   "published": "2026-11-24T06:00:00+00:00",
+   "glossary": [
+    {"word": "selecteer", "forms": ["selecteer"], "lemma": "selecteren", "pos": "verb", "en": "to select", "example_nl": "Je kunt hier een dag selecteren.", "example_en": "You can select a day here.", "grammar": "Regular verb. The imperative is the stem: selecteer! Perfect tense: hij heeft geselecteerd."},
+    {"word": "woordenboek", "forms": ["woordenboek"], "lemma": "het woordenboek", "pos": "noun", "en": "dictionary", "example_nl": "Ik zoek het woord in het woordenboek.", "example_en": "I look up the word in the dictionary.", "grammar": "A het-word. Plural: woordenboeken. Compound word: woorden + boek."},
+    {"word": "belangrijkste", "forms": ["belangrijkste"], "lemma": "belangrijk", "pos": "adjective", "en": "most important", "example_nl": "Dit is het belangrijkste nieuws van de dag.", "example_en": "This is the most important news of the day.", "grammar": "Superlative: belangrijk, belangrijker, het belangrijkste. Add -er for the comparative and -ste for the superlative."},
+    {"word": "kent", "forms": ["kent"], "lemma": "kennen", "pos": "verb", "en": "to know (a person or thing)", "example_nl": "Ik ken die man niet.", "example_en": "I do not know that man.", "grammar": "Use kennen for people and things you are familiar with, and weten for facts. Present: ik ken, jij kent, hij kent."}
+   ]
+  },
+  {
+   "id": "voorbeeld2",
+   "category": "tr",
+   "title": "Voorbeeld: nieuws over Turkije",
+   "text": "Hier lees je straks korte berichten over Turkije. Klik op de foto of de titel. Dan ga je naar de website van het bericht. Zo kun je het hele artikel lezen.",
+   "url": "https://www.hurriyetdailynews.com",
+   "image": null,
+   "source": "Hürriyet Daily News",
+   "published": "2026-11-24T06:00:00+00:00",
+   "glossary": [
+    {"word": "straks", "forms": ["straks"], "lemma": "straks", "pos": "adverb", "en": "in a little while; later today", "example_nl": "Ik bel je straks.", "example_en": "I will call you in a little while.", "grammar": "Adverb of time for the near future. Do not mix it up with net, which means a moment ago."},
+    {"word": "berichten", "forms": ["berichten"], "lemma": "het bericht", "pos": "noun", "en": "messages; news items", "example_nl": "Ik heb een bericht gekregen.", "example_en": "I received a message.", "grammar": "A het-word. Plural: berichten. The same word is also a verb: berichten, to report."},
+    {"word": "hele", "forms": ["hele"], "lemma": "heel", "pos": "adjective", "en": "whole; entire", "example_nl": "Ik heb de hele dag gewerkt.", "example_en": "I worked the whole day.", "grammar": "Adjectives get an -e before a noun after de or het: de hele dag, het hele huis."}
+   ]
+  },
+  {
+   "id": "voorbeeld3",
+   "category": "sport",
+   "title": "Voorbeeld: sportnieuws in je app",
+   "text": "Ook de sportuitslagen van gisteren staan hier. Denk aan voetbal, schaatsen en tennis. De app kiest de belangrijkste wedstrijden voor jou. Lees de samenvatting en leer nieuwe woorden.",
+   "url": "https://nos.nl/sport",
+   "image": null,
+   "source": "NOS Sport",
+   "published": "2026-11-24T06:00:00+00:00",
+   "glossary": [
+    {"word": "sportuitslagen", "forms": ["sportuitslagen"], "lemma": "de uitslag", "pos": "noun", "en": "result; score", "example_nl": "De uitslag van de wedstrijd was 2-1.", "example_en": "The score of the match was 2-1.", "grammar": "A de-word. Plural: uitslagen. Sportuitslagen is a compound word: sport + uitslagen."},
+    {"word": "wedstrijden", "forms": ["wedstrijden"], "lemma": "de wedstrijd", "pos": "noun", "en": "match; game", "example_nl": "De wedstrijd begint om acht uur.", "example_en": "The match starts at eight o'clock.", "grammar": "A de-word. Plural: wedstrijden."},
+    {"word": "samenvatting", "forms": ["samenvatting"], "lemma": "de samenvatting", "pos": "noun", "en": "summary", "example_nl": "Ik lees eerst de samenvatting.", "example_en": "I read the summary first.", "grammar": "A de-word. Plural: samenvattingen. It comes from the separable verb samenvatten (to summarize)."},
+    {"word": "schaatsen", "forms": ["schaatsen"], "lemma": "schaatsen", "pos": "verb / noun", "en": "to skate; ice skating", "example_nl": "In de winter ga ik schaatsen.", "example_en": "In winter I go skating.", "grammar": "Use gaan + infinitive for activities: ik ga schaatsen. As a noun: het schaatsen."}
+   ]
+  }
+ ]
+}
