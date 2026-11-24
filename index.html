@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Nieuws B1">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f2f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Nieuws B1</title>
+<style>
+:root{
+  --bg:#f2f4f7; --ink:#0f172a; --muted:#5b6676; --line:#dde2ea; --accent:#1f4fd8; --accent-ink:#fff;
+  --hl:#ffe25a; --hl-ink:#0f172a; --soft:#e6eaf1; --danger:#b42318;
+  --serif: ui-serif, "New York", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1117; --ink:#e8ecf2; --muted:#93a0b2; --line:#232b37; --accent:#7ea2ff; --accent-ink:#0d1117;
+    --hl:#5c4d00; --hl-ink:#fff3b0; --soft:#171d26; --danger:#ff8a80; color-scheme: dark;
+  }
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-text-size-adjust:100%}
+body{padding-top:env(safe-area-inset-top,0px)}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+
+.top{padding:18px 20px 6px;max-width:680px;margin:0 auto}
+.date{font-size:14px;color:var(--muted)}
+.date::first-letter{text-transform:uppercase}
+.top h1{margin:2px 0 0;font:700 30px/1.15 var(--serif);letter-spacing:-.01em}
+main{max-width:680px;margin:0 auto;padding:0 20px calc(110px + env(safe-area-inset-bottom,0px))}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 6px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:7px 14px;border-radius:99px;background:var(--soft);font-size:15px;color:var(--muted)}
+.chip.on{background:var(--ink);color:var(--bg)}
+.notice{margin:10px 0;padding:10px 12px;border-left:3px solid var(--accent);background:var(--soft);font-size:14px;color:var(--muted)}
+
+/* stories */
+.story{padding:22px 0 24px;border-bottom:1px solid var(--line)}
+.story:last-child{border-bottom:0}
+.pic{display:block;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:var(--soft);margin-bottom:12px}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.pic .ph{width:100%;height:100%;display:grid;place-items:center;font-size:44px}
+.meta{font-size:13.5px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:baseline}
+.meta .cat{color:var(--accent);font-weight:600}
+.story h2{margin:5px 0 8px;font:700 23px/1.22 var(--serif);letter-spacing:-.005em}
+.story h2 a{text-decoration:none}
+.txt{font:18px/1.62 var(--serif);margin:0 0 10px;-webkit-user-select:text;user-select:text;-webkit-touch-callout:default}
+mark{background:var(--hl);color:var(--hl-ink);border-radius:3px;padding:0 2px}
+.src{font-size:15px;color:var(--accent);text-decoration:none;font-weight:600}
+
+/* dictionary */
+.tools{display:flex;gap:10px;align-items:center;padding:12px 0 4px;flex-wrap:wrap}
+.search{flex:1 1 180px;min-width:0;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--soft);font:16px var(--sans);color:var(--ink)}
+.btn{padding:10px 16px;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:600;font-size:15px}
+.btn.ghost{background:var(--soft);color:var(--ink)}
+.btn[disabled]{opacity:.5}
+.count{font-size:14px;color:var(--muted);padding:6px 0}
+.entry{padding:18px 0;border-bottom:1px solid var(--line)}
+.entry .top2{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.entry .w{font:700 24px/1.2 var(--serif)}
+.entry .lemma{font-size:15px;color:var(--muted)}
+.entry .pos{font-size:13px;color:var(--muted);background:var(--soft);padding:2px 8px;border-radius:99px}
+.entry .speak{margin-left:auto;font-size:20px;padding:4px 8px}
+.entry .en{font-size:19px;margin:4px 0 8px}
+.entry .muted{color:var(--muted)}
+.ex{margin:8px 0;padding-left:12px;border-left:3px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.ex .nl{font:17px/1.45 var(--serif)}
+.ex .en2{font-size:15px;color:var(--muted)}
+.ex .lab,.gr .lab{font-size:13px;color:var(--accent);font-weight:600}
+.ex.ctx{border-left-color:var(--accent)}
+.gr{margin:10px 0;padding:10px 12px;background:var(--soft);border-radius:10px;font-size:15.5px;line-height:1.5;display:flex;flex-direction:column;gap:3px}
+.hint{font-size:14px;color:var(--muted);margin:8px 0}
+.from{font-size:14px;color:var(--muted);margin-top:8px}
+.from a{color:var(--accent)}
+.acts{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.acts button{padding:7px 12px;border-radius:10px;background:var(--soft);font-size:14px}
+.acts .on{background:var(--accent);color:var(--accent-ink)}
+.acts .del{color:var(--danger);margin-left:auto}
+.empty{padding:40px 0;text-align:center;color:var(--muted);line-height:1.6}
+.empty b{display:block;font:700 20px var(--serif);color:var(--ink);margin-bottom:6px}
+
+/* settings */
+.set{padding:18px 0;border-bottom:1px solid var(--line)}
+.set h3{margin:0 0 6px;font:700 19px var(--serif)}
+.set p{margin:0 0 10px;font-size:15px;line-height:1.5;color:var(--muted)}
+.set label{display:block;font-size:14px;color:var(--muted);margin:10px 0 4px}
+.set input{width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--soft);font:16px var(--sans);color:var(--ink)}
+.set .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+
+/* chrome */
+.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:0;background:var(--bg);border-top:1px solid var(--line);padding:6px 10px calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
+.tabs button{flex:1;max-width:220px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;border-radius:12px;font-size:12.5px;color:var(--muted);position:relative}
+.tabs button .ic{font-size:21px;line-height:1}
+.tabs button.on{color:var(--accent);font-weight:600}
+#badge:not(:empty){position:absolute;top:0;left:calc(50% + 8px);background:var(--accent);color:var(--accent-ink);font-size:11px;min-width:18px;height:18px;border-radius:9px;display:grid;place-items:center;padding:0 5px}
+#selbar{position:fixed;left:0;right:0;bottom:calc(66px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center;padding:0 16px;z-index:30}
+#selbar[hidden]{display:none}
+#selbtn{background:var(--ink);color:var(--bg);padding:13px 20px;border-radius:99px;font-size:16px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;box-shadow:0 6px 24px rgba(0,0,0,.28)}
+#toast{position:fixed;left:50%;bottom:calc(130px + env(safe-area-inset-bottom,0px));transform:translate(-50%,12px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:15px;opacity:0;pointer-events:none;transition:.2s;z-index:60;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+
+.overlay{position:fixed;inset:0;background:var(--bg);z-index:50;display:flex;flex-direction:column;padding:calc(20px + env(safe-area-inset-top,0px)) 24px calc(24px + env(safe-area-inset-bottom,0px))}
+.overlay .close{align-self:flex-end;font-size:16px;color:var(--muted);padding:8px}
+.overlay .face{flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px;text-align:center}
+.overlay .big{font:700 38px/1.15 var(--serif)}
+.overlay .back{font-size:19px;line-height:1.5}
+.overlay .back .nl{font:18px/1.5 var(--serif);color:var(--muted);display:block;margin-top:8px}
+.overlay .pbtns{display:flex;gap:10px}
+.overlay .pbtns .btn{flex:1;padding:15px}
+@media (prefers-reduced-motion:reduce){#toast{transition:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="date" id="date"></div>
+  <h1 id="h1">Nieuws</h1>
+</header>
+<main id="app"></main>
+
+<div id="selbar" hidden><button id="selbtn" type="button"></button></div>
+<div id="toast" role="status"></div>
+<nav class="tabs" aria-label="Menu">
+  <button data-tab="news" class="on"><span class="ic">📰</span>Nieuws</button>
+  <button data-tab="dict"><span class="ic">📖</span>Woordenboek<span id="badge"></span></button>
+  <button data-tab="settings"><span class="ic">⚙️</span>Instellingen</button>
+</nav>
+
+<script>
+(() => {
+'use strict';
+
+const CATS = {
+  nl:    { label: 'Nederland', icon: '🇳🇱' },
+  tr:    { label: 'Turkije',   icon: '🇹🇷' },
+  sport: { label: 'Sport',     icon: '⚽' }
+};
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+const state = {
+  tab: 'news',
+  cat: 'all',
+  search: '',
+  news: { items: [], generated: null },
+  loadedAt: 0,
+  words: store.get('words', {}),
+  settings: Object.assign({ apiKey: '', model: 'claude-haiku-5-5' }, store.get('settings', {})),
+  busy: new Set()
+};
+const saveWords = () => store.set('words', state.words);
+
+let toastTimer;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2400);
+}
+
+function ago(iso) {
+  const d = iso ? new Date(iso) : null;
+  if (!d || isNaN(d)) return '';
+  const s = (Date.now() - d) / 1000;
+  const rtf = new Intl.RelativeTimeFormat('nl', { numeric: 'auto' });
+  if (s < 3600) return rtf.format(-Math.max(1, Math.round(s / 60)), 'minute');
+  if (s < 86400) return rtf.format(-Math.round(s / 3600), 'hour');
+  return rtf.format(-Math.round(s / 86400), 'day');
+}
+
+/* ---------- data ---------- */
+async function loadNews() {
+  try {
+    const r = await fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    state.news = await r.json();
+    state.loadedAt = Date.now();
+  } catch (e) {
+    console.warn('news load failed', e);
+  }
+}
+
+/* ---------- news view ---------- */
+function highlight(text) {
+  return text.split(/(\p{L}[\p{L}'’-]*)/gu).map((t, i) =>
+    i % 2 && state.words[t.toLowerCase()] ? `<mark>${esc(t)}</mark>` : esc(t)
+  ).join('');
+}
+
+function renderNews() {
+  const { items, generated } = state.news;
+  const gen = generated ? new Date(generated) : null;
+  const stale = gen && !isNaN(gen) && (Date.now() - gen) > 36 * 3600e3;
+  const list = items.filter(i => state.cat === 'all' || i.category === state.cat);
+
+  const chips = [['all', 'Alles'], ...Object.entries(CATS).map(([k, v]) => [k, v.label])]
+    .map(([k, l]) => `<button class="chip ${state.cat === k ? 'on' : ''}" data-act="cat" data-cat="${k}">${l}</button>`).join('');
+
+  const notice = stale
+    ? `<div class="notice">Dit nieuws is niet van vandaag. De volgende update komt morgenochtend.</div>`
+    : (gen ? `<div class="notice">Bijgewerkt ${esc(ago(generated))}. Selecteer een woord in de tekst om het op te slaan.</div>` : '');
+
+  const body = list.length ? list.map(storyHtml).join('') :
+    `<div class="empty"><b>Nog geen nieuws</b>Kom later terug, of start de update in GitHub (Actions).</div>`;
+
+  $('#app').innerHTML = `<div class="chips">${chips}</div>${notice}${body}`;
+}
+
+function storyHtml(it) {
+  const cat = CATS[it.category] || { label: '', icon: '📰' };
+  const url = safeUrl(it.url);
+  const pic = it.image
+    ? `<img src="${esc(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    : `<div class="ph">${cat.icon}</div>`;
+  return `<article class="story" data-id="${esc(it.id)}">
+    <a class="pic" href="${esc(url)}" target="_blank" rel="noopener">${pic}</a>
+    <div class="meta"><span class="cat">${esc(cat.label)}</span><span>${esc(it.source || '')}</span><span>${esc(ago(it.published))}</span></div>
+    <h2><a href="${esc(url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h2>
+    <p class="txt">${highlight(it.text || '')}</p>
+    <a class="src" href="${esc(url)}" target="_blank" rel="noopener">Lees het hele bericht bij ${esc(it.source || 'de bron')}</a>
+  </article>`;
+}
+
+// broken images -> placeholder
+document.addEventListener('error', e => {
+  const el = e.target;
+  if (el && el.tagName === 'IMG' && el.closest('.pic')) {
+    const art = el.closest('.story');
+    const item = state.news.items.find(i => i.id === art?.dataset.id);
+    el.parentElement.innerHTML = `<div class="ph">${(CATS[item?.category] || {}).icon || '📰'}</div>`;
+  }
+}, true);
+
+/* ---------- selecting words ---------- */
+let pending = null, hideTimer;
+
+document.addEventListener('selectionchange', () => {
+  clearTimeout(hideTimer);
+  const sel = getSelection();
+  const text = sel ? sel.toString().replace(/\s+/g, ' ').trim() : '';
+  let node = sel && sel.rangeCount ? sel.getRangeAt(0).commonAncestorContainer : null;
+  if (node && node.nodeType === 3) node = node.parentElement;
+  const p = node && node.closest ? node.closest('.txt') : null;
+  if (text && p && text.length <= 60 && text.split(' ').length <= 6) {
+    pending = { text, p };
+    $('#selbtn').innerHTML = `＋ <b>${esc(text)}</b> toevoegen`;
+    $('#selbar').hidden = false;
+  } else {
+    hideTimer = setTimeout(() => { $('#selbar').hidden = true; pending = null; }, 350);
+  }
+});
+
+$('#selbtn').addEventListener('pointerdown', e => {
+  e.preventDefault();
+  if (!pending) return;
+  const { text, p } = pending;
+  addWord(text, p);
+  const sel = getSelection(); if (sel) sel.removeAllRanges();
+  $('#selbar').hidden = true;
+  pending = null;
+});
+
+function sentenceOf(full, frag) {
+  const parts = full.match(/[^.!?]+[.!?]*/g) || [full];
+  const f = frag.toLowerCase();
+  return (parts.find(s => s.toLowerCase().includes(f)) || full).trim();
+}
+
+const normalize = s => String(s || '').toLowerCase().trim().replace(/^(de|het|een)\s+/, '');
+
+function glossaryFor(item, key) {
+  const k = normalize(key);
+  return (item?.glossary || []).find(g =>
+    [g.word, g.lemma, ...(g.forms || [])].filter(Boolean).some(x => normalize(x) === k));
+}
+
+function addWord(raw, p) {
+  const word = raw.replace(/^[\s"'“”‘’.,;:!?()\-–]+|[\s"'“”‘’.,;:!?()\-–]+$/g, '');
+  if (!word) return;
+  const key = word.toLowerCase();
+  if (state.words[key]) { toast('Dit woord staat al in je woordenboek'); return; }
+
+  const card = p.closest('.story');
+  const item = state.news.items.find(i => i.id === card?.dataset.id) || {};
+  const g = glossaryFor(item, key);
+  const w = {
+    key, word,
+    sentence_nl: sentenceOf(p.textContent, raw),
+    sentence_en: '',
+    title: item.title || '', url: item.url || '',
+    added: Date.now(), learned: false,
+    lemma: g?.lemma || '', pos: g?.pos || '', en: g?.en || '',
+    example_nl: g?.example_nl || '', example_en: g?.example_en || '',
+    grammar: g?.grammar || '', rich: !!g
+  };
+  state.words[key] = w;
+  saveWords();
+  p.innerHTML = highlight(item.text || p.textContent);
+  $('#badge').textContent = Object.keys(state.words).length;
+  toast(`“${word}” is toegevoegd`);
+
+  if (!g) (state.settings.apiKey ? enrich(w) : basicTranslate(w));
+}
+
+/* ---------- translation helpers ---------- */
+async function mm(text) {
+  const r = await fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=nl|en');
+  const j = await r.json();
+  const t = j?.responseData?.translatedText || '';
+  return /MYMEMORY WARNING|QUERY LENGTH LIMIT/i.test(t) ? '' : t;
+}
+
+async function basicTranslate(w) {
+  state.busy.add(w.key); refreshDict();
+  try {
+    w.en = await mm(w.word);
+    if (w.sentence_nl) w.sentence_en = await mm(w.sentence_nl);
+  } catch (e) { console.warn(e); }
+  state.busy.delete(w.key);
+  saveWords(); refreshDict();
+}
+
+async function enrich(w) {
+  state.busy.add(w.key); refreshDict();
+  try {
+    const prompt =
+`A learner of Dutch (level B1) saved this from a news article.
+Word or phrase: "${w.word}"
+Sentence: "${w.sentence_nl || ''}"
+
+Return ONLY a JSON object (no markdown) with these keys:
+"lemma": dictionary form (nouns with de/het, verbs as infinitive),
+"pos": part of speech in English, short,
+"en": English meaning in this context,
+"example_nl": one new natural B1-level Dutch example sentence,
+"example_en": its English translation,
+"sentence_en": English translation of the sentence above,
+"grammar": 1-3 short sentences in English with the most useful grammar point (de/het and plural, verb forms, separable verb, word order, fixed expression).`;
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': state.settings.apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({ model: state.settings.model, max_tokens: 700, messages: [{ role: 'user', content: prompt }] })
+    });
+    if (!r.ok) throw new Error('API ' + r.status);
+    const j = await r.json();
+    const txt = (j.content || []).map(b => b.text || '').join('');
+    const o = JSON.parse(txt.slice(txt.indexOf('{'), txt.lastIndexOf('}') + 1));
+    Object.assign(w, {
+      lemma: o.lemma || w.lemma, pos: o.pos || w.pos, en: o.en || w.en,
+      example_nl: o.example_nl || '', example_en: o.example_en || '',
+      sentence_en: o.sentence_en || w.sentence_en, grammar: o.grammar || '', rich: true
+    });
+    state.busy.delete(w.key);
+  } catch (e) {
+    state.busy.delete(w.key);
+    toast('AI-uitleg mislukt (' + e.message + ')');
+    if (!w.en) await basicTranslate(w);
+  }
+  saveWords(); refreshDict();
+}
+
+/* ---------- dictionary view ---------- */
+function boldIn(s, w) {
+  const i = s.toLowerCase().indexOf(w.toLowerCase());
+  if (i < 0) return esc(s);
+  return esc(s.slice(0, i)) + '<b>' + esc(s.slice(i, i + w.length)) + '</b>' + esc(s.slice(i + w.length));
+}
+
+function entryHtml(w) {
+  const busy = state.busy.has(w.key);
+  const lemma = w.lemma && w.lemma.toLowerCase() !== w.word.toLowerCase() ? `<span class="lemma">→ ${esc(w.lemma)}</span>` : '';
+  const pos = w.pos ? `<span class="pos">${esc(w.pos)}</span>` : '';
+  const en = busy && !w.en ? '<span class="muted">vertalen…</span>' : esc(w.en || '—');
+  let ex = '';
+  if (w.example_nl) ex += `<div class="ex"><span class="lab">Voorbeeld</span><span class="nl">${esc(w.example_nl)}</span><span class="en2">${esc(w.example_en)}</span></div>`;
+  if (w.sentence_nl) ex += `<div class="ex ctx"><span class="lab">In het nieuws</span><span class="nl">${boldIn(w.sentence_nl, w.word)}</span>${w.sentence_en ? `<span class="en2">${esc(w.sentence_en)}</span>` : ''}</div>`;
+  const gr = w.grammar ? `<div class="gr"><span class="lab">Grammatica</span>${esc(w.grammar)}</div>`
+    : (!w.rich && !busy ? `<div class="hint">Automatische vertaling. Voeg in Instellingen een API-sleutel toe voor voorbeelden en grammatica.</div>` : '');
+  const from = w.url ? `<div class="from">Uit: <a href="${esc(safeUrl(w.url))}" target="_blank" rel="noopener">${esc(w.title || 'bron')}</a></div>` : '';
+  const ai = state.settings.apiKey ? `<button data-act="ai" data-key="${esc(w.key)}">✨ ${w.rich ? 'Opnieuw uitleggen' : 'Uitleg met AI'}</button>` : '';
+  return `<div class="entry" data-key="${esc(w.key)}">
+    <div class="top2"><span class="w">${esc(w.word)}</span>${lemma}${pos}<button class="speak" data-act="speak" data-key="${esc(w.key)}" aria-label="Uitspraak">🔊</button></div>
+    <div class="en">${en}</div>${ex}${gr}${from}
+    <div class="acts">
+      <button class="${w.learned ? 'on' : ''}" data-act="learn" data-key="${esc(w.key)}">${w.learned ? '✓ Geleerd' : 'Markeer als geleerd'}</button>${ai}
+      <button class="del" data-act="del" data-key="${esc(w.key)}">Verwijder</button>
+    </div>
+  </div>`;
+}
+
+function dictList() {
+  const all = Object.values(state.words).sort((a, b) => b.added - a.added);
+  const q = state.search.trim().toLowerCase();
+  const list = q ? all.filter(w => [w.word, w.lemma, w.en].join(' ').toLowerCase().includes(q)) : all;
+  if (!all.length) {
+    return `<div class="empty"><b>Je woordenboek is leeg</b>Ga naar Nieuws. Houd je vinger op een woord, sleep om meer te selecteren en tik op “toevoegen”.</div>`;
+  }
+  if (!list.length) return `<div class="empty">Geen woorden gevonden.</div>`;
+  const learned = all.filter(w => w.learned).length;
+  return `<div class="count">${all.length} woorden · ${learned} geleerd</div>` + list.map(entryHtml).join('');
+}
+
+function renderDict() {
+  const missing = Object.values(state.words).filter(w => !w.rich).length;
+  $('#app').innerHTML = `
+    <div class="tools">
+      <input class="search" id="q" type="search" placeholder="Zoek een woord" value="${esc(state.search)}" autocomplete="off">
+      <button class="btn" data-act="practice">Oefenen</button>
+      ${state.settings.apiKey && missing ? `<button class="btn ghost" data-act="enrichAll">✨ Uitleg voor ${missing}</button>` : ''}
+    </div>
+    <div id="list">${dictList()}</div>`;
+  $('#q').addEventListener('input', e => { state.search = e.target.value; $('#list').innerHTML = dictList(); });
+}
+
+function refreshDict() {
+  if (state.tab !== 'dict') return;
+  const l = $('#list'); if (l) l.innerHTML = dictList();
+}
+
+function speak(text) {
+  if (!('speechSynthesis' in window)) { toast('Uitspraak werkt niet op dit apparaat'); return; }
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'nl-NL'; u.rate = .9;
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+
+/* ---------- practice ---------- */
+function practice() {
+  const pool = Object.values(state.words).filter(w => !w.learned && w.en);
+  if (!pool.length) { toast('Geen woorden om te oefenen'); return; }
+  const ov = document.createElement('div');
+  ov.className = 'overlay';
+  let cur = null, shown = false;
+  const next = () => { cur = pool[Math.floor(Math.random() * pool.length)]; shown = false; draw(); };
+  const draw = () => {
+    ov.innerHTML = `<button class="close" data-p="close">Sluiten</button>
+      <div class="face" data-p="flip">
+        <div class="big">${esc(cur.word)}</div>
+        ${shown
+          ? `<div class="back">${esc(cur.en)}${cur.example_nl ? `<span class="nl">${esc(cur.example_nl)}</span>` : ''}</div>`
+          : `<div class="back muted" style="color:var(--muted)">Tik om het antwoord te zien</div>`}
+      </div>
+      <div class="pbtns">
+        <button class="btn ghost" data-p="again">Nog niet</button>
+        <button class="btn" data-p="known">Ik weet het</button>
+      </div>`;
+  };
+  ov.addEventListener('click', e => {
+    const a = e.target.closest('[data-p]')?.dataset.p;
+    if (!a) return;
+    if (a === 'close') ov.remove();
+    else if (a === 'flip') { shown = true; draw(); speak(cur.word); }
+    else if (a === 'again') next();
+    else if (a === 'known') {
+      state.words[cur.key].learned = true; saveWords();
+      const i = pool.indexOf(cur); if (i > -1) pool.splice(i, 1);
+      if (!pool.length) { ov.remove(); toast('Alle woorden geleerd 🎉'); renderDict(); } else next();
+    }
+  });
+  document.body.appendChild(ov);
+  next();
+}
+
+/* ---------- settings view ---------- */
+function renderSettings() {
+  const n = Object.keys(state.words).length;
+  $('#app').innerHTML = `
+    <section class="set">
+      <h3>Uitleg met AI (optioneel)</h3>
+      <p>Zonder sleutel krijg je een automatische vertaling voor woorden die niet in de woordenlijst van het bericht staan. Met je eigen Anthropic API-sleutel krijg je ook voorbeeldzinnen en grammatica. De sleutel blijft alleen op deze telefoon. Gebruik een aparte sleutel met een laag bestedingslimiet.</p>
+      <label for="key">API-sleutel</label>
+      <input id="key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sk-ant-..." value="${esc(state.settings.apiKey)}">
+      <label for="model">Model</label>
+      <input id="model" type="text" autocapitalize="off" spellcheck="false" value="${esc(state.settings.model)}">
+      <div class="row"><button class="btn" data-act="saveSettings">Opslaan</button></div>
+    </section>
+    <section class="set">
+      <h3>Back-up van je woorden</h3>
+      <p>Je ${n} woorden staan alleen op deze telefoon, in de app op je beginscherm. Kopieer ze af en toe en bewaar ze in Notities.</p>
+      <div class="row">
+        <button class="btn" data-act="backup">Kopieer back-up</button>
+        <button class="btn ghost" data-act="restore">Herstel uit back-up</button>
+      </div>
+    </section>
+    <section class="set">
+      <h3>Nieuws verversen</h3>
+      <p>Het nieuws wordt elke ochtend automatisch bijgewerkt.</p>
+      <div class="row"><button class="btn ghost" data-act="reload">Nu opnieuw laden</button></div>
+    </section>`;
+}
+
+/* ---------- events ---------- */
+$('#app').addEventListener('click', async e => {
+  const el = e.target.closest('[data-act]');
+  if (!el) return;
+  const act = el.dataset.act, key = el.dataset.key;
+  if (act === 'cat') { state.cat = el.dataset.cat; renderNews(); }
+  else if (act === 'speak') speak(state.words[key].word);
+  else if (act === 'learn') { state.words[key].learned = !state.words[key].learned; saveWords(); refreshDict(); }
+  else if (act === 'del') { if (confirm('Dit woord verwijderen?')) { delete state.words[key]; saveWords(); $('#badge').textContent = Object.keys(state.words).length || ''; renderDict(); } }
+  else if (act === 'ai') enrich(state.words[key]);
+  else if (act === 'enrichAll') {
+    for (const w of Object.values(state.words).filter(w => !w.rich)) await enrich(w);
+    renderDict();
+  }
+  else if (act === 'practice') practice();
+  else if (act === 'saveSettings') {
+    state.settings.apiKey = $('#key').value.trim();
+    state.settings.model = $('#model').value.trim() || 'claude-haiku-5-5';
+    store.set('settings', state.settings);
+    toast('Opgeslagen');
+  }
+  else if (act === 'backup') {
+    try { await navigator.clipboard.writeText(JSON.stringify(state.words)); toast('Back-up gekopieerd'); }
+    catch { prompt('Kopieer deze tekst:', JSON.stringify(state.words)); }
+  }
+  else if (act === 'restore') {
+    const t = prompt('Plak hier je back-up:');
+    if (!t) return;
+    try {
+      const o = JSON.parse(t);
+      Object.assign(state.words, o); saveWords();
+      $('#badge').textContent = Object.keys(state.words).length;
+      toast('Back-up hersteld'); renderSettings();
+    } catch { toast('Dat is geen geldige back-up'); }
+  }
+  else if (act === 'reload') { await loadNews(); toast('Nieuws geladen'); }
+});
+
+document.querySelector('.tabs').addEventListener('click', e => {
+  const b = e.target.closest('button[data-tab]');
+  if (!b) return;
+  state.tab = b.dataset.tab;
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('on', x === b));
+  render(); window.scrollTo(0, 0);
+});
+
+document.addEventListener('visibilitychange', async () => {
+  if (document.visibilityState === 'visible' && Date.now() - state.loadedAt > 30 * 60e3) {
+    await loadNews(); if (state.tab === 'news') renderNews();
+  }
+});
+
+function render() {
+  const titles = { news: 'Nieuws van vandaag', dict: 'Mijn woordenboek', settings: 'Instellingen' };
+  $('#h1').textContent = titles[state.tab];
+  $('#badge').textContent = Object.keys(state.words).length || '';
+  if (state.tab === 'news') renderNews();
+  else if (state.tab === 'dict') renderDict();
+  else renderSettings();
+}
+
+(async function init() {
+  $('#date').textContent = new Intl.DateTimeFormat('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
+  await loadNews();
+  render();
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+})();
+})();
+</script>
+</body>
+</html>
