@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Fetch news feeds, let Claude choose the most important stories and
-rewrite them in Dutch at CEFR level B1, with a glossary per story.
+"""Fetch news feeds, let Gemini choose the most important stories and
+rewrite them in Dutch at CEFR level B1 (using the Gemini API), with a glossary per story.
 Standard library only. Writes data/news.json."""
 import hashlib
 import html
@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -17,8 +18,11 @@ from email.utils import parsedate_to_datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "news.json")
 
-MODEL = os.environ.get("MODEL", "claude-sonnet-5-5")
-API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+# Models are tried in this order. Google renames models and changes free limits
+# from time to time: if one fails, change this list (or set the GEMINI_MODELS secret/env).
+MODELS = [m.strip() for m in os.environ.get(
+    "GEMINI_MODELS", "gemini-3.5-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite").split(",") if m.strip()]
+API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 PER_CATEGORY = int(os.environ.get("PER_CATEGORY", "4"))
 MAX_CANDIDATES = 15
 UA = "Mozilla/5.0 (compatible; NieuwsB1/1.0)"
@@ -206,21 +210,45 @@ def collect(cat):
     return items[:MAX_CANDIDATES]
 
 
-def claude(user):
+def gemini(user):
+    """Try each model in MODELS until one answers. Returns parsed JSON."""
     body = json.dumps({
-        "model": MODEL,
-        "max_tokens": 8000,
-        "system": SYSTEM,
-        "messages": [{"role": "user", "content": user}],
+        "systemInstruction": {"parts": [{"text": SYSTEM}]},
+        "contents": [{"role": "user", "parts": [{"text": user}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "temperature": 0.4,
+            "maxOutputTokens": 16000,
+        },
     }).encode()
-    req = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages", data=body,
-        headers={"content-type": "application/json", "x-api-key": API_KEY,
-                 "anthropic-version": "2023-06-01"})
-    with urllib.request.urlopen(req, timeout=240) as r:
-        data = json.load(r)
-    txt = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
-    return json.loads(txt[txt.index("{"): txt.rindex("}") + 1])
+    last = None
+    for model in MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+        for attempt in range(2):
+            req = urllib.request.Request(
+                url, data=body,
+                headers={"content-type": "application/json", "x-goog-api-key": API_KEY})
+            try:
+                with urllib.request.urlopen(req, timeout=240) as r:
+                    data = json.load(r)
+                parts = data["candidates"][0]["content"]["parts"]
+                txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                out = json.loads(txt[txt.index("{"): txt.rindex("}") + 1])
+                log(f"  model {model} ok")
+                return out
+            except urllib.error.HTTPError as e:
+                detail = e.read().decode("utf-8", "ignore")[:300]
+                last = f"{model}: HTTP {e.code} {detail}"
+                log(f"  ! {last}")
+                if e.code == 429 and attempt == 0:
+                    time.sleep(65)  # per-minute limit: wait and retry once
+                    continue
+                break  # other errors (404 unknown model, 403, daily limit): next model
+            except Exception as e:
+                last = f"{model}: {e}"
+                log(f"  ! {last}")
+                break
+    raise RuntimeError(last or "no model answered")
 
 
 def write_category(cat, cands):
@@ -233,15 +261,10 @@ def write_category(cat, cands):
             '{"items":[{"idx":0,"title":"...","text":"...","glossary":[{"forms":["..."],"lemma":"...","pos":"...",'
             '"en":"...","example_nl":"...","example_en":"...","grammar":"..."}]}]}\n\n'
             f"Candidates:\n{json.dumps(listing, ensure_ascii=False)}")
-    result = None
-    for attempt in range(2):
-        try:
-            result = claude(user)
-            break
-        except Exception as e:
-            log(f"  ! Claude attempt {attempt + 1} failed: {e}")
-            time.sleep(5)
-    if not result:
+    try:
+        result = gemini(user)
+    except Exception as e:
+        log(f"  ! all models failed: {e}")
         return []
 
     items = []
@@ -283,7 +306,7 @@ def write_category(cat, cands):
 
 def main():
     if not API_KEY:
-        log("ANTHROPIC_API_KEY is missing. Add it as a repository secret.")
+        log("GEMINI_API_KEY is missing. Add it as a repository secret.")
         sys.exit(1)
 
     old = {}
@@ -299,6 +322,7 @@ def main():
         log(f"[{cat}]")
         cands = collect(cat)
         new = write_category(cat, cands) if cands else []
+        time.sleep(15)  # stay under the free per-minute limit
         if not new:
             log(f"  no new items for {cat}, keeping the previous ones")
             new = old.get(cat, [])
