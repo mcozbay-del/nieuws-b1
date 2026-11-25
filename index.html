@@ -331,15 +331,32 @@ document.addEventListener('selectionchange', () => {
   }
 });
 
-$('#selbtn').addEventListener('pointerdown', e => {
+let lastAdd = 0;
+
+// Keep the text selected while the button is pressed (iOS would clear it).
+$('#selbtn').addEventListener('pointerdown', e => e.preventDefault());
+
+// Add the word on click (not on pointerdown), so the finger lift cannot "click through"
+// to a link that sits under the button.
+$('#selbtn').addEventListener('click', e => {
   e.preventDefault();
+  e.stopPropagation();
   if (!pending) return;
   const { text, p } = pending;
+  lastAdd = Date.now();
   addWord(text, p);
   const sel = getSelection(); if (sel) sel.removeAllRanges();
-  $('#selbar').hidden = true;
   pending = null;
+  setTimeout(() => { $('#selbar').hidden = true; }, 500);
 });
+
+// Safety net: ignore link taps that happen right after adding a word.
+document.addEventListener('click', e => {
+  if (Date.now() - lastAdd < 900 && e.target.closest && e.target.closest('a')) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}, true);
 
 function sentenceOf(full, frag) {
   const parts = full.match(/[^.!?]+[.!?]*/g) || [full];
