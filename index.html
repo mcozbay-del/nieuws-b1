@@ -97,6 +97,22 @@ mark{background:var(--hl);color:var(--hl-ink);border-radius:3px;padding:0 2px}
 .set input{width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--line);background:var(--soft);font:16px var(--sans);color:var(--ink)}
 .set .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 
+/* day navigation, sources, more */
+.daynav{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 0 2px}
+.daynav span{font-size:15px;color:var(--muted);text-align:center;flex:1}
+.daynav span::first-letter{text-transform:uppercase}
+.daynav button{width:44px;height:40px;border-radius:12px;background:var(--soft);font-size:22px;line-height:1}
+.daynav button[disabled]{opacity:.35}
+.more{display:block;width:100%;margin:18px 0}
+.meta .ln{color:var(--muted)}
+.set h4{margin:16px 0 4px;font:700 16px var(--sans)}
+.srcrow{display:grid;grid-template-columns:auto 1fr auto;gap:2px 12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);margin:0!important;font-size:16px!important;color:var(--ink)!important}
+.srcrow input{width:22px;height:22px;padding:0;grid-row:span 2}
+.srcrow .nm{font-weight:600}
+.srcrow .n{font-size:13px;color:var(--muted);text-align:right}
+.srcrow .ln{grid-column:2/4;font-size:13px;color:var(--muted)}
+.srcrow.off{opacity:.55}
+
 /* chrome */
 .tabs{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:0;background:var(--bg);border-top:1px solid var(--line);padding:6px 10px calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
 .tabs button{flex:1;max-width:220px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;border-radius:12px;font-size:12.5px;color:var(--muted);position:relative}
@@ -161,7 +177,9 @@ const state = {
   loadedAt: 0,
   words: store.get('words', {}),
   settings: Object.assign({ apiKey: '', model: 'gemini-3.5-flash-lite' }, store.get('settings', {})),
-  busy: new Set()
+  busy: new Set(),
+  dates: [], day: null, meta: [], more: {},
+  sel: store.get('sources', {})
 };
 const saveWords = () => store.set('words', state.words);
 
@@ -185,16 +203,32 @@ function ago(iso) {
 }
 
 /* ---------- data ---------- */
-async function loadNews() {
+async function getJson(url) {
+  const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' });
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+
+// day = null -> latest news, otherwise 'YYYY-MM-DD' from the archive
+async function loadNews(day = null) {
   try {
-    const r = await fetch('data/news.json?t=' + Date.now(), { cache: 'no-store' });
-    if (!r.ok) throw new Error(r.status);
-    state.news = await r.json();
+    state.news = await getJson(day ? `data/archive/${day}.json` : 'data/news.json');
+    state.day = day;
     state.loadedAt = Date.now();
+    if (!day) state.meta = state.news.sources || [];
   } catch (e) {
     console.warn('news load failed', e);
+    if (day) toast('Dit nieuws is niet beschikbaar');
   }
 }
+
+async function loadDates() {
+  try { state.dates = (await getJson('data/archive/index.json')).dates || []; }
+  catch { state.dates = []; }
+}
+
+const isOn = s => (s.id in state.sel) ? !!state.sel[s.id] : !!s.default;
+const dayLabel = d => new Intl.DateTimeFormat('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' }).format(d);
 
 /* ---------- news view ---------- */
 function highlight(text) {
@@ -203,23 +237,54 @@ function highlight(text) {
   ).join('');
 }
 
+function visibleItems() {
+  const meta = new Map(state.meta.map(s => [s.id, s]));
+  return state.news.items.filter(i => {
+    const m = meta.get(i.source_id);
+    return !m || isOn(m);
+  });
+}
+
 function renderNews() {
-  const { items, generated } = state.news;
+  const { generated } = state.news;
   const gen = generated ? new Date(generated) : null;
-  const stale = gen && !isNaN(gen) && (Date.now() - gen) > 36 * 3600e3;
-  const list = items.filter(i => state.cat === 'all' || i.category === state.cat);
+  const latest = state.day === null;
+  const stale = latest && gen && !isNaN(gen) && (Date.now() - gen) > 36 * 3600e3;
+
+  const vis = visibleItems();
+  const rank = (a, b) => (b.importance || 0) - (a.importance || 0) || String(b.published || '').localeCompare(String(a.published || ''));
+  const cats = state.cat === 'all' ? Object.keys(CATS) : [state.cat];
+  const per = state.cat === 'all' ? 4 : 10;
+  let list = [], hidden = 0;
+  for (const k of cats) {
+    const all = vis.filter(i => i.category === k).sort(rank);
+    const shown = state.more[state.cat] ? all : all.slice(0, per);
+    list = list.concat(shown);
+    hidden += all.length - shown.length;
+  }
 
   const chips = [['all', 'Alles'], ...Object.entries(CATS).map(([k, v]) => [k, v.label])]
     .map(([k, l]) => `<button class="chip ${state.cat === k ? 'on' : ''}" data-act="cat" data-cat="${k}">${l}</button>`).join('');
 
+  const i = latest ? 0 : state.dates.indexOf(state.day);
+  const older = i >= 0 ? state.dates[i + 1] : null;
+  const newer = i > 0 ? state.dates[i - 1] : null;
+  const shownDate = state.day ? new Date(state.day + 'T12:00:00') : (state.dates[0] ? new Date(state.dates[0] + 'T12:00:00') : (gen || new Date()));
+  const nav = `<div class="daynav">
+    <button data-act="day" data-d="${older || ''}" ${older ? '' : 'disabled'} aria-label="Vorige dag">‹</button>
+    <span>${esc(dayLabel(shownDate))}${latest ? '' : ' · archief'}</span>
+    <button data-act="day" data-d="${newer || ''}" ${newer ? '' : 'disabled'} aria-label="Volgende dag">›</button>
+  </div>`;
+
   const notice = stale
     ? `<div class="notice">Dit nieuws is niet van vandaag. De volgende update komt morgenochtend.</div>`
-    : (gen ? `<div class="notice">Bijgewerkt ${esc(ago(generated))}. Selecteer een woord in de tekst om het op te slaan.</div>` : '');
+    : (gen ? `<div class="notice">${latest ? 'Bijgewerkt ' + esc(ago(generated)) + '. ' : ''}Selecteer een woord in de tekst om het op te slaan.</div>` : '');
 
   const body = list.length ? list.map(storyHtml).join('') :
-    `<div class="empty"><b>Nog geen nieuws</b>Kom later terug, of start de update in GitHub (Actions).</div>`;
+    `<div class="empty"><b>Geen berichten</b>${state.news.items.length ? 'Er zijn geen berichten van je gekozen bronnen. Kies bronnen bij Instellingen.' : 'Kom later terug, of start de update in GitHub (Actions).'}</div>`;
+  const more = hidden > 0 ? `<button class="btn ghost more" data-act="more">Toon meer (${hidden})</button>` : '';
 
-  $('#app').innerHTML = `<div class="chips">${chips}</div>${notice}${body}`;
+  $('#app').innerHTML = `${nav}<div class="chips">${chips}</div>${notice}${body}${more}`;
 }
 
 function storyHtml(it) {
@@ -230,7 +295,7 @@ function storyHtml(it) {
     : `<div class="ph">${cat.icon}</div>`;
   return `<article class="story" data-id="${esc(it.id)}">
     <a class="pic" href="${esc(url)}" target="_blank" rel="noopener">${pic}</a>
-    <div class="meta"><span class="cat">${esc(cat.label)}</span><span>${esc(it.source || '')}</span><span>${esc(ago(it.published))}</span></div>
+    <div class="meta"><span class="cat">${esc(cat.label)}</span><span>${esc(it.source || '')}</span>${it.lean ? `<span class="ln">${esc(it.lean)}</span>` : ''}<span>${esc(ago(it.published))}</span></div>
     <h2><a href="${esc(url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h2>
     <p class="txt">${highlight(it.text || '')}</p>
     <a class="src" href="${esc(url)}" target="_blank" rel="noopener">Lees het hele bericht bij ${esc(it.source || 'de bron')}</a>
@@ -481,9 +546,28 @@ function practice() {
 }
 
 /* ---------- settings view ---------- */
+function sourcesHtml() {
+  if (!state.meta.length) return `<p>De bronnen verschijnen hier na de eerste echte update.</p>`;
+  return Object.entries(CATS).map(([k, c]) => {
+    const rows = state.meta.filter(s => s.cat === k).map(s => {
+      const n = (state.news.items || []).filter(i => i.source_id === s.id).length;
+      return `<label class="srcrow ${s.ok ? '' : 'off'}">
+        <input type="checkbox" data-src="${esc(s.id)}" ${isOn(s) ? 'checked' : ''}>
+        <span class="nm">${esc(s.name)}</span><span class="n">${s.ok ? n + ' berichten' : 'geen feed'}</span>
+        <span class="ln">${esc(s.lean || '')}</span></label>`;
+    }).join('');
+    return `<h4>${c.icon} ${esc(c.label)}</h4>${rows}`;
+  }).join('') + `<div class="row"><button class="btn ghost" data-act="srcDefault">Standaard</button><button class="btn ghost" data-act="srcAll">Alles aan</button></div>`;
+}
+
 function renderSettings() {
   const n = Object.keys(state.words).length;
   $('#app').innerHTML = `
+    <section class="set">
+      <h3>Bronnen</h3>
+      <p>Kies welke bronnen je wilt lezen. Elke ochtend worden alle bronnen voorbereid, dus je keuze werkt meteen. De labels zijn een ruwe indicatie van de richting van een bron en niet voor elk artikel hetzelfde.</p>
+      ${sourcesHtml()}
+    </section>
     <section class="set">
       <h3>Uitleg met AI (optioneel)</h3>
       <p>Zonder sleutel krijg je een automatische vertaling voor woorden die niet in de woordenlijst van het bericht staan. Met je eigen gratis Gemini API-sleutel (Google AI Studio) krijg je ook voorbeeldzinnen en grammatica. De sleutel blijft alleen op deze telefoon. Gebruik hiervoor een aparte sleutel.</p>
@@ -514,6 +598,15 @@ $('#app').addEventListener('click', async e => {
   if (!el) return;
   const act = el.dataset.act, key = el.dataset.key;
   if (act === 'cat') { state.cat = el.dataset.cat; renderNews(); }
+  else if (act === 'more') { state.more[state.cat] = true; renderNews(); }
+  else if (act === 'day') {
+    const d = el.dataset.d;
+    if (!d) return;
+    await loadNews(d === state.dates[0] ? null : d);
+    renderNews(); window.scrollTo(0, 0);
+  }
+  else if (act === 'srcDefault') { state.sel = {}; store.set('sources', state.sel); renderSettings(); toast('Standaardbronnen'); }
+  else if (act === 'srcAll') { state.meta.forEach(s => { state.sel[s.id] = true; }); store.set('sources', state.sel); renderSettings(); }
   else if (act === 'speak') speak(state.words[key].word);
   else if (act === 'learn') { state.words[key].learned = !state.words[key].learned; saveWords(); refreshDict(); }
   else if (act === 'del') { if (confirm('Dit woord verwijderen?')) { delete state.words[key]; saveWords(); $('#badge').textContent = Object.keys(state.words).length || ''; renderDict(); } }
@@ -543,7 +636,14 @@ $('#app').addEventListener('click', async e => {
       toast('Back-up hersteld'); renderSettings();
     } catch { toast('Dat is geen geldige back-up'); }
   }
-  else if (act === 'reload') { await loadNews(); toast('Nieuws geladen'); }
+  else if (act === 'reload') { await Promise.all([loadNews(), loadDates()]); toast('Nieuws geladen'); }
+});
+
+$('#app').addEventListener('change', e => {
+  const id = e.target?.dataset?.src;
+  if (!id) return;
+  state.sel[id] = e.target.checked;
+  store.set('sources', state.sel);
 });
 
 document.querySelector('.tabs').addEventListener('click', e => {
@@ -555,7 +655,7 @@ document.querySelector('.tabs').addEventListener('click', e => {
 });
 
 document.addEventListener('visibilitychange', async () => {
-  if (document.visibilityState === 'visible' && Date.now() - state.loadedAt > 30 * 60e3) {
+  if (document.visibilityState === 'visible' && state.day === null && Date.now() - state.loadedAt > 30 * 60e3) {
     await loadNews(); if (state.tab === 'news') renderNews();
   }
 });
@@ -571,7 +671,7 @@ function render() {
 
 (async function init() {
   $('#date').textContent = new Intl.DateTimeFormat('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
-  await loadNews();
+  await Promise.all([loadNews(), loadDates()]);
   render();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
