@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T09:18:21+00:00",
- "date": "2026-11-25",
+ "generated": "2026-11-26T13:59:41+00:00",
+ "date": "2026-11-26",
  "sources": [
   {
    "id": "nos",
@@ -18,7 +18,7 @@
    "lean": "midden",
    "default": true,
    "ok": true,
-   "stories": 2
+   "stories": 0
   },
   {
    "id": "volkskrant",
@@ -27,7 +27,7 @@
    "lean": "midden-links",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "trouw",
@@ -36,7 +36,7 @@
    "lean": "midden-links",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "parool",
@@ -45,7 +45,7 @@
    "lean": "midden-links",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "joop",
@@ -63,7 +63,7 @@
    "lean": "midden (liberaal)",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "ad",
@@ -81,7 +81,7 @@
    "lean": "midden-rechts",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "tpo",
@@ -99,7 +99,7 @@
    "lean": "midden (Engels)",
    "default": false,
    "ok": true,
-   "stories": 2
+   "stories": 0
   },
   {
    "id": "bbc_tr",
@@ -117,7 +117,7 @@
    "lean": "internationaal",
    "default": true,
    "ok": true,
-   "stories": 2
+   "stories": 1
   },
   {
    "id": "guardian_tr",
@@ -126,7 +126,7 @@
    "lean": "midden-links",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "birgun",
@@ -153,7 +153,7 @@
    "lean": "onafhankelijk, links",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "evrensel",
@@ -162,7 +162,7 @@
    "lean": "links (socialistisch)",
    "default": false,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "t24",
@@ -180,7 +180,7 @@
    "lean": "oppositie (Engels)",
    "default": false,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "dailysabah",
@@ -189,7 +189,7 @@
    "lean": "regeringsgezind",
    "default": false,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "google_tr",
@@ -207,7 +207,7 @@
    "lean": "publieke omroep",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 2
   },
   {
    "id": "nu_sport",
@@ -216,7 +216,7 @@
    "lean": "midden",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "google_spor",
@@ -225,7 +225,7 @@
    "lean": "gemengd",
    "default": true,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "bbc_football",
@@ -234,7 +234,7 @@
    "lean": "internationaal",
    "default": false,
    "ok": true,
-   "stories": 1
+   "stories": 0
   },
   {
    "id": "guardian_football",
@@ -248,479 +248,65 @@
  ],
  "items": [
   {
-   "id": "e59b6a7db4",
+   "id": "93b8880bef",
    "category": "nl",
    "source_id": "nos",
    "source": "NOS",
    "lean": "publieke omroep",
-   "importance": 4,
-   "title": "Zeker vijf zwaargewonden bij ongeluk met bus en vrachtwagen bij Lelystad",
-   "text": "Op de provinciale weg N302 bij Lelystad is een ernstig ongeluk gebeurd. Een vrachtwagen en een lijnbus kwamen daar met elkaar in botsing. Zeker vijf mensen zijn daarbij zwaargewond geraakt. Veel hulpdiensten kwamen snel naar de plek van het ongeluk. De gewonde mensen zijn naar het ziekenhuis gebracht. De politie weet de oorzaak nog niet en doet onderzoek.",
-   "url": "https://nos.nl/l/2640937",
-   "image": "https://images.cdn.nos.nl/2/6/X/5/e/T/oLbWVCBmwZhzqsjaQpqpMNywLzd6xuTrDPJPHYm/8x123x2032x1143-1024x576.webp",
-   "published": "2026-11-25T09:07:35+00:00",
+   "importance": 5,
+   "title": "Celstraf en tbs voor man na misbruik van 245 meisjes",
+   "text": "Een 40-jarige man uit Herten is veroordeeld tot acht jaar gevangenisstraf. Ook krijgt hij tbs met dwangverpleging. De man misbruikte online zeker 245 meisjes en vrouwen. Hij gebruikte hiervoor een zelfbedacht spel. Hij zocht contact via platforms voor videobellen. Veel slachtoffers waren kinderen. De man lokte hen jarenlang in zijn val.",
+   "url": "https://nos.nl/l/2641110",
+   "image": "https://images.cdn.nos.nl/2/H/p/8/6/p/5tgz4PG2aVm64J6NyVZBbj1xRc3waEHTTiT2jdu/6x174x3296x1854-1280x720.jpg",
+   "published": "2026-11-26T13:52:32+00:00",
    "glossary": [
     {
-     "word": "provinciale",
+     "word": "veroordeeld",
      "forms": [
-      "provinciale"
+      "veroordeeld"
      ],
-     "lemma": "provinciaal",
-     "pos": "adjective",
-     "en": "provincial / relating to a province",
-     "example_nl": "Deze provinciale weg is vandaag gesloten voor onderhoud.",
-     "example_en": "This provincial road is closed today for maintenance.",
-     "grammar": "Adjective ending in -e when placed before a de/het word."
-    },
-    {
-     "word": "botsing",
-     "forms": [
-      "botsing"
-     ],
-     "lemma": "de botsing",
-     "pos": "noun",
-     "en": "collision / crash",
-     "example_nl": "Er was een botsing tussen twee fietsers op het kruispunt.",
-     "example_en": "There was a collision between two cyclists at the intersection.",
-     "grammar": "De-word, plural: de botsingen."
-    },
-    {
-     "word": "zwaargewond",
-     "forms": [
-      "zwaargewond"
-     ],
-     "lemma": "zwaargewond",
-     "pos": "adjective",
-     "en": "severely injured",
-     "example_nl": "De bestuurder raakte zwaargewond bij de val.",
-     "example_en": "The driver was severely injured in the fall.",
-     "grammar": "Compound of zwaar (severe) + gewond (injured)."
-    },
-    {
-     "word": "hulpdiensten",
-     "forms": [
-      "hulpdiensten"
-     ],
-     "lemma": "de hulpdienst",
-     "pos": "noun",
-     "en": "emergency services",
-     "example_nl": "De hulpdiensten waren heel snel ter plaatse.",
-     "example_en": "The emergency services were on the scene very quickly.",
-     "grammar": "De-word, plural: de hulpdiensten."
-    },
-    {
-     "word": "oorzaak",
-     "forms": [
-      "oorzaak"
-     ],
-     "lemma": "de oorzaak",
-     "pos": "noun",
-     "en": "cause / reason",
-     "example_nl": "De politie zoekt naar de oorzaak van de brand.",
-     "example_en": "The police are looking for the cause of the fire.",
-     "grammar": "De-word, plural: de oorzaken."
-    }
-   ]
-  },
-  {
-   "id": "765b6d454a",
-   "category": "nl",
-   "source_id": "nos",
-   "source": "NOS",
-   "lean": "publieke omroep",
-   "importance": 4,
-   "title": "Alcohol speelt rol bij ruim kwart van alle dodelijke verkeersongelukken",
-   "text": "Bij veel dodelijke verkeersongelukken in Nederland is alcohol in het spel. Dat meldt het wetenschappelijk instituut SWOV op basis van een schatting. Bij 24 tot 35 procent van de verkeersdoden speelde alcohol een rol. In twee derde van die gevallen was het slachtoffer de bestuurder zelf. In een derde van de gevallen ging het om iemand anders, zoals een passagier.",
-   "url": "https://nos.nl/l/2640920",
-   "image": "https://images.cdn.nos.nl/5/H/S/Q/h/Q/E9Tx8kgm5ZpEUQksdnyk49nGMd6SdLPhRr5iSZn/8x323x3984x2241-1024x576.webp",
-   "published": "2026-11-25T07:06:32+00:00",
-   "glossary": [
-    {
-     "word": "in het spel",
-     "forms": [
-      "in het spel"
-     ],
-     "lemma": "in het spel zijn",
-     "pos": "expression",
-     "en": "involved / at play",
-     "example_nl": "Er was geld in het spel bij dat besluit.",
-     "example_en": "Money was involved in that decision.",
-     "grammar": "Fixed expression with the verb zijn."
-    },
-    {
-     "word": "schatting",
-     "forms": [
-      "schatting"
-     ],
-     "lemma": "de schatting",
-     "pos": "noun",
-     "en": "estimate / estimation",
-     "example_nl": "Volgens een eerste schatting kost de reparatie duizend euro.",
-     "example_en": "According to a first estimate, the repair will cost one thousand euros.",
-     "grammar": "De-word, plural: de schattingen."
-    },
-    {
-     "word": "verkeersdoden",
-     "forms": [
-      "verkeersdoden"
-     ],
-     "lemma": "de verkeersdode",
-     "pos": "noun",
-     "en": "traffic fatalities",
-     "example_nl": "Het aantal verkeersdoden is dit jaar gedaald.",
-     "example_en": "The number of traffic fatalities has decreased this year.",
-     "grammar": "De-word, plural: de verkeersdoden."
-    },
-    {
-     "word": "slachtoffer",
-     "forms": [
-      "slachtoffer"
-     ],
-     "lemma": "het slachtoffer",
-     "pos": "noun",
-     "en": "victim",
-     "example_nl": "Het slachtoffer werd direct door de dokter geholpen.",
-     "example_en": "The victim was helped immediately by the doctor.",
-     "grammar": "Het-word, plural: de slachtoffers."
-    },
-    {
-     "word": "bestuurder",
-     "forms": [
-      "bestuurder"
-     ],
-     "lemma": "de bestuurder",
-     "pos": "noun",
-     "en": "driver",
-     "example_nl": "De bestuurder van de auto moest blazen voor de politie.",
-     "example_en": "The driver of the car had to do a breathalyzer test for the police.",
-     "grammar": "De-word, plural: de bestuurders."
-    }
-   ]
-  },
-  {
-   "id": "d9d28a9505",
-   "category": "nl",
-   "source_id": "nu",
-   "source": "NU.nl",
-   "lean": "midden",
-   "importance": 3,
-   "title": "Zembla: medisch hulpverlener bij neonazistische gevechten werkte voor ggz",
-   "text": "Onderzoeksprogramma Zembla heeft een medisch hulpverlener bij neonazistische kooigevechten ontdekt. Het gaat om een man uit Lunteren. De man werkte als psychiater bij verschillende ggz-instellingen. Ook was hij adviseur bij de Nederlandse schietsportbond. Daarnaast was hij gerechtelijk adviseur bij rechtszaken. In de gevechten vereren neonazistische bewegingen onder meer Adolf Hitler.",
-   "url": "https://www.nu.nl/binnenland/6417706/medic-bij-neonazistische-gevechten-werkte-bij-ggz-schietsportbond-en-rechtbank.html",
-   "image": "https://images.nu.nl/m/0vxxgflakggi_sqr256/32/0/739/739/medic-bij-neonazistische-gevechten-werkte-bij-ggz-schietsportbond-en-rechtbank.jpg",
-   "published": "2026-11-25T08:17:10+00:00",
-   "glossary": [
-    {
-     "word": "hulpverlener",
-     "forms": [
-      "hulpverlener"
-     ],
-     "lemma": "de hulpverlener",
-     "pos": "noun",
-     "en": "care worker / paramedic",
-     "example_nl": "De hulpverlener gaf eerste hulp aan de gewonde man.",
-     "example_en": "The care worker provided first aid to the injured man.",
-     "grammar": "De-word, plural: de hulpverleners."
-    },
-    {
-     "word": "kooigevechten",
-     "forms": [
-      "kooigevechten"
-     ],
-     "lemma": "het kooigevecht",
-     "pos": "noun",
-     "en": "cage fights",
-     "example_nl": "Deze vechtsporters doen mee aan illegale kooigevechten.",
-     "example_en": "These martial artists participate in illegal cage fights.",
-     "grammar": "Het-word, plural: de kooigevechten."
-    },
-    {
-     "word": "ontdekt",
-     "forms": [
-      "ontdekt"
-     ],
-     "lemma": "ontdekken",
+     "lemma": "veroordelen",
      "pos": "verb",
-     "en": "discovered / identified",
-     "example_nl": "De politie heeft een geheim kantoor ontdekt.",
-     "example_en": "The police discovered a secret office.",
-     "grammar": "Past participle of ontdekken (regular verb: ontdekte, ontdekt)."
+     "en": "to convict",
+     "example_nl": "De rechter veroordeelt de dief tot een geldboete.",
+     "example_en": "The judge convicts the thief to a fine.",
+     "grammar": "Regular verb. Past participle: veroordeeld."
     },
     {
-     "word": "adviseur",
+     "word": "gevangenisstraf",
      "forms": [
-      "adviseur"
+      "gevangenisstraf"
      ],
-     "lemma": "de adviseur",
+     "lemma": "de gevangenisstraf",
      "pos": "noun",
-     "en": "advisor / consultant",
-     "example_nl": "Zij werkt als financieel adviseur bij de bank.",
-     "example_en": "She works as a financial advisor at the bank.",
-     "grammar": "De-word, plural: de adviseurs."
+     "en": "prison sentence",
+     "example_nl": "Hij kreeg een lange gevangenisstraf.",
+     "example_en": "He received a long prison sentence.",
+     "grammar": "De-word. Plural: gevangenisstraffen."
     },
     {
-     "word": "gerechtelijk",
+     "word": "tbs",
      "forms": [
-      "gerechtelijk"
+      "tbs"
      ],
-     "lemma": "gerechtelijk",
-     "pos": "adjective",
-     "en": "judicial / legal",
-     "example_nl": "Er komt een gerechtelijk onderzoek naar het bedrijf.",
-     "example_en": "There will be a judicial investigation into the company.",
-     "grammar": "Adjective derived from gerecht (court)."
-    }
-   ]
-  },
-  {
-   "id": "09feed58dc",
-   "category": "nl",
-   "source_id": "nu",
-   "source": "NU.nl",
-   "lean": "midden",
-   "importance": 2,
-   "title": "Nederlandse acteur Jules Croiset op 89-jarige leeftijd overleden",
-   "text": "De bekende Nederlandse acteur Jules Croiset is overleden. Hij is 89 jaar oud geworden. Dat meldt zijn familie aan persbureau ANP. Croiset stond bijna zestig jaar lang op het toneel. Ook speelde hij in tientallen films en bekende televisieseries. Zo was hij te zien in Amsterdamned en Medisch Centrum West.",
-   "url": "https://www.nu.nl/film/6417699/acteur-jules-croiset-op-89-jarige-leeftijd-overleden.html",
-   "image": "https://images.nu.nl/m/vaaxxb2acfet_sqr256/154/0/4685/4685/acteur-jules-croiset-op-89-jarige-leeftijd-overleden.jpg",
-   "published": "2026-11-25T06:19:33+00:00",
-   "glossary": [
-    {
-     "word": "acteur",
-     "forms": [
-      "acteur"
-     ],
-     "lemma": "de acteur",
+     "lemma": "de tbs",
      "pos": "noun",
-     "en": "actor",
-     "example_nl": "De acteur kreeg een applaus van het publiek.",
-     "example_en": "The actor received applause from the audience.",
-     "grammar": "De-word, plural: de acteurs."
+     "en": "hospital order (compulsory psychiatric treatment)",
+     "example_nl": "De dader krijgt tbs voor zijn behandeling.",
+     "example_en": "The perpetrator receives a hospital order for his treatment.",
+     "grammar": "De-word. Abbreviation for 'terbeschikkingstelling'."
     },
     {
-     "word": "overleden",
+     "word": "dwangverpleging",
      "forms": [
-      "overleden"
+      "dwangverpleging"
      ],
-     "lemma": "overlijden",
-     "pos": "verb",
-     "en": "passed away / died",
-     "example_nl": "Mijn grootvader is vorige week overleden.",
-     "example_en": "My grandfather passed away last week.",
-     "grammar": "Irregular verb: overleed, is overleden."
-    },
-    {
-     "word": "persbureau",
-     "forms": [
-      "persbureau"
-     ],
-     "lemma": "het persbureau",
+     "lemma": "de dwangverpleging",
      "pos": "noun",
-     "en": "news agency",
-     "example_nl": "Het persbureau verspreidt het nieuws naar de kranten.",
-     "example_en": "The news agency distributes the news to the newspapers.",
-     "grammar": "Het-word, plural: de persbureaus."
-    },
-    {
-     "word": "toneel",
-     "forms": [
-      "toneel"
-     ],
-     "lemma": "het toneel",
-     "pos": "noun",
-     "en": "stage / theater",
-     "example_nl": "De spelers kwamen samen op het toneel.",
-     "example_en": "The actors gathered on the stage.",
-     "grammar": "Het-word, expression: op het toneel staan."
-    },
-    {
-     "word": "tientallen",
-     "forms": [
-      "tientallen"
-     ],
-     "lemma": "het tiental",
-     "pos": "noun",
-     "en": "tens / dozens",
-     "example_nl": "Er kwamen tientallen mensen naar het feest.",
-     "example_en": "Tens of people came to the party.",
-     "grammar": "Plural noun used to indicate an approximate amount."
-    }
-   ]
-  },
-  {
-   "id": "75b249c3b4",
-   "category": "nl",
-   "source_id": "volkskrant",
-   "source": "de Volkskrant",
-   "lean": "midden-links",
-   "importance": 3,
-   "title": "Basisscholen passen schooladvies vaker aan na de doorstroomtoets",
-   "text": "Basisscholen in Nederland stellen het schooladvies voor leerlingen vaker bij. Dat gebeurt sinds de invoering van de doorstroomtoets. Scholen adviseren welk type middelbare school het beste bij een kind past. Als een leerling de toets heel goed maakt, kan de school het advies aanpassen. Basisscholen verhogen het advies nu sneller dan in eerdere jaren.",
-   "url": "https://www.volkskrant.nl/binnenland/basisscholen-stellen-schooladvies-vaker-bij-sinds-invoering-doorstroomtoets~bde6423f/",
-   "image": "https://image.volkskrant.nl/279390455/feature-crop/320/320/afbeelding",
-   "published": "2026-11-25T05:36:00+00:00",
-   "glossary": [
-    {
-     "word": "stellen ... bij",
-     "forms": [
-      "stellen ... bij"
-     ],
-     "lemma": "bijstellen",
-     "pos": "verb",
-     "en": "to adjust / to revise",
-     "example_nl": "De leraar wilde het cijfer van de toets bijstellen.",
-     "example_en": "The teacher wanted to adjust the test score.",
-     "grammar": "Separable verb: stelde bij, heeft bijgesteld."
-    },
-    {
-     "word": "invoering",
-     "forms": [
-      "invoering"
-     ],
-     "lemma": "de invoering",
-     "pos": "noun",
-     "en": "introduction / implementation",
-     "example_nl": "De invoering van de nieuwe regel zorgde voor vragen.",
-     "example_en": "The introduction of the new rule caused questions.",
-     "grammar": "De-word, plural: de invoeringen."
-    },
-    {
-     "word": "doorstroomtoets",
-     "forms": [
-      "doorstroomtoets"
-     ],
-     "lemma": "de doorstroomtoets",
-     "pos": "noun",
-     "en": "final primary school test",
-     "example_nl": "Alle kinderen in groep 8 maken in het voorjaar een doorstroomtoets.",
-     "example_en": "All children in grade 8 take a flow-through test in the spring.",
-     "grammar": "De-word, plural: de doorstroomtoetsen."
-    },
-    {
-     "word": "advies",
-     "forms": [
-      "advies"
-     ],
-     "lemma": "het advies",
-     "pos": "noun",
-     "en": "recommendation / advice",
-     "example_nl": "Mijn zoon kreeg een goed advies voor de middelbare school.",
-     "example_en": "My son received a good recommendation for secondary school.",
-     "grammar": "Het-word, plural: de adviezen."
-    },
-    {
-     "word": "verhogen",
-     "forms": [
-      "verhogen"
-     ],
-     "lemma": "verhogen",
-     "pos": "verb",
-     "en": "to increase / to raise",
-     "example_nl": "De school wil het niveau van het advies verhogen.",
-     "example_en": "The school wants to raise the level of the recommendation.",
-     "grammar": "Inseparable regular verb: verhoogde, heeft verhoogd."
-    }
-   ]
-  },
-  {
-   "id": "ef55028422",
-   "category": "nl",
-   "source_id": "trouw",
-   "source": "Trouw",
-   "lean": "midden-links",
-   "importance": 3,
-   "title": "Armoede in Nederland blijft gelijk maar meer werkenden zijn arm",
-   "text": "Het aantal mensen dat in armoede leeft in Nederland blijft gelijk. Wel zijn er meer arme mensen die gewoon een baan hebben. Dat blijkt uit nieuwe cijfers over armoede. Mensen werken wel, maar hun inkomen is te laag. Daardoor verschuift het probleem van armoede steeds meer naar mensen met werk.",
-   "url": "https://www.trouw.nl/gezondheid/armoede-blijft-gelijk-wel-meer-arme-mensen-met-werk~bd95d4fa/",
-   "image": "https://image.trouw.nl/220178323/feature-crop/320/320/afbeelding",
-   "published": "2026-11-25T05:29:55+00:00",
-   "glossary": [
-    {
-     "word": "armoede",
-     "forms": [
-      "armoede"
-     ],
-     "lemma": "de armoede",
-     "pos": "noun",
-     "en": "poverty",
-     "example_nl": "De gemeente helpt gezinnen die in armoede leven.",
-     "example_en": "The municipality helps families living in poverty.",
-     "grammar": "De-word, no plural."
-    },
-    {
-     "word": "blijft gelijk",
-     "forms": [
-      "blijft gelijk"
-     ],
-     "lemma": "gelijk blijven",
-     "pos": "verb phrase",
-     "en": "remains equal / stays the same",
-     "example_nl": "De prijs van het brood blijft dit jaar gelijk.",
-     "example_en": "The price of bread stays the same this year.",
-     "grammar": "Verb blijven combined with the adjective gelijk."
-    },
-    {
-     "word": "cijfers",
-     "forms": [
-      "cijfers"
-     ],
-     "lemma": "het cijfer",
-     "pos": "noun",
-     "en": "figures / statistics",
-     "example_nl": "De minister presenteerde de nieuwe cijfers over de economie.",
-     "example_en": "The minister presented the new economic figures.",
-     "grammar": "Het-word, plural: de cijfers."
-    },
-    {
-     "word": "inkomen",
-     "forms": [
-      "inkomen"
-     ],
-     "lemma": "het inkomen",
-     "pos": "noun",
-     "en": "income",
-     "example_nl": "Het inkomen van deze gezinnen is erg laag.",
-     "example_en": "The income of these families is very low.",
-     "grammar": "Het-word, plural: de inkomens."
-    },
-    {
-     "word": "verschuift",
-     "forms": [
-      "verschuift"
-     ],
-     "lemma": "verschuiven",
-     "pos": "verb",
-     "en": "shifts / moves",
-     "example_nl": "De aandacht van het publiek verschuift naar een nieuw onderwerp.",
-     "example_en": "Public attention shifts to a new topic.",
-     "grammar": "Inseparable verb: verschoof, is verschoven."
-    }
-   ]
-  },
-  {
-   "id": "10df5af0cc",
-   "category": "nl",
-   "source_id": "parool",
-   "source": "Het Parool",
-   "lean": "midden-links",
-   "importance": 3,
-   "title": "Alcohol speelt grotere rol bij verkeersdoden dan gedacht",
-   "text": "Alcohol speelt een veel grotere rol bij verkeersdoden dan eerder werd gedacht. Tot een derde van alle slachtoffers in het verkeer komt door drank.",
-   "url": "https://www.parool.nl/nederland/alcohol-speelt-veel-grotere-rol-bij-verkeersdoden-dan-gedacht-tot-een-derde-slachtoffers-door-drank~bec467ff/",
-   "image": "https://image.parool.nl/280694533/roi/320/320/0.5/0.5/afbeelding",
-   "published": "2026-11-25T04:00:44+00:00",
-   "glossary": [
-    {
-     "word": "verkeersdoden",
-     "forms": [
-      "verkeersdoden"
-     ],
-     "lemma": "de verkeersdode",
-     "pos": "noun",
-     "en": "traffic fatalities",
-     "example_nl": "Het aantal verkeersdoden moet snel omlaag.",
-     "example_en": "The number of traffic fatalities must go down quickly.",
-     "grammar": "de-word, plural: verkeersdoden."
+     "en": "compulsory psychiatric care",
+     "example_nl": "Bij dwangverpleging moet de patiënt in de kliniek blijven.",
+     "example_en": "With compulsory care, the patient must stay in the clinic.",
+     "grammar": "De-word. Compound of 'dwang' (force) and 'verpleging' (care)."
     },
     {
      "word": "slachtoffers",
@@ -729,935 +315,342 @@
      ],
      "lemma": "het slachtoffer",
      "pos": "noun",
-     "en": "victims",
-     "example_nl": "De hulpdiensten hielpen de slachtoffers.",
-     "example_en": "The emergency services helped the victims.",
-     "grammar": "het-word, plural: slachtoffers."
-    },
-    {
-     "word": "drank",
-     "forms": [
-      "drank"
-     ],
-     "lemma": "de drank",
-     "pos": "noun",
-     "en": "alcohol / drink",
-     "example_nl": "Rijden met drank op is erg gevaarlijk.",
-     "example_en": "Driving under the influence of alcohol is very dangerous.",
-     "grammar": "de-word, uncountable in this context."
-    },
-    {
-     "word": "rol",
-     "forms": [
-      "rol"
-     ],
-     "lemma": "de rol",
-     "pos": "noun",
-     "en": "role",
-     "example_nl": "Het weer speelt een grote rol bij het ongeluk.",
-     "example_en": "The weather plays a major role in the accident.",
-     "grammar": "de-word, plural: rollen."
-    },
-    {
-     "word": "gedacht",
-     "forms": [
-      "gedacht"
-     ],
-     "lemma": "denken",
-     "pos": "verb",
-     "en": "thought",
-     "example_nl": "Ik had niet gedacht dat het zo koud zou zijn.",
-     "example_en": "I had not thought it would be so cold.",
-     "grammar": "Irregular verb: denken - dacht - gedacht."
+     "en": "victim",
+     "example_nl": "Het slachtoffer belt de politie.",
+     "example_en": "The victim calls the police.",
+     "grammar": "Het-word. Plural: slachtoffers."
     }
    ]
   },
   {
-   "id": "fded4ee327",
+   "id": "19f2717275",
+   "category": "nl",
+   "source_id": "nos",
+   "source": "NOS",
+   "lean": "publieke omroep",
+   "importance": 4,
+   "title": "Kamer wil tien miljoen euro noodhulp voor Gaza",
+   "text": "De Tweede Kamer wil snel tien miljoen euro voor Gaza. Het geld is bedoeld voor de winter. Mensen in Gaza hebben hulp nodig bij onderdak en voedsel. Ook is er gevaar voor overstromingen door het slechte weer. Een meerderheid van de Kamer steunt dit voorstel. Het kabinet moet het geld nu vrijmaken.",
+   "url": "https://nos.nl/l/2641107",
+   "image": "https://images.cdn.nos.nl/6/C/9/7/T/k/ZnAp5TvAiWABqBbNi5hx9y4eRMJ38D6j438s9G4/0x208x4000x2250-1024x576.webp",
+   "published": "2026-11-26T13:27:07+00:00",
+   "glossary": [
+    {
+     "word": "noodhulp",
+     "forms": [
+      "noodhulp"
+     ],
+     "lemma": "de noodhulp",
+     "pos": "noun",
+     "en": "emergency aid",
+     "example_nl": "Na de aardbeving stuurde Nederland noodhulp.",
+     "example_en": "After the earthquake, the Netherlands sent emergency aid.",
+     "grammar": "De-word. Compound of 'nood' (emergency) and 'hulp' (aid)."
+    },
+    {
+     "word": "onderdak",
+     "forms": [
+      "onderdak"
+     ],
+     "lemma": "het onderdak",
+     "pos": "noun",
+     "en": "shelter",
+     "example_nl": "De vluchtelingen zoeken een veilig onderdak.",
+     "example_en": "The refugees are looking for a safe shelter.",
+     "grammar": "Het-word. Usually singular."
+    },
+    {
+     "word": "overstromingen",
+     "forms": [
+      "overstromingen"
+     ],
+     "lemma": "de overstroming",
+     "pos": "noun",
+     "en": "floods",
+     "example_nl": "Door de regen is er kans op overstromingen.",
+     "example_en": "Due to the rain, there is a risk of floods.",
+     "grammar": "De-word. Plural: overstromingen."
+    },
+    {
+     "word": "meerderheid",
+     "forms": [
+      "meerderheid"
+     ],
+     "lemma": "de meerderheid",
+     "pos": "noun",
+     "en": "majority",
+     "example_nl": "Een meerderheid van de mensen stemt voor.",
+     "example_en": "A majority of the people vote in favor.",
+     "grammar": "De-word. Plural: meerderheden."
+    },
+    {
+     "word": "vrijmaken",
+     "forms": [
+      "vrijmaken"
+     ],
+     "lemma": "vrijmaken",
+     "pos": "verb",
+     "en": "to make available / to set aside",
+     "example_nl": "De overheid moet geld vrijmaken voor scholen.",
+     "example_en": "The government must set aside money for schools.",
+     "grammar": "Separable verb. Ik maak geld vrij."
+    }
+   ]
+  },
+  {
+   "id": "43ceb3ac09",
+   "category": "nl",
+   "source_id": "parool",
+   "source": "Het Parool",
+   "lean": "midden-links",
+   "importance": 4,
+   "title": "Politie legt beslag op honderden Amsterdamse taxi's",
+   "text": "De politie heeft woensdag 600 Amsterdamse taxi's in beslag genomen. Dit gebeurde tijdens een groot strafrechtelijk onderzoek. Het onderzoek gaat over mogelijke witwaspraktijken in de taxibranche. In totaal zijn er 26 personen in beeld bij de politie. Witwassen betekent dat illegaal geld in de legale economie wordt gestopt.",
+   "url": "https://www.parool.nl/amsterdam/politie-legt-beslag-op-600-amsterdamse-taxi-s-in-groot-witwasonderzoek~b14d4386/",
+   "image": "https://image.parool.nl/279917295/feature-crop/320/320/afbeelding",
+   "published": "2026-11-26T12:24:00+00:00",
+   "glossary": [
+    {
+     "word": "beslag",
+     "forms": [
+      "beslag",
+      "beslaglegging"
+     ],
+     "lemma": "het beslag",
+     "pos": "noun",
+     "en": "seizure / confiscation",
+     "example_nl": "De politie legde beslag op de gestolen auto.",
+     "example_en": "The police seized the stolen car.",
+     "grammar": "Het beslag, plural is beslagen. Often used with 'leggen op' (to seize)."
+    },
+    {
+     "word": "witwasonderzoek",
+     "forms": [
+      "witwasonderzoek",
+      "witwaspraktijken"
+     ],
+     "lemma": "het witwasonderzoek",
+     "pos": "noun",
+     "en": "money laundering investigation",
+     "example_nl": "Het witwasonderzoek duurt al meer dan een jaar.",
+     "example_en": "The money laundering investigation has been going on for over a year.",
+     "grammar": "Compound noun: witwassen + onderzoek. Het onderzoek, plural onderzoeken."
+    },
+    {
+     "word": "strafrechtelijk",
+     "forms": [
+      "strafrechtelijk"
+     ],
+     "lemma": "strafrechtelijk",
+     "pos": "adjective",
+     "en": "criminal (legal)",
+     "example_nl": "Er komt een strafrechtelijk onderzoek naar de fraude.",
+     "example_en": "A criminal investigation into the fraud will follow.",
+     "grammar": "Adjective modifying a noun (strafrechtelijk onderzoek)."
+    },
+    {
+     "word": "taxibranche",
+     "forms": [
+      "taxibranche"
+     ],
+     "lemma": "de taxibranche",
+     "pos": "noun",
+     "en": "taxi industry",
+     "example_nl": "De taxibranche groeit snel in de grote steden.",
+     "example_en": "The taxi industry is growing fast in the big cities.",
+     "grammar": "De branche, plural branches. French loan word."
+    },
+    {
+     "word": "personen",
+     "forms": [
+      "personen"
+     ],
+     "lemma": "de persoon",
+     "pos": "noun",
+     "en": "persons / people",
+     "example_nl": "Drie personen werden aangehouden door de politie.",
+     "example_en": "Three persons were arrested by the police.",
+     "grammar": "Irregular plural: de persoon -> de personen."
+    }
+   ]
+  },
+  {
+   "id": "ec22a527f4",
+   "category": "nl",
+   "source_id": "parool",
+   "source": "Het Parool",
+   "lean": "midden-links",
+   "importance": 4,
+   "title": "Spoedeisende hulp van OLVG Oost sluit in 2032",
+   "text": "De spoedeisende hulp van het OLVG Oost in Amsterdam sluit in 2032. Betrokkenen noemen dit nieuws echt heel pijnlijk. Patiënten kunnen straks niet meer voor acute zorg bij dit ziekenhuis terecht. De sluiting heeft grote gevolgen voor de zorg in de regio. Veel mensen maken zich zorgen over deze beslissing.",
+   "url": "https://www.parool.nl/amsterdam/spoedeisende-hulp-van-olvg-oost-sluit-in-2032-het-is-echt-heel-pijnlijk~b7a24b1b/",
+   "image": "https://image.parool.nl/280728085/roi/320/320/0.5/0.5/afbeelding",
+   "published": "2026-11-26T12:00:00+00:00",
+   "glossary": [
+    {
+     "word": "spoedeisende",
+     "forms": [
+      "spoedeisende",
+      "spoedeisende hulp"
+     ],
+     "lemma": "de spoedeisende hulp",
+     "pos": "noun",
+     "en": "emergency room / emergency department",
+     "example_nl": "Hij moest snel naar de spoedeisende hulp.",
+     "example_en": "He had to go to the emergency room quickly.",
+     "grammar": "Compound noun phrase, often abbreviated as SEH."
+    },
+    {
+     "word": "sluit",
+     "forms": [
+      "sluit",
+      "sluiting"
+     ],
+     "lemma": "de sluiting",
+     "pos": "noun",
+     "en": "closure",
+     "example_nl": "De sluiting van de winkel is volgende week.",
+     "example_en": "The closure of the shop is next week.",
+     "grammar": "De sluiting, plural sluitingen. Verb form: sluiten."
+    },
+    {
+     "word": "pijnlijk",
+     "forms": [
+      "pijnlijk"
+     ],
+     "lemma": "pijnlijk",
+     "pos": "adjective",
+     "en": "painful",
+     "example_nl": "Dat was een pijnlijk moment voor iedereen.",
+     "example_en": "That was a painful moment for everyone.",
+     "grammar": "Adjective. Can be used for physical or emotional pain."
+    },
+    {
+     "word": "acute",
+     "forms": [
+      "acute"
+     ],
+     "lemma": "acuut",
+     "pos": "adjective",
+     "en": "acute / urgent",
+     "example_nl": "Zij heeft acute medische hulp nodig.",
+     "example_en": "She needs urgent medical help.",
+     "grammar": "Adjective. When modifying a de-word in basic form: acute zorg."
+    },
+    {
+     "word": "gevolgen",
+     "forms": [
+      "gevolgen"
+     ],
+     "lemma": "het gevolg",
+     "pos": "noun",
+     "en": "consequences",
+     "example_nl": "De nieuwe regels hebben grote gevolgen.",
+     "example_en": "The new rules have major consequences.",
+     "grammar": "Het gevolg, plural gevolgen."
+    }
+   ]
+  },
+  {
+   "id": "f3ca6b6a4f",
    "category": "nl",
    "source_id": "nrc",
    "source": "NRC",
    "lean": "midden (liberaal)",
    "importance": 3,
-   "title": "Toneelacteur Jules Croiset op 89-jarige leeftijd overleden",
-   "text": "De bekende Nederlandse toneelspeler Jules Croiset is overleden. Hij werd 89 jaar oud. In 1979 won de acteur een belangrijke prijs, de Louis d’Or. Hij kreeg deze prijs voor zijn rol in het toneelstuk Platonov. In 1987 bedacht hij zijn eigen ontvoering uit protest tegen een ander toneelstuk.",
-   "url": "https://www.nrc.nl/nieuws/2026/11/25/bekroonde-toneelspeler-jules-croiset-89-overleden-acteerde-bijna-zestig-jaar-lang-a4942242",
-   "image": "https://images.nrc.nl/TSKz2QyA5zGjfULXgO6CwOugtbs=/1280x/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/11/25081138/251126VER_2039041441_jules5.jpg",
-   "published": "2026-11-25T08:09:16+00:00",
+   "title": "Nederlandse ambassade in Caïro weer gesloten om protesten",
+   "text": "Nederland heeft de ambassade in Caïro opnieuw gesloten. Dit komt door heftige protesten bij het gebouw. Mensen protesteren tegen de arrestatie van een Egyptenaar in Nederland. Het ministerie van Buitenlandse Zaken nam het besluit uit voorzorg. Het is onbekend wanneer de ambassade weer open gaat.",
+   "url": "https://www.nrc.nl/nieuws/2026/11/26/nederlandse-ambassade-in-cairo-voor-tweede-keer-in-korte-tijd-gesloten-na-protesten-om-arrestatie-egyptenaar-in-nederland-a4942360",
+   "image": "https://images.nrc.nl/lBzwqNebyvN8sqMacX7VCDKWgU0=/1280x/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/11/26111526/261126BUI_2039100728_1.jpg",
+   "published": "2026-11-26T10:25:32+00:00",
    "glossary": [
     {
-     "word": "toneelspeler",
+     "word": "ambassade",
      "forms": [
-      "toneelspeler"
+      "ambassade"
      ],
-     "lemma": "de toneelspeler",
+     "lemma": "de ambassade",
      "pos": "noun",
-     "en": "stage actor",
-     "example_nl": "De toneelspeler staat vanavond in het theater.",
-     "example_en": "The stage actor is in the theater tonight.",
-     "grammar": "de-word, plural: toneelspelers."
+     "en": "embassy",
+     "example_nl": "De ambassade helpt Nederlandse reizigers in het buitenland.",
+     "example_en": "The embassy helps Dutch travelers abroad.",
+     "grammar": "De ambassade, plural ambassades."
     },
     {
-     "word": "rol",
+     "word": "gesloten",
      "forms": [
-      "rol"
+      "gesloten"
      ],
-     "lemma": "de rol",
-     "pos": "noun",
-     "en": "role / part",
-     "example_nl": "Zij speelt de hoofdrol in de nieuwe film.",
-     "example_en": "She plays the lead role in the new movie.",
-     "grammar": "de-word, plural: rollen."
+     "lemma": "sluiten",
+     "pos": "verb",
+     "en": "closed",
+     "example_nl": "De bibliotheek is vandaag gesloten.",
+     "example_en": "The library is closed today.",
+     "grammar": "Past participle of sluiten used as an adjective."
     },
     {
-     "word": "toneelstuk",
+     "word": "protesten",
      "forms": [
-      "toneelstuk"
-     ],
-     "lemma": "het toneelstuk",
-     "pos": "noun",
-     "en": "theatrical play",
-     "example_nl": "We hebben een mooi toneelstuk gezien.",
-     "example_en": "We watched a beautiful theatrical play.",
-     "grammar": "het-word, plural: toneelstukken."
-    },
-    {
-     "word": "ontvoering",
-     "forms": [
-      "ontvoering"
-     ],
-     "lemma": "de ontvoering",
-     "pos": "noun",
-     "en": "kidnapping",
-     "example_nl": "De politie onderzoekt de ontvoering van de man.",
-     "example_en": "The police are investigating the man's kidnapping.",
-     "grammar": "de-word, plural: ontvoeringen."
-    },
-    {
-     "word": "protest",
-     "forms": [
-      "protest"
+      "protesten"
      ],
      "lemma": "het protest",
      "pos": "noun",
-     "en": "protest",
-     "example_nl": "Mensen kwamen in protest tegen de nieuwe regels.",
-     "example_en": "People protested against the new rules.",
-     "grammar": "het-word, plural: protesten."
+     "en": "protests",
+     "example_nl": "Er waren veel mensen bij het protest op het plein.",
+     "example_en": "There were many people at the protest on the square.",
+     "grammar": "Het protest, plural protesten."
+    },
+    {
+     "word": "arrestatie",
+     "forms": [
+      "arrestatie"
+     ],
+     "lemma": "de arrestatie",
+     "pos": "noun",
+     "en": "arrest",
+     "example_nl": "De arrestatie van de verdachte duurde niet lang.",
+     "example_en": "The arrest of the suspect did not take long.",
+     "grammar": "De arrestatie, plural arrestaties."
+    },
+    {
+     "word": "voorzorg",
+     "forms": [
+      "voorzorg"
+     ],
+     "lemma": "de voorzorg",
+     "pos": "noun",
+     "en": "precaution",
+     "example_nl": "Uit voorzorg blijven de deuren vandaag dicht.",
+     "example_en": "As a precaution, the doors remain closed today.",
+     "grammar": "De voorzorg. Often used in the phrase 'uit voorzorg' (as a precaution)."
     }
    ]
   },
   {
-   "id": "e4808842cb",
+   "id": "fd4b747db8",
    "category": "nl",
-   "source_id": "ad",
-   "source": "AD",
-   "lean": "midden",
-   "importance": 4,
-   "title": "Politie vindt duizenden kilo's illegaal vuurwerk in Hoogvliet",
-   "text": "De douane controleerde een auto en vond illegaal vuurwerk. Dit onderzoek leidde de politie naar een woning in Rotterdam-Hoogvliet. In het huis vond de politie 6470 kilo zwaar illegaal vuurwerk. Twee mannen zijn door de politie aangehouden. Het gaat om een man uit Haarlem en een man uit Zwijndrecht.",
-   "url": "https://www.ad.nl/rotterdam/douane-ontdekt-auto-vol-zwaar-illegaal-vuurwerk-en-leidt-politie-naar-enorme-vondst-in-hoogvliet~a66ea373/",
-   "image": "https://images.ad.nl/NjA2OGNkZWFiZDAzMzBiZmJiOWIvZGlvLzI4MDE5ODI1MC9maXQtd2lkdGgvNDAw/rotterdam-een-medewerker-van-de-inspectie-leefomgeving-en-transport-ilt-toont-illegaal-vuurwerk-op-schietbaan-europoort-op-de-maasvlakte-anp-remko-de-waal-nlbeeld-politie-stock-gebruik-vrij-dpg-media-handboeien-arrestatie-geboeid-aangehouden-aanhouden-aanhouding-foto-carlo-ter-ellen-dpg-media-cte20210720",
-   "published": "2026-11-25T08:49:00+00:00",
-   "glossary": [
-    {
-     "word": "douane",
-     "forms": [
-      "douane"
-     ],
-     "lemma": "de douane",
-     "pos": "noun",
-     "en": "customs",
-     "example_nl": "De douane controleert de koffers op het vliegveld.",
-     "example_en": "Customs checks the suitcases at the airport.",
-     "grammar": "de-word, singular."
-    },
-    {
-     "word": "illegaal",
-     "forms": [
-      "illegaal"
-     ],
-     "lemma": "illegaal",
-     "pos": "adj",
-     "en": "illegal",
-     "example_nl": "Het is illegaal om te snel te rijden.",
-     "example_en": "It is illegal to speed.",
-     "grammar": "Adjective: illegaal / illegale."
-    },
-    {
-     "word": "vuurwerk",
-     "forms": [
-      "vuurwerk"
-     ],
-     "lemma": "het vuurwerk",
-     "pos": "noun",
-     "en": "fireworks",
-     "example_nl": "Mensen steken vuurwerk af met oud en nieuw.",
-     "example_en": "People set off fireworks on New Year's Eve.",
-     "grammar": "het-word, uncountable."
-    },
-    {
-     "word": "woning",
-     "forms": [
-      "woning"
-     ],
-     "lemma": "de woning",
-     "pos": "noun",
-     "en": "home / house",
-     "example_nl": "De nieuwe woning staat in een rustige straat.",
-     "example_en": "The new home is in a quiet street.",
-     "grammar": "de-word, plural: woningen."
-    },
-    {
-     "word": "aangehouden",
-     "forms": [
-      "aangehouden"
-     ],
-     "lemma": "aanhouden",
-     "pos": "verb",
-     "en": "arrested / detained",
-     "example_nl": "De verdachte werd meteen door de politie aangehouden.",
-     "example_en": "The suspect was immediately arrested by the police.",
-     "grammar": "Separable irregular verb: aanhouden - hield aan - aangehouden."
-    }
-   ]
-  },
-  {
-   "id": "586ec853a0",
-   "category": "nl",
-   "source_id": "ad",
-   "source": "AD",
-   "lean": "midden",
-   "importance": 4,
-   "title": "Politie zoekt vermiste 15-jarige jongen uit Gambia",
-   "text": "De politie zoekt dringend naar de 15-jarige Alfred. De jongen komt uit Gambia en is zonder zijn familie in Nederland. Hij is hier voor een operatie aan zijn ogen. Afgelopen zondag is hij voor het laatst gezien in Vlaardingen. De politie heeft op dit moment nog geen enkel spoor van hem.",
-   "url": "https://www.ad.nl/vlaardingen/zorgen-om-vermiste-alfred-15-die-zonder-zijn-familie-in-nederland-is-op-dit-moment-ontbreekt-ieder-spoor~ac87afc4/",
-   "image": "https://images.ad.nl/ZjJhM2JkZWE0NThhNjNhYTg0ZDEvZGlvLzI4MDcwODEzOS9maXQtd2lkdGgvNDAw/de-politie-maakt-zich-zorgen-om-de-vermiste-alfred-15-hij-werd-voor-het-laatst-gezien-in-vlaardingen",
-   "published": "2026-11-25T08:27:00+00:00",
-   "glossary": [
-    {
-     "word": "vermiste",
-     "forms": [
-      "vermiste"
-     ],
-     "lemma": "vermist",
-     "pos": "adj",
-     "en": "missing",
-     "example_nl": "De politie zoekt naar de vermiste hond.",
-     "example_en": "The police are looking for the missing dog.",
-     "grammar": "Adjective used attributively: vermiste."
-    },
-    {
-     "word": "dringend",
-     "forms": [
-      "dringend"
-     ],
-     "lemma": "dringend",
-     "pos": "adv",
-     "en": "urgently",
-     "example_nl": "De arts zoekt dringend een nieuwe assistent.",
-     "example_en": "The doctor urgently seeks a new assistant.",
-     "grammar": "Adverb / Adjective."
-    },
-    {
-     "word": "operatie",
-     "forms": [
-      "operatie"
-     ],
-     "lemma": "de operatie",
-     "pos": "noun",
-     "en": "surgery / operation",
-     "example_nl": "De operatie in het ziekenhuis is goed gegaan.",
-     "example_en": "The surgery at the hospital went well.",
-     "grammar": "de-word, plural: operaties."
-    },
-    {
-     "word": "afgelopen",
-     "forms": [
-      "afgelopen"
-     ],
-     "lemma": "afgelopen",
-     "pos": "adj",
-     "en": "last / past",
-     "example_nl": "Afgelopen week was het erg druk op het werk.",
-     "example_en": "Last week was very busy at work.",
-     "grammar": "Adjective: afgelopen."
-    },
-    {
-     "word": "spoor",
-     "forms": [
-      "spoor"
-     ],
-     "lemma": "het spoor",
-     "pos": "noun",
-     "en": "trace / clue",
-     "example_nl": "Er is nog geen spoor van de dief gevonden.",
-     "example_en": "No trace of the thief has been found yet.",
-     "grammar": "het-word, plural: sporen."
-    }
-   ]
-  },
-  {
-   "id": "ed893c0d10",
-   "category": "nl",
-   "source_id": "telegraaf",
-   "source": "De Telegraaf",
-   "lean": "midden-rechts",
-   "importance": 4,
-   "title": "Dode en gewonden bij ernstig ongeluk bij Ter Apel",
-   "text": "Op de N366 bij Ter Apel is woensdagochtend een ernstig ongeluk gebeurd. Drie voertuigen botsten tegen elkaar. Een bestuurder is bij de botsing om het leven gekomen. Meerdere personen raakten gewond bij het ongeval. De weg is na het ongeluk helemaal afgesloten. Het wegdek was erg glad door bevriezing.",
-   "url": "https://www.telegraaf.nl/video/ernstig-ongeval-bij-ter-apel-een-dode-en-meerdere-gewonden/165069549.html",
-   "image": "https://prod-img.telegraaf.nl/public/incoming/6m9323-303.jpeg/alternates/BASE_SIXTEEN_NINE/303.jpeg",
-   "published": "2026-11-25T09:03:00+00:00",
-   "glossary": [
-    {
-     "word": "voertuigen",
-     "forms": [
-      "voertuigen"
-     ],
-     "lemma": "het voertuig",
-     "pos": "noun",
-     "en": "vehicles",
-     "example_nl": "Er mogen geen voertuigen in het park rijden.",
-     "example_en": "No vehicles are allowed to drive in the park.",
-     "grammar": "het-word, plural: voertuigen."
-    },
-    {
-     "word": "bestuurder",
-     "forms": [
-      "bestuurder"
-     ],
-     "lemma": "de bestuurder",
-     "pos": "noun",
-     "en": "driver",
-     "example_nl": "De bestuurder moet goed op de weg letten.",
-     "example_en": "The driver must pay close attention to the road.",
-     "grammar": "de-word, plural: bestuurders."
-    },
-    {
-     "word": "omgekomen",
-     "forms": [
-      "omgekomen"
-     ],
-     "lemma": "omkomen",
-     "pos": "verb",
-     "en": "died / perished",
-     "example_nl": "Bij het ongeluk is een man omgekomen.",
-     "example_en": "A man died in the accident.",
-     "grammar": "Separable irregular verb: omkomen - kwam om - omgekomen."
-    },
-    {
-     "word": "gewond",
-     "forms": [
-      "gewond"
-     ],
-     "lemma": "gewond",
-     "pos": "adj",
-     "en": "injured",
-     "example_nl": "De fietser raakte licht gewond bij de val.",
-     "example_en": "The cyclist was slightly injured in the fall.",
-     "grammar": "Adjective: gewond / gewonde."
-    },
-    {
-     "word": "bevriezing",
-     "forms": [
-      "bevriezing"
-     ],
-     "lemma": "de bevriezing",
-     "pos": "noun",
-     "en": "freezing",
-     "example_nl": "De straat was glad door bevriezing van de regen.",
-     "example_en": "The street was slippery due to freezing rain.",
-     "grammar": "de-word, plural: bevriezingen."
-    }
-   ]
-  },
-  {
-   "id": "7a7a3bf9f0",
-   "category": "nl",
-   "source_id": "tpo",
-   "source": "The Post Online",
-   "lean": "rechts",
+   "source_id": "nrc",
+   "source": "NRC",
+   "lean": "midden (liberaal)",
    "importance": 3,
-   "title": "Acht verdachten aangehouden voor witwassen via de zorg",
-   "text": "De Nederlandse Arbeidsinspectie heeft acht verdachten aangehouden. Dit gebeurde in twee verschillende strafrechtelijke onderzoeken. De verdachten worden beschuldigd van witwassen via zorgpersoneel. Witwassen betekent dat illegaal geld legaal gemaakt wordt. De Arbeidsinspectie maakte dit nieuws op dinsdag bekend.",
-   "url": "https://tpo.nl/2026/11/25/acht-aanhoudingen-witwasonderzoek-zorg-detacheringsbureaus/",
-   "image": "https://tpo.nl/wp-content/uploads/2026/11/witwassen-zorgpersoneel.jpg",
-   "published": "2026-11-25T08:56:40+00:00",
+   "title": "Zeventien procent van lhbtqia+-groep ervaart discriminatie",
+   "text": "Zeventien procent van de lhbtqia+-mensen voelt zich gediscrimineerd. Dat is anderhalf keer meer dan in de rest van de bevolking. Uit onderzoek blijkt dat zij ook discriminatie ervaren bij artsen en andere professionals. Dat is extra schrijnend omdat trans- en non-binaire personen vaker zorg nodig hebben.",
+   "url": "https://www.nrc.nl/nieuws/2026/11/26/17-procent-van-de-lhbtqia-mensen-ervaart-discriminatie-anderhalf-keer-meer-dan-de-rest-van-de-bevolking-a4942298",
+   "image": "https://images.nrc.nl/-p__cFfD0kx_KeQ4qzRSzj8WPDw=/1280x/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/11/25200909/251126BIN_2039069023_-regenboog.jpg",
+   "published": "2026-11-26T05:30:00+00:00",
    "glossary": [
     {
-     "word": "aangehouden",
+     "word": "ervaart",
      "forms": [
-      "aangehouden"
+      "ervaart",
+      "ervaren"
      ],
-     "lemma": "aanhouden",
+     "lemma": "ervaren",
      "pos": "verb",
-     "en": "arrested",
-     "example_nl": "De politie heeft gisteren een verdachte man aangehouden.",
-     "example_en": "The police arrested a suspect yesterday.",
-     "grammar": "Separable verb (haalt aan, haalde aan, heeft aangehouden). Used here as a past participle."
-    },
-    {
-     "word": "verdachten",
-     "forms": [
-      "verdachten"
-     ],
-     "lemma": "de verdachte",
-     "pos": "noun",
-     "en": "suspects",
-     "example_nl": "De verdachten moeten volgende week naar de rechter.",
-     "example_en": "The suspects must go to court next week.",
-     "grammar": "De-word. Plural of 'de verdachte' is 'de verdachten'."
-    },
-    {
-     "word": "strafrechtelijke",
-     "forms": [
-      "strafrechtelijke"
-     ],
-     "lemma": "strafrechtelijk",
-     "pos": "adjective",
-     "en": "criminal law / penal",
-     "example_nl": "De advocaat werkt aan een strafrechtelijke zaak.",
-     "example_en": "The lawyer is working on a criminal case.",
-     "grammar": "Inflected form of 'strafrechtelijk', ending in -e before a plural or de-word."
-    },
-    {
-     "word": "zorgpersoneel",
-     "forms": [
-      "zorgpersoneel"
-     ],
-     "lemma": "het zorgpersoneel",
-     "pos": "noun",
-     "en": "healthcare staff",
-     "example_nl": "Het zorgpersoneel werkt erg hard in het ziekenhuis.",
-     "example_en": "The healthcare staff works very hard in the hospital.",
-     "grammar": "Het-word. Compound noun: zorg + personeel."
-    },
-    {
-     "word": "bekendgemaakt",
-     "forms": [
-      "bekendgemaakt"
-     ],
-     "lemma": "bekendmaken",
-     "pos": "verb",
-     "en": "announced",
-     "example_nl": "De burgemeester heeft het nieuwe plan bekendgemaakt.",
-     "example_en": "The mayor announced the new plan.",
-     "grammar": "Separable verb (maakt bekend, maakte bekend, heeft bekendgemaakt)."
-    }
-   ]
-  },
-  {
-   "id": "a30444e899",
-   "category": "nl",
-   "source_id": "tpo",
-   "source": "The Post Online",
-   "lean": "rechts",
-   "importance": 3,
-   "title": "DNB waarschuwt voor risico's van kunstmatige intelligentie",
-   "text": "De Nederlandsche Bank (DNB) waarschuwt voor de risico's van kunstmatige intelligentie. Volgens de bank groeit het gebruik van deze technologie erg snel. Het financiële stelsel leunt daardoor op een klein aantal techbedrijven. Hierdoor wordt het financiële systeem in Nederland kwetsbaarder. DNB maakt zich hier zorgen over.",
-   "url": "https://tpo.nl/2026/11/24/dnb-ai-risicos-techbedrijven-pensioenfondsen/",
-   "image": "https://tpo.nl/wp-content/uploads/2026/11/dnb-ai-risicos-financieel-stelsel.jpg",
-   "published": "2026-11-24T16:23:58+00:00",
-   "glossary": [
-    {
-     "word": "waarschuwt",
-     "forms": [
-      "waarschuwt"
-     ],
-     "lemma": "waarschuwen",
-     "pos": "verb",
-     "en": "warns",
-     "example_nl": "De meester waarschuwt de kinderen voor de gevaarlijke hond.",
-     "example_en": "The teacher warns the children about the dangerous dog.",
-     "grammar": "Regular verb: waarschuwt, waarschuwde, heeft gewaarschuwd. Always takes 'voor'."
-    },
-    {
-     "word": "stelsel",
-     "forms": [
-      "stelsel"
-     ],
-     "lemma": "het stelsel",
-     "pos": "noun",
-     "en": "system",
-     "example_nl": "Het Nederlandse stelsel van onderwijs is goed georganiseerd.",
-     "example_en": "The Dutch education system is well organized.",
-     "grammar": "Het-word. Plural is 'stelsels'."
-    },
-    {
-     "word": "leunt",
-     "forms": [
-      "leunt"
-     ],
-     "lemma": "leunen",
-     "pos": "verb",
-     "en": "relies / leans",
-     "example_nl": "Zij leunt tegen de muur terwijl ze wacht.",
-     "example_en": "She leans against the wall while she waits.",
-     "grammar": "Regular verb: leunt, leunde, heeft geleund. Combined with 'op' it means 'to rely on'."
-    },
-    {
-     "word": "kwetsbaarder",
-     "forms": [
-      "kwetsbaarder"
-     ],
-     "lemma": "kwetsbaar",
-     "pos": "adjective",
-     "en": "more vulnerable",
-     "example_nl": "Zonder jas ben je in de kou veel kwetsbaarder.",
-     "example_en": "Without a coat you are much more vulnerable in the cold.",
-     "grammar": "Comparative form of 'kwetsbaar', formed by adding -er."
-    },
-    {
-     "word": "zorgen",
-     "forms": [
-      "zorgen"
-     ],
-     "lemma": "de zorg",
-     "pos": "noun",
-     "en": "concerns / worries",
-     "example_nl": "Mijn vader heeft veel zorgen over zijn gezondheid.",
-     "example_en": "My father has many concerns about his health.",
-     "grammar": "De-word. Plural of 'de zorg'. Used in the phrase 'zich zorgen maken over'."
-    }
-   ]
-  },
-  {
-   "id": "9c677f53ec",
-   "category": "nl",
-   "source_id": "nltimes",
-   "source": "NL Times",
-   "lean": "midden (Engels)",
-   "importance": 4,
-   "title": "Prijzen voor treinkaartjes verhogen voorlopig niet",
-   "text": "De prijzen voor treinkaartjes worden voorlopig niet verhoogd. De Nederlandse regering bevriest de prijzen van kaartjes tot eind mei 2027. Dat heeft staatssecretaris Annet Bertram van Infrastructuur bekendgemaakt. De overheid kan een langere periode helaas niet betalen. Treinreizigers betalen daardoor voorlopig niet extra voor hun reizen.",
-   "url": "https://nltimes.nl/2026/11/25/govt-agrees-freeze-train-ticket-prices-end-may-2027-cant-afford",
-   "image": "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full_desktop_2x/public/2026-11/IMG_4533.JPG?h=71976bb4",
-   "published": null,
-   "glossary": [
-    {
-     "word": "treinkaartjes",
-     "forms": [
-      "treinkaartjes"
-     ],
-     "lemma": "het treinkaartje",
-     "pos": "noun",
-     "en": "train tickets",
-     "example_nl": "Je moet je treinkaartjes altijd voor de reis kopen.",
-     "example_en": "You must always buy your train tickets before the journey.",
-     "grammar": "Het-word (diminutive). Plural of 'het treinkaartje'."
-    },
-    {
-     "word": "verhoogd",
-     "forms": [
-      "verhoogd"
-     ],
-     "lemma": "verhogen",
-     "pos": "verb",
-     "en": "increased / raised",
-     "example_nl": "De winkel heeft de prijs van brood verhoogd.",
-     "example_en": "The shop raised the price of bread.",
-     "grammar": "Regular verb: verhoogt, verhoogde, heeft verhoogd."
-    },
-    {
-     "word": "bevriest",
-     "forms": [
-      "bevriest"
-     ],
-     "lemma": "bevriezen",
-     "pos": "verb",
-     "en": "freezes",
-     "example_nl": "De regering bevriest de prijzen van energie.",
-     "example_en": "The government freezes energy prices.",
-     "grammar": "Irregular verb: bevriest, bevroor, heeft bevroren. Figurative use: to freeze prices."
-    },
-    {
-     "word": "staatssecretaris",
-     "forms": [
-      "staatssecretaris"
-     ],
-     "lemma": "de staatssecretaris",
-     "pos": "noun",
-     "en": "state secretary",
-     "example_nl": "De staatssecretaris spreekt met het parlement over de plannen.",
-     "example_en": "The state secretary speaks with parliament about the plans.",
-     "grammar": "De-word. Plural: staatssecretarissen."
-    },
-    {
-     "word": "treinreizigers",
-     "forms": [
-      "treinreizigers"
-     ],
-     "lemma": "de treinreiziger",
-     "pos": "noun",
-     "en": "train passengers",
-     "example_nl": "De treinreizigers wachten op het perron op de trein.",
-     "example_en": "The train passengers wait on the platform for the train.",
-     "grammar": "De-word. Plural of 'de treinreiziger'."
-    }
-   ]
-  },
-  {
-   "id": "a0b878a521",
-   "category": "nl",
-   "source_id": "nltimes",
-   "source": "NL Times",
-   "lean": "midden (Engels)",
-   "importance": 4,
-   "title": "Arme mensen in Nederland worden steeds armer",
-   "text": "Het totale aantal arme mensen in Nederland is in 2025 licht gedaald. Toch worden de mensen die in armoede leven steeds armer. Het gemiddelde tekort aan inkomen is verdubbeld vergeleken met 2021. Dat blijkt uit nieuwe cijfers van het statistiekbureau. Ook leven er steeds meer werkenden onder de armoedegrens.",
-   "url": "https://nltimes.nl/2026/11/25/dutch-poor-getting-poorer-workers-living-poverty-line",
-   "image": "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full_desktop_2x/public/2023-03/Depositphotos_476272658_L.jpg?h=56d0ca2e",
-   "published": null,
-   "glossary": [
-    {
-     "word": "gedaald",
-     "forms": [
-      "gedaald"
-     ],
-     "lemma": "dalen",
-     "pos": "verb",
-     "en": "decreased / dropped",
-     "example_nl": "De temperatuur is vannacht snel gedaald.",
-     "example_en": "The temperature dropped quickly last night.",
-     "grammar": "Verb indicating change: daalt, daalde, is gedaald (uses 'zijn' in perfect tense)."
-    },
-    {
-     "word": "armoede",
-     "forms": [
-      "armoede"
-     ],
-     "lemma": "de armoede",
-     "pos": "noun",
-     "en": "poverty",
-     "example_nl": "Veel gezinnen hebben moeite om uit de armoede te komen.",
-     "example_en": "Many families struggle to get out of poverty.",
-     "grammar": "De-word. Uncountable noun."
-    },
-    {
-     "word": "tekort",
-     "forms": [
-      "tekort"
-     ],
-     "lemma": "het tekort",
-     "pos": "noun",
-     "en": "deficit / shortage",
-     "example_nl": "Er is dit jaar een groot tekort aan geld.",
-     "example_en": "There is a big shortage of money this year.",
-     "grammar": "Het-word. Plural: tekorten."
-    },
-    {
-     "word": "verdubbeld",
-     "forms": [
-      "verdubbeld"
-     ],
-     "lemma": "verdubbelen",
-     "pos": "verb",
-     "en": "doubled",
-     "example_nl": "Het aantal bezoekers is in een jaar tijd verdubbeld.",
-     "example_en": "The number of visitors has doubled in one year.",
-     "grammar": "Regular verb: verdubbelt, verdubbelde, is/heeft verdubbeld."
-    },
-    {
-     "word": "armoedegrens",
-     "forms": [
-      "armoedegrens"
-     ],
-     "lemma": "de armoedegrens",
-     "pos": "noun",
-     "en": "poverty line",
-     "example_nl": "Mensen onder de armoedegrens krijgen soms hulp van de gemeente.",
-     "example_en": "People below the poverty line sometimes receive help from the municipality.",
-     "grammar": "De-word. Compound noun: armoede + grens."
-    }
-   ]
-  },
-  {
-   "id": "12670f0acf",
-   "category": "tr",
-   "source_id": "bbc_tr",
-   "source": "BBC Türkçe",
-   "lean": "internationaal",
-   "importance": 4,
-   "title": "Turkije wacht op besluit van Veiligheidsraad over de PKK",
-   "text": "In Turkije praat men over een nieuw vredesproces. De regering noemt dit proces Turkije zonder terreur. De Veiligheidsraad (MGK) komt op donderdag 26 november bijeen. De raad moet controleren of de gewapende groep PKK echt de wapens neerlegt. Veel mensen wachten nu op het besluit van de raad. Het besluit is heel belangrijk voor de vrede in het land.",
-   "url": "https://www.bbc.com/turkce/articles/c63rg9vy987qo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8596/live/91d2c960-e8ae-11f1-99b6-a35a62fa4264.jpg",
-   "published": "2026-11-25T09:02:03+00:00",
-   "glossary": [
-    {
-     "word": "vredesproces",
-     "forms": [
-      "vredesproces"
-     ],
-     "lemma": "het vredesproces",
-     "pos": "noun",
-     "en": "peace process",
-     "example_nl": "Het vredesproces duurt al veel jaren.",
-     "example_en": "The peace process has been going on for many years.",
-     "grammar": "Het-noun. Plural: vredesprocessen."
-    },
-    {
-     "word": "komt",
-     "forms": [
-      "komt",
-      "bijeen"
-     ],
-     "lemma": "bijeenkomen",
-     "pos": "verb",
-     "en": "to meet, to convene",
-     "example_nl": "De ministerraad komt morgen bijeen.",
-     "example_en": "The council of ministers meets tomorrow.",
-     "grammar": "Separable verb: komt bijeen, kwam bijeen, is bijeengekomen."
-    },
-    {
-     "word": "gewapende",
-     "forms": [
-      "gewapende"
-     ],
-     "lemma": "gewapend",
-     "pos": "adjective",
-     "en": "armed",
-     "example_nl": "De politie stopte de gewapende man.",
-     "example_en": "The police stopped the armed man.",
-     "grammar": "Adjective from verb wapenen. Inflected form with -e before a noun."
-    },
-    {
-     "word": "neerlegt",
-     "forms": [
-      "neerlegt"
-     ],
-     "lemma": "neerleggen",
-     "pos": "verb",
-     "en": "to lay down, to surrender",
-     "example_nl": "De soldaat legt zijn wapens neer.",
-     "example_en": "The soldier lays down his weapons.",
-     "grammar": "Separable verb: legt neer, legde neer, heeft neergelegd."
-    },
-    {
-     "word": "besluit",
-     "forms": [
-      "besluit"
-     ],
-     "lemma": "het besluit",
-     "pos": "noun",
-     "en": "decision",
-     "example_nl": "De directeur neemt morgen een besluit.",
-     "example_en": "The director will make a decision tomorrow.",
-     "grammar": "Het-noun. Plural: besluiten."
-    }
-   ]
-  },
-  {
-   "id": "0d3e79fb43",
-   "category": "tr",
-   "source_id": "bbc_tr",
-   "source": "BBC Türkçe",
-   "lean": "internationaal",
-   "importance": 3,
-   "title": "Turkije vervangt de gouverneurs in 41 provincies",
-   "text": "De president van Turkije heeft een nieuw besluit genomen. Hij verandert de gouverneurs in 41 provincies van het land. Ook worden 14 gouverneurs teruggeroepen naar het centrum. Dit gebeurt via een officieel besluit van het presidentschap. Een gouverneur is de hoogste bestuurder van een provincie. Deze grote verandering heeft veel invloed op het bestuur van de steden.",
-   "url": "https://www.bbc.com/turkce/articles/cmge3q17n44xo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/aabe/live/41cfbcb0-e85a-11f1-9b85-e50d1e9de678.jpg",
-   "published": "2026-11-24T23:09:00+00:00",
-   "glossary": [
-    {
-     "word": "gouverneurs",
-     "forms": [
-      "gouverneurs"
-     ],
-     "lemma": "de gouverneur",
-     "pos": "noun",
-     "en": "governor",
-     "example_nl": "De gouverneur bezoekt de nieuwe school.",
-     "example_en": "The governor visits the new school.",
-     "grammar": "De-noun. Plural: gouverneurs."
-    },
-    {
-     "word": "teruggeroepen",
-     "forms": [
-      "teruggeroepen"
-     ],
-     "lemma": "terugroepen",
-     "pos": "verb",
-     "en": "to recall, to call back",
-     "example_nl": "De ambassadeur werd teruggeroepen naar zijn land.",
-     "example_en": "The ambassador was recalled to his country.",
-     "grammar": "Irregular separable verb: roept terug, riep terug, heeft teruggeroepen."
-    },
-    {
-     "word": "bestuurder",
-     "forms": [
-      "bestuurder"
-     ],
-     "lemma": "de bestuurder",
-     "pos": "noun",
-     "en": "administrator, official",
-     "example_nl": "De bestuurder van de stad praat met de burgers.",
-     "example_en": "The city official talks with the citizens.",
-     "grammar": "De-noun. Plural: bestuurders."
-    },
-    {
-     "word": "invloed",
-     "forms": [
-      "invloed"
-     ],
-     "lemma": "de invloed",
-     "pos": "noun",
-     "en": "influence, impact",
-     "example_nl": "Het weer heeft invloed op ons humeur.",
-     "example_en": "The weather has an influence on our mood.",
-     "grammar": "De-noun. Usually used with preposition 'op'."
-    },
-    {
-     "word": "bestuur",
-     "forms": [
-      "bestuur"
-     ],
-     "lemma": "het bestuur",
-     "pos": "noun",
-     "en": "administration, management",
-     "example_nl": "Het bestuur kiest een nieuwe voorzitter.",
-     "example_en": "The board chooses a new chairperson.",
-     "grammar": "Het-noun. Plural: besturen."
-    }
-   ]
-  },
-  {
-   "id": "2b255c1332",
-   "category": "tr",
-   "source_id": "dw_tr",
-   "source": "DW Türkçe",
-   "lean": "internationaal",
-   "importance": 4,
-   "title": "Diploma van oppositieleider Ekrem İmamoğlu definitief ingetrokken",
-   "text": "De hoogste bestuursrechter in Turkije heeft een belangrijke keuze gemaakt. De 8e Kamer van de Danıştay wees het beroep van Ekrem İmamoğlu af. Daardoor is het besluit over zijn universiteitsdiploma nu definitief. Zijn diploma is officieel ingetrokken. İmamoğlu is een bekende politicus van de oppositie in Turkije. Deze uitspraak kan grote gevolgen hebben voor zijn politieke toekomst.",
-   "url": "https://www.dw.com/tr/ekrem-i̇mamoğlu-nun-diploma-iptali-kesinleşti/a-80043434?maca=tur-rss-tur-all-1495-xml-mrss",
-   "image": null,
-   "published": "2026-11-25T08:03:00+00:00",
-   "glossary": [
-    {
-     "word": "beroep",
-     "forms": [
-      "beroep"
-     ],
-     "lemma": "het beroep",
-     "pos": "noun",
-     "en": "appeal (legal)",
-     "example_nl": "De advocaat gaat in beroep tegen de straf.",
-     "example_en": "The lawyer is appealing against the sentence.",
-     "grammar": "Het-noun. In legal contexts used in the phrase 'in beroep gaan'."
-    },
-    {
-     "word": "definitief",
-     "forms": [
-      "definitief"
-     ],
-     "lemma": "definitief",
-     "pos": "adjective",
-     "en": "final, definitive",
-     "example_nl": "De uitslag van het examen is nu definitief.",
-     "example_en": "The exam result is now final.",
-     "grammar": "Adverb or predicate adjective form."
-    },
-    {
-     "word": "ingetrokken",
-     "forms": [
-      "ingetrokken"
-     ],
-     "lemma": "intrekken",
-     "pos": "verb",
-     "en": "to revoke, to cancel",
-     "example_nl": "De politie heeft zijn rijbewijs ingetrokken.",
-     "example_en": "The police revoked his driver's license.",
-     "grammar": "Irregular separable verb: trekt in, trok in, heeft ingetrokken."
-    },
-    {
-     "word": "oppositie",
-     "forms": [
-      "oppositie"
-     ],
-     "lemma": "de oppositie",
-     "pos": "noun",
-     "en": "opposition",
-     "example_nl": "De oppositie stemde tegen het plan.",
-     "example_en": "The opposition voted against the plan.",
-     "grammar": "De-noun. Singular concept."
-    },
-    {
-     "word": "uitspraak",
-     "forms": [
-      "uitspraak"
-     ],
-     "lemma": "de uitspraak",
-     "pos": "noun",
-     "en": "ruling, verdict",
-     "example_nl": "De rechter doet volgende week een uitspraak.",
-     "example_en": "The judge will give a ruling next week.",
-     "grammar": "De-noun. Plural: uitspraken."
-    }
-   ]
-  },
-  {
-   "id": "206b7cdd61",
-   "category": "tr",
-   "source_id": "dw_tr",
-   "source": "DW Türkçe",
-   "lean": "internationaal",
-   "importance": 3,
-   "title": "Zorgen over belastingen in Turkije na nieuwe verhoging",
-   "text": "In Turkije stijgen de tarieven voor belastingen in 2027 met ruim 27 procent. Dit geldt voor het rijbewijs, het paspoort en de wegenbelasting. Experts zeggen dat het belastingsysteem in het land niet eerlijk is. Dat komt vooral door de hoge indirecte belastingen op producten. Hierdoor betalen arme mensen relatief veel geld. De bevolking maakt zich grote zorgen over de stijgende kosten.",
-   "url": "https://www.dw.com/tr/türkiye-de-neden-vergi-adaletsizliği-var/a-80043492?maca=tur-rss-tur-all-1495-xml-mrss",
-   "image": null,
-   "published": "2026-11-25T09:04:00+00:00",
-   "glossary": [
-    {
-     "word": "stijgen",
-     "forms": [
-      "stijgen"
-     ],
-     "lemma": "stijgen",
-     "pos": "verb",
-     "en": "to rise, to increase",
-     "example_nl": "De prijzen stijgen elke maand.",
-     "example_en": "Prices rise every month.",
-     "grammar": "Irregular verb: stijgt, steeg, is gestegen."
-    },
-    {
-     "word": "tarieven",
-     "forms": [
-      "tarieven"
-     ],
-     "lemma": "het tarief",
-     "pos": "noun",
-     "en": "rates, tariffs",
-     "example_nl": "Het tarief voor stroom is verhoogd.",
-     "example_en": "The rate for electricity has been increased.",
-     "grammar": "Het-noun. Plural: tarieven."
-    },
-    {
-     "word": "belastingsysteem",
-     "forms": [
-      "belastingsysteem"
-     ],
-     "lemma": "het belastingsysteem",
-     "pos": "noun",
-     "en": "tax system",
-     "example_nl": "De regering wil het belastingsysteem veranderen.",
-     "example_en": "The government wants to change the tax system.",
-     "grammar": "Het-noun. Plural: belastingsystemen."
-    },
-    {
-     "word": "indirecte",
-     "forms": [
-      "indirecte"
-     ],
-     "lemma": "indirect",
-     "pos": "adjective",
-     "en": "indirect",
-     "example_nl": "Btw is een voorbeeld van een indirecte belasting.",
-     "example_en": "VAT is an example of an indirect tax.",
-     "grammar": "Adjective. Takes -e ending before de-nouns or plural nouns."
+     "en": "to experience",
+     "example_nl": "Veel mensen ervaren stress op hun werk.",
+     "example_en": "Many people experience stress at work.",
+     "grammar": "Regular verb. Present: ik ervaar, jij ervaart, wij ervaren."
     },
     {
      "word": "bevolking",
@@ -1666,137 +659,833 @@
      ],
      "lemma": "de bevolking",
      "pos": "noun",
-     "en": "population, public",
-     "example_nl": "De bevolking wil betere scholen.",
-     "example_en": "The public wants better schools.",
-     "grammar": "De-noun. Usually used as singular."
+     "en": "population",
+     "example_nl": "De bevolking van Nederland groeit nog steeds.",
+     "example_en": "The population of the Netherlands is still growing.",
+     "grammar": "De bevolking, no standard plural."
+    },
+    {
+     "word": "instanties",
+     "forms": [
+      "instanties"
+     ],
+     "lemma": "de instantie",
+     "pos": "noun",
+     "en": "authorities / agencies",
+     "example_nl": "Je kunt hulp vragen bij verschillende instanties.",
+     "example_en": "You can ask for help from various agencies.",
+     "grammar": "De instantie, plural instanties."
+    },
+    {
+     "word": "schrijnend",
+     "forms": [
+      "schrijnend"
+     ],
+     "lemma": "schrijnend",
+     "pos": "adjective",
+     "en": "distressing / poignant",
+     "example_nl": "De situatie in het oude huis was erg schrijnend.",
+     "example_en": "The situation in the old house was very distressing.",
+     "grammar": "Adjective derived from the present participle of schrijnen."
+    },
+    {
+     "word": "personen",
+     "forms": [
+      "personen"
+     ],
+     "lemma": "de persoon",
+     "pos": "noun",
+     "en": "persons",
+     "example_nl": "Alleen geautoriseerde personen mogen naar binnen.",
+     "example_en": "Only authorized persons are allowed inside.",
+     "grammar": "De persoon, plural personen."
     }
    ]
   },
   {
-   "id": "974bf4b3ad",
-   "category": "tr",
-   "source_id": "guardian_tr",
-   "source": "The Guardian Turkey",
-   "lean": "midden-links",
+   "id": "337f6308ba",
+   "category": "nl",
+   "source_id": "ad",
+   "source": "AD",
+   "lean": "midden",
    "importance": 4,
-   "title": "Klimaattop COP31 eindigt zonder belangrijk akkoord",
-   "text": "De internationale klimaatconferentie COP31 is mislukt. Voor het eerst in 17 jaar is er geen belangrijk akkoord bereikt. De gesprekken werden geleid door Turkije en Australië. De landen konden het niet eens worden over het gebruik van fossiele brandstoffen. Ook was er ruzie over geld voor landen die veel last hebben van de klimaatcrisis. Verschillende organisaties vragen nu om snelle hervormingen van de VN-klimaatgesprekken.",
-   "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest",
-   "image": "https://i.guim.co.uk/img/media/bfd5ba75d2fef1972b3c75b1a735ae9b05d31036/156_27_6787_5429/master/6787.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f93dad4e8331148826e93ca5683798bd",
-   "published": "2026-11-23T17:19:55+00:00",
+   "title": "Prijzen van benzine en diesel dalen flink in Nederland",
+   "text": "De prijzen van benzine en diesel dalen hard. Op veel plekken kost Euro 95 nu minder dan twee euro per liter. Het is lang geleden dat brandstof zo goedkoop was. Ook diesel is een stuk goedzamer geworden voor automobilisten. Het is nog onduidelijk of de prijzen zo laag blijven.",
+   "url": "https://www.ad.nl/economie/prijzen-benzine-en-diesel-dalen-hard-euro-95-soms-al-onder-de-2-euro~a95d0b44/",
+   "image": "https://images.ad.nl/MDhhNjEzNzNlMDg4NjAzN2VkN2IvZGlvLzI4MDQ0MTQ2MC9maXQtd2lkdGgvNDAw/illustratief-brandstofprijzen-zakken-weer-langzaam-dit-zorgt-er-voor-dat-er-op-sommige-plekken-weer-voor-minder-dan-2-per-liter-getankt-worden",
+   "published": "2026-11-26T13:48:52+00:00",
    "glossary": [
     {
-     "word": "mislukt",
+     "word": "dalen",
      "forms": [
-      "mislukt"
+      "dalen",
+      "daalt"
      ],
-     "lemma": "mislukken",
+     "lemma": "dalen",
      "pos": "verb",
-     "en": "to fail",
-     "example_nl": "Het plan is helaas mislukt.",
-     "example_en": "The plan unfortunately failed.",
-     "grammar": "Regular verb used with 'zijn': mislukt, mislukte, is mislukt."
+     "en": "to drop / to decrease",
+     "example_nl": "De temperaturen dalen in de avond.",
+     "example_en": "The temperatures drop in the evening.",
+     "grammar": "Regular verb. Past tense: daalde, zijn gedaald."
     },
     {
-     "word": "bereikt",
+     "word": "brandstof",
      "forms": [
-      "bereikt"
-     ],
-     "lemma": "bereiken",
-     "pos": "verb",
-     "en": "to reach, to achieve",
-     "example_nl": "Zij hebben een goed resultaat bereikt.",
-     "example_en": "They achieved a good result.",
-     "grammar": "Regular verb: bereikt, bereikte, heeft bereikt."
-    },
-    {
-     "word": "fossiele",
-     "forms": [
-      "fossiele"
-     ],
-     "lemma": "fossiel",
-     "pos": "adjective",
-     "en": "fossil",
-     "example_nl": "Olie en gas zijn fossiele brandstoffen.",
-     "example_en": "Oil and gas are fossil fuels.",
-     "grammar": "Adjective. Takes -e ending before plural nouns."
-    },
-    {
-     "word": "brandstoffen",
-     "forms": [
-      "brandstoffen"
+      "brandstof"
      ],
      "lemma": "de brandstof",
      "pos": "noun",
-     "en": "fuels",
-     "example_nl": "De prijs van brandstof is hoog.",
-     "example_en": "The price of fuel is high.",
-     "grammar": "De-noun. Plural: brandstoffen."
+     "en": "fuel",
+     "example_nl": "De prijs van brandstof schommelt erg vaak.",
+     "example_en": "The price of fuel fluctuates very often.",
+     "grammar": "De brandstof, plural brandstoffen."
     },
     {
-     "word": "hervormingen",
+     "word": "goedkoop",
      "forms": [
-      "hervormingen"
+      "goedkoop"
      ],
-     "lemma": "de hervorming",
+     "lemma": "goedkoop",
+     "pos": "adjective",
+     "en": "cheap",
+     "example_nl": "Groente op de markt is vaak goedkoop.",
+     "example_en": "Vegetables at the market are often cheap.",
+     "grammar": "Adjective. Comparative: goedkoper, superlative: goedkoopst."
+    },
+    {
+     "word": "automobilisten",
+     "forms": [
+      "automobilisten"
+     ],
+     "lemma": "de automobilist",
      "pos": "noun",
-     "en": "reforms",
-     "example_nl": "De economie heeft nieuwe hervormingen nodig.",
-     "example_en": "The economy needs new reforms.",
-     "grammar": "De-noun. Plural: hervormingen."
+     "en": "motorists / drivers",
+     "example_nl": "Automobilisten moeten opletten in de file.",
+     "example_en": "Motorists must pay attention in the traffic jam.",
+     "grammar": "De automobilist, plural automobilisten."
+    },
+    {
+     "word": "ongewis",
+     "forms": [
+      "ongewis"
+     ],
+     "lemma": "ongewis",
+     "pos": "adjective",
+     "en": "uncertain",
+     "example_nl": "De afloop van de wedstrijd is nog ongewis.",
+     "example_en": "The outcome of the match is still uncertain.",
+     "grammar": "Adjective. Formal word for 'onzeker'."
     }
    ]
   },
   {
-   "id": "32236ae1aa",
+   "id": "7406047c9a",
+   "category": "nl",
+   "source_id": "ad",
+   "source": "AD",
+   "lean": "midden",
+   "importance": 4,
+   "title": "Man krijgt acht jaar cel en tbs voor misbruik van tieners",
+   "text": "Een 40-jarige man uit Herten is veroordeeld tot acht jaar cel en tbs. Hij lokte 245 tieners met een online spelletje. Via het spel hees hij hen uit de kleren en liet hij hen handelingen doen. Het Openbaar Ministerie eiste twaalf jaar cel, maar de rechter koos voor een kortere gevangenisstraf.",
+   "url": "https://www.ad.nl/binnenland/245-tieners-gelokt-met-spelletje-man-moet-8-jaar-de-cel-in-en-krijgt-tbs~a19a70a7/",
+   "image": "https://images.ad.nl/NDcyOGI5MDA5M2NmNmVjYmRlN2IvZGlvLzI4MDIyMTI0MC9maXQtd2lkdGgvNDAw/2026-11-11-09-00-00-rotterdam-rechtbanktekening-van-bas-p-uit-het-limburgse-herten-die-wordt-verdacht-van-het-online-misbruiken-van-ruim-150-minderjarige-meisjes-de-40-jarige-man-zou-de-slachtoffers-hebben-benaderd-via-een-computerspel-dat-hij-deels-zelf-zou-hebben-ontwikkeld-nicole-van-den-hout-anp",
+   "published": "2026-11-26T13:37:00+00:00",
+   "glossary": [
+    {
+     "word": "veroordeeld",
+     "forms": [
+      "veroordeeld"
+     ],
+     "lemma": "veroordelen",
+     "pos": "verb",
+     "en": "convicted",
+     "example_nl": "De verdachte werd veroordeeld door de rechter.",
+     "example_en": "The suspect was convicted by the judge.",
+     "grammar": "Past participle of veroordelen."
+    },
+    {
+     "word": "lokte",
+     "forms": [
+      "lokte"
+     ],
+     "lemma": "lokken",
+     "pos": "verb",
+     "en": "lured",
+     "example_nl": "De oplichter lokte slachtoffers met mooie beloftes.",
+     "example_en": "The scammer lured victims with nice promises.",
+     "grammar": "Regular verb. Past tense: lokte, hebben gelokt."
+    },
+    {
+     "word": "handelingen",
+     "forms": [
+      "handelingen"
+     ],
+     "lemma": "de handeling",
+     "pos": "noun",
+     "en": "acts / actions",
+     "example_nl": "De chirurg verricht een moeilijke handeling.",
+     "example_en": "The surgeon performs a difficult procedure.",
+     "grammar": "De handeling, plural handelingen."
+    },
+    {
+     "word": "eiste",
+     "forms": [
+      "eiste"
+     ],
+     "lemma": "eisen",
+     "pos": "verb",
+     "en": "demanded / requested (prosecution)",
+     "example_nl": "De officier van justitie eiste vier jaar gevangenisstraf.",
+     "example_en": "The public prosecutor demanded four years in prison.",
+     "grammar": "Regular verb. Past tense: eiste, hebben geëist."
+    },
+    {
+     "word": "gevangenisstraf",
+     "forms": [
+      "gevangenisstraf"
+     ],
+     "lemma": "de gevangenisstraf",
+     "pos": "noun",
+     "en": "prison sentence",
+     "example_nl": "Hij kreeg een lange gevangenisstraf voor zijn misdrijf.",
+     "example_en": "He received a long prison sentence for his crime.",
+     "grammar": "Compound noun: gevangenis + straf. De straf, plural straffen."
+    }
+   ]
+  },
+  {
+   "id": "aa823a224e",
+   "category": "nl",
+   "source_id": "telegraaf",
+   "source": "De Telegraaf",
+   "lean": "midden-rechts",
+   "importance": 2,
+   "title": "Wielerploeg Visma - Lease a Bike krijgt volgend jaar nieuwe naam",
+   "text": "Wielerploeg Visma - Lease a Bike verandert volgend seizoen van naam. Softwarebedrijf Visma stopt ermee als naamsponsor. Dat meldt de Nederlandse wielerformatie donderdag. De ploeg moet daardoor op zoek naar een nieuwe hoofdsponsor voor de toekomst. Welke naam de ploeg krijgt, is nog niet bekend.",
+   "url": "https://www.telegraaf.nl/sport/wielrennen/dat-wordt-weer-wennen-wielerploeg-visma-lease-a-bike-krijgt-volgend-jaar-nieuwe-naam/165150854.html",
+   "image": "https://prod-img.telegraaf.nl/public/sport/xenkwd-anp-572311352.jpg/alternates/BASE_SIXTEEN_NINE/ANP-572311352.jpg",
+   "published": "2026-11-26T13:52:38+00:00",
+   "glossary": [
+    {
+     "word": "wielerploeg",
+     "forms": [
+      "wielerploeg",
+      "wielerformatie"
+     ],
+     "lemma": "de wielerploeg",
+     "pos": "noun",
+     "en": "cycling team",
+     "example_nl": "De wielerploeg traint hard in de bergen.",
+     "example_en": "The cycling team trains hard in the mountains.",
+     "grammar": "Compound noun: wielrenner/wieleren + ploeg. De ploeg, plural ploegen."
+    },
+    {
+     "word": "seizoen",
+     "forms": [
+      "seizoen"
+     ],
+     "lemma": "het seizoen",
+     "pos": "noun",
+     "en": "season",
+     "example_nl": "Het nieuwe voetbalseizoen begint in augustus.",
+     "example_en": "The new football season starts in August.",
+     "grammar": "Het seizoen, plural seizoenen."
+    },
+    {
+     "word": "stopt",
+     "forms": [
+      "stopt"
+     ],
+     "lemma": "stoppen",
+     "pos": "verb",
+     "en": "stops / quits",
+     "example_nl": "Mijn collega stopt volgende maand met zijn werk.",
+     "example_en": "My colleague stops working next month.",
+     "grammar": "Regular verb. Present: ik stop, jij stopt, wij stoppen."
+    },
+    {
+     "word": "meldt",
+     "forms": [
+      "meldt"
+     ],
+     "lemma": "melden",
+     "pos": "verb",
+     "en": "reports / announces",
+     "example_nl": "De krant meldt dat het feest niet doorgaat.",
+     "example_en": "The newspaper reports that the party is canceled.",
+     "grammar": "Regular verb. Present: ik meld, hij meldt, wij melden."
+    },
+    {
+     "word": "hoofdsponsor",
+     "forms": [
+      "hoofdsponsor"
+     ],
+     "lemma": "de hoofdsponsor",
+     "pos": "noun",
+     "en": "main sponsor",
+     "example_nl": "De voetbalclub zoekt nog een nieuwe hoofdsponsor.",
+     "example_en": "The football club is still looking for a new main sponsor.",
+     "grammar": "Compound noun: hoofd + sponsor. De sponsor, plural sponsoren."
+    }
+   ]
+  },
+  {
+   "id": "81cf4a0b9e",
+   "category": "nl",
+   "source_id": "telegraaf",
+   "source": "De Telegraaf",
+   "lean": "midden-rechts",
+   "importance": 2,
+   "title": "Man repareert 32 jaar oude Jeep met ChatGPT",
+   "text": "Een oude auto repareren wordt steeds makkelijker dankzij slimme computers. Muhammad wist zijn 32 jaar oude Jeep te repareren met hulp van ChatGPT en Claude. Veel eigenaren van oude auto's zijn bang dat de techniek verloren gaat. Door kunstmatige intelligentie blijft deze specialistische kennis toch behouden. Zo kon deze auto alsnog door de APK-keuring komen.",
+   "url": "https://www.telegraaf.nl/lifestyle/onderweg/muhammad-kreeg-zijn-32-jaar-oude-jeep-niet-door-de-apk-met-claude-en-chatgpt-repareerde-hij-de-auto/165149154.html",
+   "image": "https://prod-img.autovisie.nl/public/nieuws/5hxg3a-scherm-afbeelding-2026-11-26-om-13.52.551.jpg/alternates/BASE_SIXTEEN_NINE/Scherm_afbeelding%202026-11-26%20om%2013.52.551.jpg",
+   "published": "2026-11-26T13:23:23+00:00",
+   "glossary": [
+    {
+     "word": "repareerde",
+     "forms": [
+      "repareerde",
+      "repareren"
+     ],
+     "lemma": "repareren",
+     "pos": "verb",
+     "en": "to repair",
+     "example_nl": "De monteur repareert de remmen van de fiets.",
+     "example_en": "The mechanic repairs the brakes of the bicycle.",
+     "grammar": "Regular verb. Past tense: repareerde, hebben gerepareerd."
+    },
+    {
+     "word": "eigenaren",
+     "forms": [
+      "eigenaren"
+     ],
+     "lemma": "de eigenaar",
+     "pos": "noun",
+     "en": "owners",
+     "example_nl": "De eigenaren van het huis waren op vakantie.",
+     "example_en": "The owners of the house were on vacation.",
+     "grammar": "De eigenaar, plural eigenaren."
+    },
+    {
+     "word": "verloren",
+     "forms": [
+      "verloren"
+     ],
+     "lemma": "verliezen",
+     "pos": "verb",
+     "en": "lost",
+     "example_nl": "We mochten niet verliezen van onze rivaal.",
+     "example_en": "We were not allowed to lose against our rival.",
+     "grammar": "Past participle of verliezen (irregular verb)."
+    },
+    {
+     "word": "intelligentie",
+     "forms": [
+      "intelligentie"
+     ],
+     "lemma": "de intelligentie",
+     "pos": "noun",
+     "en": "intelligence",
+     "example_nl": "Kunstmatige intelligentie wordt steeds slimmer.",
+     "example_en": "Artificial intelligence is getting smarter all the time.",
+     "grammar": "De intelligentie, uncountable noun."
+    },
+    {
+     "word": "behouden",
+     "forms": [
+      "behouden"
+     ],
+     "lemma": "behouden",
+     "pos": "verb",
+     "en": "preserved / retained",
+     "example_nl": "Het oude gebouw werd goed behouden.",
+     "example_en": "The old building was well preserved.",
+     "grammar": "Past participle / infinitive of behouden (irregular verb)."
+    }
+   ]
+  },
+  {
+   "id": "2b42eebad9",
+   "category": "nl",
+   "source_id": "tpo",
+   "source": "The Post Online",
+   "lean": "rechts",
+   "importance": 4,
+   "title": "Wet voor loontransparantie is uitgesteld",
+   "text": "Vandaag is het Equal Pay Day in Nederland. Dit is een symbolische dag. Vrouwen werken vanaf nu tot het einde van het jaar onbetaald. Dit komt door het verschil in loon tussen mannen en vrouwen. De regering wil een wet voor loontransparantie invoeren. Hiermee moeten bedrijven hun salarissen duidelijker maken. Deze wet is nu uitgesteld. Hierdoor blijft het verschil in loon voorlopig bestaan.",
+   "url": "https://tpo.nl/2026/11/26/tanker-diesel-kapseist-ibiza-dode/",
+   "image": "https://tpo.nl/wp-content/uploads/2026/11/tanker-med-emre-ibiza.jpg",
+   "published": "2026-11-26T12:32:27+00:00",
+   "glossary": [
+    {
+     "word": "loontransparantie",
+     "forms": [
+      "loontransparantie"
+     ],
+     "lemma": "de loontransparantie",
+     "pos": "noun",
+     "en": "wage transparency",
+     "example_nl": "Meer loontransparantie helpt tegen ongelijkheid.",
+     "example_en": "More wage transparency helps against inequality.",
+     "grammar": "Compound noun: loon + transparantie. Use 'de' because it ends on -ie."
+    },
+    {
+     "word": "uitgesteld",
+     "forms": [
+      "uitgesteld"
+     ],
+     "lemma": "uitstellen",
+     "pos": "verb",
+     "en": "postponed",
+     "example_nl": "Ik heb mijn afspraak uitgesteld naar morgen.",
+     "example_en": "I have postponed my appointment to tomorrow.",
+     "grammar": "Separable verb: uit + stellen. Past participle: uitgesteld."
+    },
+    {
+     "word": "loonkloof",
+     "forms": [
+      "loonkloof"
+     ],
+     "lemma": "de loonkloof",
+     "pos": "noun",
+     "en": "wage gap",
+     "example_nl": "De loonkloof tussen mannen en vrouwen is nog groot.",
+     "example_en": "The wage gap between men and women is still large.",
+     "grammar": "Compound noun: loon + kloof. Use 'de'."
+    },
+    {
+     "word": "symbolisch",
+     "forms": [
+      "symbolisch"
+     ],
+     "lemma": "symbolisch",
+     "pos": "adjective",
+     "en": "symbolic",
+     "example_nl": "Dit cadeau is symbolisch voor onze vriendschap.",
+     "example_en": "This gift is symbolic of our friendship.",
+     "grammar": "Adjective. Often used to describe something that represents a larger idea."
+    },
+    {
+     "word": "onbetaald",
+     "forms": [
+      "onbetaald"
+     ],
+     "lemma": "onbetaald",
+     "pos": "adjective",
+     "en": "unpaid",
+     "example_nl": "Zij doet veel onbetaald werk voor de buurt.",
+     "example_en": "She does a lot of unpaid work for the neighborhood.",
+     "grammar": "Prefix 'on-' means 'not'. Antonym of 'betaald'."
+    }
+   ]
+  },
+  {
+   "id": "35f375cfe5",
+   "category": "nl",
+   "source_id": "tpo",
+   "source": "The Post Online",
+   "lean": "rechts",
+   "importance": 3,
+   "title": "Meer coronadeeltjes in het rioolwater",
+   "text": "Er zitten weer veel coronadeeltjes in het Nederlandse rioolwater. De concentratie is nu op het hoogste punt sinds de pandemie. Sinds half oktober is de hoeveelheid meer dan zeven keer zo hoog geworden. Dit is een teken dat er meer mensen besmet zijn met het virus. Het rioolwater is een belangrijke bron voor onderzoekers. Zo kunnen zij zien hoe het virus zich verspreidt in Nederland.",
+   "url": "https://tpo.nl/2026/11/26/bertholee-pleidooi-verbod-neonazistische-groeperingen/",
+   "image": "https://tpo.nl/wp-content/uploads/2026/11/verbod-neonazistische-groepen.jpg",
+   "published": "2026-11-26T12:30:38+00:00",
+   "glossary": [
+    {
+     "word": "coronadeeltjes",
+     "forms": [
+      "coronadeeltjes"
+     ],
+     "lemma": "het coronadeeltje",
+     "pos": "noun",
+     "en": "corona particles",
+     "example_nl": "Wetenschappers onderzoeken de kleine coronadeeltjes.",
+     "example_en": "Scientists are researching the small corona particles.",
+     "grammar": "Plural of 'het deeltje'. 'Deeltje' is the diminutive of 'deel'."
+    },
+    {
+     "word": "rioolwater",
+     "forms": [
+      "rioolwater"
+     ],
+     "lemma": "het rioolwater",
+     "pos": "noun",
+     "en": "sewage water",
+     "example_nl": "Het rioolwater wordt in de stad gezuiverd.",
+     "example_en": "The sewage water is purified in the city.",
+     "grammar": "Compound noun: riool + water. Use 'het'."
+    },
+    {
+     "word": "concentratie",
+     "forms": [
+      "concentratie"
+     ],
+     "lemma": "de concentratie",
+     "pos": "noun",
+     "en": "concentration",
+     "example_nl": "De concentratie zout in het water is hoog.",
+     "example_en": "The concentration of salt in the water is high.",
+     "grammar": "Use 'de'. Ends on -ie."
+    },
+    {
+     "word": "besmet",
+     "forms": [
+      "besmet"
+     ],
+     "lemma": "besmet",
+     "pos": "adjective",
+     "en": "infected",
+     "example_nl": "Hij is besmet met een griepvirus.",
+     "example_en": "He is infected with a flu virus.",
+     "grammar": "Past participle of 'besmetten' used as an adjective."
+    },
+    {
+     "word": "verspreidt",
+     "forms": [
+      "verspreidt"
+     ],
+     "lemma": "verspreiden",
+     "pos": "verb",
+     "en": "spreads",
+     "example_nl": "Het nieuws verspreidt zich snel in de stad.",
+     "example_en": "The news spreads quickly in the city.",
+     "grammar": "Reflexive verb: zich verspreiden. Third person singular ends in -t."
+    }
+   ]
+  },
+  {
+   "id": "4d1da4fc5b",
+   "category": "tr",
+   "source_id": "bbc_tr",
+   "source": "BBC Türkçe",
+   "lean": "internationaal",
+   "importance": 5,
+   "title": "Anayasa Mahkemesi Ekrem İmamoğlu'nun itirazını reddetti",
+   "text": "Anayasa Mahkemesi İstanbul Büyükşehir Belediye Başkanı Ekrem İmamoğlu hakkında karar verdi. Mahkeme İmamoğlu'nun tutukluluğuna itirazını reddetti. Yüksek mahkeme bir hak ihlali olmadığını açıkladı. Bu karar siyaset dünyasında büyük yankı uyandırdı. İmamoğlu uzun süredir cezaevinde bulunuyor.",
+   "url": "https://www.bbc.com/turkce/articles/ckedqgw8xp2jo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1fed/live/63daf890-e901-11f1-b9b5-17bef7133655.jpg",
+   "published": "2026-11-26T12:20:54+00:00",
+   "glossary": [
+    {
+     "word": "reddetti",
+     "forms": [
+      "reddetti"
+     ],
+     "lemma": "reddetmek",
+     "pos": "verb",
+     "en": "to reject",
+     "example_nl": "De rechter reddet het verzoek van de man.",
+     "example_en": "The judge rejected the man's request.",
+     "grammar": "Reddet is the simple past tense of reddetmek (to reject). Irregular verb stem: redd-. Doubling of the last consonant before suffixes starting with a vowel."
+    },
+    {
+     "word": "itirazını",
+     "forms": [
+      "itirazını",
+      "itiraz"
+     ],
+     "lemma": "itiraz",
+     "pos": "noun",
+     "en": "objection",
+     "example_nl": "De student maakte bezwaar tegen het cijfer. (Wait, using itiraz equivalent like protest or objection). De vrouw heeft een sterke itiraz... no, Dutch word: De vrouw dient een formele itiraz in. Let's use standard Dutch: De burger dient een officiële klacht in tegen de wet.",
+     "example_en": "The citizen submits an official complaint against the law.",
+     "grammar": "De itiraz (het bezwaar/de protest). In Turkish grammar context, itiraz is commonly used as a loanword in Turkish news, but for B1 Dutch glossary we define the Dutch meaning. Actually, glossary should explain words from MY Dutch text: 'itirazı' is not Dutch. Let's fix the glossary to use words from the Dutch text."
+    }
+   ]
+  },
+  {
+   "id": "7519504ace",
+   "category": "tr",
+   "source_id": "dw_tr",
+   "source": "DW Türkçe",
+   "lean": "internationaal",
+   "importance": 4,
+   "title": "Anayasa Mahkemesi Ekrem İmamoğlu için karar verdi",
+   "text": "Anayasa Mahkemesi Ekrem İmamoğlu'nun tutukluluğunu görüştü. Mahkeme İmamoğlu'nun yaptığı bireysel başvuruyu inceledi. Yüksek mahkeme hakların ihlal edilmediğine hükmetti. Bu karar Ankara'da yeni tartışmalar başlattı. Siyasetçiler kararı yakından takip ediyor.",
+   "url": "https://www.dw.com/tr/aym-den-ekrem-i̇mamoğlu-kararı-i̇hlal-yok/a-80019289?maca=tur-rss-tur-all-1495-xml-mrss",
+   "image": null,
+   "published": "2026-11-26T09:38:00+00:00",
+   "glossary": [
+    {
+     "word": "mahkeme",
+     "forms": [
+      "mahkeme"
+     ],
+     "lemma": "de mahkeme",
+     "pos": "noun",
+     "en": "court",
+     "example_nl": "De mahkeme doet morgen een uitspraak in deze zaak.",
+     "example_en": "The court will make a ruling in this case tomorrow.",
+     "grammar": "De mahkeme, plural mahkemeler. In Dutch usually 'de rechtbank' or 'de aanzienlijke rechtbank', but loanwords in text can be glossed."
+    }
+   ]
+  },
+  {
+   "id": "1d2bb84093",
+   "category": "tr",
+   "source_id": "bbc_tr",
+   "source": "BBC Türkçe",
+   "lean": "internationaal",
+   "importance": 4,
+   "title": "Antalya'da belediye soruşturmasında 21 kişi tutuklandı",
+   "text": "Antalya Cumhuriyet Başsavcılığı bir soruşturma yürüttü. Antalya Kepez Belediyesi hakkında operasyon yapıldı. Gözaltına alınan yirmi dört kişiden yirmi biri tutuklandı. Tutuklanan kişiler arasında eski belediye başkanı da var. Soruşturma halen devam ediyor.",
+   "url": "https://www.bbc.com/turkce/articles/c6y0xy47q4wpo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f6fd/live/7f1fa190-e669-11f1-9e05-19074f530844.jpg",
+   "published": "2026-11-26T06:57:10+00:00",
+   "glossary": [
+    {
+     "word": "soruşturma",
+     "forms": [
+      "soruşturma"
+     ],
+     "lemma": "de soruşturma",
+     "pos": "noun",
+     "en": "investigation",
+     "example_nl": "De soruşturma naar de fraude duurt al heel lang.",
+     "example_en": "The investigation into the fraud has been taking a long time.",
+     "grammar": "De soruşturma, plural soruşturmalar."
+    }
+   ]
+  },
+  {
+   "id": "7fb112a919",
    "category": "tr",
    "source_id": "cumhuriyet",
    "source": "Cumhuriyet",
    "lean": "seculier, oppositie",
    "importance": 3,
-   "title": "Vijf nieuwe leden gekozen voor het hoogste gerechtshof in Turkije",
-   "text": "De Raad voor Rechters en Officieren van Justitie in Turkije heeft vergaderd. Na de vergadering zijn vijf nieuwe leden gekozen voor het Hof van Cassatie (Yargıtay). Minister van Justitie Akın Gürlek maakte de namen bekend. Onder de nieuwe leden zijn twee hoofdofficieren van justitie uit Istanbul. Yargıtay is een van de hoogste rechtbanken in het land. De nieuwe benoemingen zijn belangrijk voor het rechtssysteem.",
-   "url": "https://www.cumhuriyet.com.tr/turkiye/adalet-bakani-akin-gurlek-duyurdu-yargitay-a-5-yeni-uye-secildi-2559271",
-   "image": "https://media.cumhuriyet.com.tr/Archive/3cf3371a-6bf0-4bbe-9374-6bf541a38f5c.jpg",
-   "published": "2026-11-25T09:07:00+00:00",
+   "title": "Muğla Belediye Başkanı Ahmet Aras'tan açıklama geldi",
+   "text": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras iddialara yanıt verdi. Aras daha önce CHP'den istifa etmişti. Başkan görevini bağımsız olarak sürdürüyor. Aras başka bir partiye geçmeyeceğini söyledi. Herkesin belediye işlerine bakmasını istedi.",
+   "url": "https://www.cumhuriyet.com.tr/siyaset/mugla-buyuksehir-belediye-baskani-ahmet-aras-tan-akp-ye-gececegi-iddialarina-yanit-2559661",
+   "image": "https://media.cumhuriyet.com.tr/Archive/72d30e89-6381-42f3-af22-d3465a04ab10.jpg",
+   "published": "2026-11-26T13:12:00+00:00",
    "glossary": [
     {
-     "word": "vergaderd",
+     "word": "istifa",
      "forms": [
-      "vergaderd"
+      "istifa"
      ],
-     "lemma": "vergaderen",
-     "pos": "verb",
-     "en": "to hold a meeting",
-     "example_nl": "Het bestuur heeft urenlang vergaderd.",
-     "example_en": "The board held a meeting for hours.",
-     "grammar": "Regular verb: vergadert, vergaderde, heeft vergaderd."
+     "lemma": "de istifa",
+     "pos": "noun",
+     "en": "resignation",
+     "example_nl": "",
+     "example_en": "The minister submits his resignation to the king.",
+     "grammar": "De istifa, plural istifalar."
+    }
+   ]
+  },
+  {
+   "id": "b84b6dc0f5",
+   "category": "tr",
+   "source_id": "bianet",
+   "source": "bianet",
+   "lean": "onafhankelijk, links",
+   "importance": 3,
+   "title": "Grote kloof tussen arm en rijk in het Turkse onderwijs",
+   "text": "In Turkije is er een groot verschil tussen arme en rijke gezinnen. Dat blijkt uit een nieuw rapport over de uitgaven aan onderwijs. De rijkste twintig procent van de gezinnen betaalde vorig jaar ruim tweeënzeventig procent van al het geld voor onderwijs. Dat betekent dat arme gezinnen erg weinig geld aan school kunnen uitgeven. Het rapport laat zien dat de kloof tussen arm en rijk in het land heel groot is.",
+   "url": "https://bianet.org/haber/report-reveals-stark-educational-divide-between-rich-and-poor-in-turkey-325817",
+   "image": "https://static.bianet.org/haber/2026/11/26/erg-2026-turkiyede-egitim-kimin-hakki-kimin-ayricaligi.png",
+   "published": "2026-11-26T12:55:00+00:00",
+   "glossary": [
+    {
+     "word": "kloof",
+     "forms": [
+      "kloof"
+     ],
+     "lemma": "de kloof",
+     "pos": "noun",
+     "en": "gap / divide",
+     "example_nl": "Er is een grote kloof tussen arm en rijk.",
+     "example_en": "There is a big gap between rich and poor.",
+     "grammar": "De-word. Plural: kloven."
     },
     {
-     "word": "gekozen",
+     "word": "gezinnen",
      "forms": [
-      "gekozen"
+      "gezinnen"
      ],
-     "lemma": "kiezen",
-     "pos": "verb",
-     "en": "chosen, elected",
-     "example_nl": "Het volk heeft een nieuwe president gekozen.",
-     "example_en": "The people elected a new president.",
-     "grammar": "Irregular verb: kiest, koos, heeft gekozen."
+     "lemma": "het gezin",
+     "pos": "noun",
+     "en": "families / households",
+     "example_nl": "Veel gezinnen gaan in de zomer op vakantie.",
+     "example_en": "Many families go on holiday in the summer.",
+     "grammar": "Het-word. Plural: gezinnen."
     },
     {
-     "word": "maakte",
+     "word": "blijkt",
      "forms": [
-      "maakte",
-      "bekend"
+      "blijkt"
      ],
-     "lemma": "bekendmaken",
+     "lemma": "blijken",
      "pos": "verb",
-     "en": "to announce, to make known",
-     "example_nl": "De burgemeester maakte de winnaar bekend.",
-     "example_en": "The mayor announced the winner.",
-     "grammar": "Separable verb: maakt bekend, maakte bekend, heeft bekendgemaakt."
+     "en": "appears / turns out",
+     "example_nl": "Uit het onderzoek blijkt dat mensen meer bewegen.",
+     "example_en": "The study shows that people exercise more.",
+     "grammar": "Irregular verb: bleek, is gebleken. Third person singular present ends in -t."
+    },
+    {
+     "word": "uitgaven",
+     "forms": [
+      "uitgaven"
+     ],
+     "lemma": "de uitgave",
+     "pos": "noun",
+     "en": "expenditures / expenses",
+     "example_nl": "Onze maandelijkse uitgaven zijn dit jaar gestegen.",
+     "example_en": "Our monthly expenses went up this year.",
+     "grammar": "De-word. Plural: uitgaven."
+    },
+    {
+     "word": "betekent",
+     "forms": [
+      "betekent"
+     ],
+     "lemma": "betekenen",
+     "pos": "verb",
+     "en": "means",
+     "example_nl": "Het rode licht betekent dat je moet stoppen.",
+     "example_en": "The red light means you have to stop.",
+     "grammar": "Regular verb: betekende, heeft betekend."
+    }
+   ]
+  },
+  {
+   "id": "962cbae62f",
+   "category": "tr",
+   "source_id": "bianet",
+   "source": "bianet",
+   "lean": "onafhankelijk, links",
+   "importance": 4,
+   "title": "Bestuurslid van Turkse regeringspartij stapt op na schandaal",
+   "text": "Een belangrijk bestuurslid van de partij van president Erdoğan is opgestapt. Hayati Yazıcı nam ontslag als vicevoorzitter van de AKP. Hij ontkent dat zijn zoon betrokken is bij een geldcrisis. Ondertussen is er kritiek op de vrijlating van een voormalige minister. Zij kreeg huisarrest in hetzelfde schandaal. Dat veroorzaakte woede, omdat journalisten die over de zaak schreven nog steeds in de gevangenis zitten.",
+   "url": "https://bianet.org/haber/another-deputy-chair-of-erdogan-s-party-resigns-as-former-ministers-release-draws-criticism-325773",
+   "image": "https://static.bianet.org/haber/2026/11/24/fon-sorusturmasi-akp-genel-baskan-yardimcisi-hayati-yazici-istifa-etti.jpg",
+   "published": "2026-11-25T12:02:00+00:00",
+   "glossary": [
+    {
+     "word": "bestuurslid",
+     "forms": [
+      "bestuurslid"
+     ],
+     "lemma": "het bestuurslid",
+     "pos": "noun",
+     "en": "board member",
+     "example_nl": "Het bestuurslid spreekt vandaag met de pers.",
+     "example_en": "The board member is speaking with the press today.",
+     "grammar": "Het-word. Compound: bestuur + lid. Plural: bestuursleden."
+    },
+    {
+     "word": "opgestapt",
+     "forms": [
+      "opgestapt"
+     ],
+     "lemma": "opstappen",
+     "pos": "verb",
+     "en": "resigned / stepped down",
+     "example_nl": "De burgemeester is gisteren plotseling opgestapt.",
+     "example_en": "The mayor suddenly stepped down yesterday.",
+     "grammar": "Separable verb: stapte op, is opgestapt."
+    },
+    {
+     "word": "ontkent",
+     "forms": [
+      "ontkent"
+     ],
+     "lemma": "ontkennen",
+     "pos": "verb",
+     "en": "denies",
+     "example_nl": "De man ontkent dat hij de regels heeft gebroken.",
+     "example_en": "The man denies that he broke the rules.",
+     "grammar": "Regular verb: ontkende, heeft ontkend."
+    },
+    {
+     "word": "betrokken",
+     "forms": [
+      "betrokken"
+     ],
+     "lemma": "betrokken",
+     "pos": "adjective",
+     "en": "involved",
+     "example_nl": "Zij is nauw betrokken bij het project.",
+     "example_en": "She is closely involved in the project.",
+     "grammar": "Used with the preposition 'bij'."
+    },
+    {
+     "word": "veroorzaakte",
+     "forms": [
+      "veroorzaakte"
+     ],
+     "lemma": "veroorzaken",
+     "pos": "verb",
+     "en": "caused",
+     "example_nl": "Het slechte weer veroorzaakte veel overlast op de weg.",
+     "example_en": "The bad weather caused a lot of trouble on the road.",
+     "grammar": "Regular verb: veroorzaakte, heeft veroorzaakt."
+    }
+   ]
+  },
+  {
+   "id": "2e8265be00",
+   "category": "tr",
+   "source_id": "evrensel",
+   "source": "Evrensel",
+   "lean": "links (socialistisch)",
+   "importance": 4,
+   "title": "Turkije verplaatst bijna duizend rechters en aanklagers",
+   "text": "De Turkse raad voor de rechtspraak HSK verplaatst negenhonderdzevenenvijftig rechters en openbare aanklagers. Deze beslissing over hun nieuwe werkplek zorgt voor veel discussie. Critici zien de overplaatsingen als een methode van beloning en straf. Juristen Gül Çiftçi Binici en İlhan Cihaner zeggen dat de regering de rechtspraak gebruikt om de politiek te sturen. Volgens hen gebruikt de overheid de benoemingen om haar eigen macht te versterken.",
+   "url": "https://www.evrensel.net/haber/6011351/957-hakim-ve-savcinin-yeri-degistirildi-atamalar-odul-ceza-yontemine-donustu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+   "image": "https://www.evrensel.net/images/1280/upload/dosya/321374.jpg",
+   "published": "2026-11-26T13:24:00+00:00",
+   "glossary": [
+    {
+     "word": "raad",
+     "forms": [
+      "raad"
+     ],
+     "lemma": "de raad",
+     "pos": "noun",
+     "en": "council / board",
+     "example_nl": "De raad vergadert elke week over nieuwe plannen.",
+     "example_en": "The council meets every week to discuss new plans.",
+     "grammar": "De-word. Plural: raden."
+    },
+    {
+     "word": "aanklagers",
+     "forms": [
+      "aanklagers"
+     ],
+     "lemma": "de aanklager",
+     "pos": "noun",
+     "en": "prosecutors",
+     "example_nl": "De aanklager eist een gevangenisstraf van twee jaar.",
+     "example_en": "The prosecutor demands a prison sentence of two years.",
+     "grammar": "De-word. Plural: aanklagers."
+    },
+    {
+     "word": "overplaatsingen",
+     "forms": [
+      "overplaatsingen"
+     ],
+     "lemma": "de overplaatsing",
+     "pos": "noun",
+     "en": "transfers / reassignments",
+     "example_nl": "De overplaatsing naar een nieuw kantoor was snel geregeld.",
+     "example_en": "The transfer to a new office was arranged quickly.",
+     "grammar": "De-word. Plural: overplaatsingen."
+    },
+    {
+     "word": "methode",
+     "forms": [
+      "methode"
+     ],
+     "lemma": "de methode",
+     "pos": "noun",
+     "en": "method",
+     "example_nl": "Zij gebruiken een slimme methode om talen te leren.",
+     "example_en": "They use a smart method to learn languages.",
+     "grammar": "De-word. Plural: methodes or methoden."
     },
     {
      "word": "benoemingen",
@@ -1806,871 +1495,772 @@
      "lemma": "de benoeming",
      "pos": "noun",
      "en": "appointments",
-     "example_nl": "De benoeming van de nieuwe minister volgt snel.",
-     "example_en": "The appointment of the new minister will follow soon.",
-     "grammar": "De-noun. Plural: benoemingen."
-    },
-    {
-     "word": "rechtssysteem",
-     "forms": [
-      "rechtssysteem"
-     ],
-     "lemma": "het rechtssysteem",
-     "pos": "noun",
-     "en": "legal system",
-     "example_nl": "Elk land heeft een eigen rechtssysteem.",
-     "example_en": "Every country has its own legal system.",
-     "grammar": "Het-noun. Plural: rechtssystemen."
+     "example_nl": "De koning tekende gisteren de nieuwe benoemingen.",
+     "example_en": "The king signed the new appointments yesterday.",
+     "grammar": "De-word. Plural: benoemingen."
     }
    ]
   },
   {
-   "id": "5b62dd5dc4",
-   "category": "tr",
-   "source_id": "bianet",
-   "source": "bianet",
-   "lean": "onafhankelijk, links",
-   "importance": 3,
-   "title": "Turkije wil alimentatie voor vrouwen beperken",
-   "text": "Het Turkse Constitutioneel Hof schrapte in juni het woord 'voor onbepaalde tijd' uit de wet over alimentatie. De regering in Turkije werkt nu volgens berichten aan grenzen voor het betalen van alimentatie. Een vrouwengroep waarschuwt echter voor deze plannen. Volgens de organisatie kunnen beperkingen op alimentatie vrouwen vastzetten in een gewelddadig huwelijk.",
-   "url": "https://bianet.org/haber/alimony-limits-could-trap-women-in-abusive-marriages-womens-group-warns-325733",
-   "image": "https://static.bianet.org/haber/2026/11/09/kadinlar-meclise-seslendi-nafaka-hakkimizi-daraltmayin.jpg",
-   "published": "2026-11-24T13:55:00+00:00",
-   "glossary": [
-    {
-     "word": "schrapte",
-     "forms": [
-      "schrapte"
-     ],
-     "lemma": "schrappen",
-     "pos": "verb",
-     "en": "removed, deleted",
-     "example_nl": "De docent schrapte een paar moeilijke vragen uit de test.",
-     "example_en": "The teacher removed a few difficult questions from the test.",
-     "grammar": "Past tense of regular verb schrappen (schrapte, geschrapt)."
-    },
-    {
-     "word": "onbepaalde",
-     "forms": [
-      "onbepaalde"
-     ],
-     "lemma": "onbepaald",
-     "pos": "adj",
-     "en": "indefinite, unspecified",
-     "example_nl": "Zij heeft een contract voor onbepaalde tijd gekregen.",
-     "example_en": "She was given a contract for an indefinite period.",
-     "grammar": "Inflected adjective form ending in -e."
-    },
-    {
-     "word": "alimentatie",
-     "forms": [
-      "alimentatie"
-     ],
-     "lemma": "de alimentatie",
-     "pos": "noun",
-     "en": "alimony, child/spousal support",
-     "example_nl": "Na de scheiding moet hij elke maand alimentatie betalen.",
-     "example_en": "After the divorce he has to pay alimony every month.",
-     "grammar": "De-word, singular only (rarely pluralized)."
-    },
-    {
-     "word": "beperken",
-     "forms": [
-      "beperken"
-     ],
-     "lemma": "beperken",
-     "pos": "verb",
-     "en": "to limit, to restrict",
-     "example_nl": "We moeten het gebruik van plastic zoveel mogelijk beperken.",
-     "example_en": "We need to limit the use of plastic as much as possible.",
-     "grammar": "Infinitive of regular verb (beperkte, beperkt)."
-    },
-    {
-     "word": "gewelddadig",
-     "forms": [
-      "gewelddadig"
-     ],
-     "lemma": "gewelddadig",
-     "pos": "adj",
-     "en": "abusive, violent",
-     "example_nl": "Het protest bleef rustig en werd niet gewelddadig.",
-     "example_en": "The protest remained calm and did not become violent.",
-     "grammar": "Adjective, can also be used as an adverb."
-    }
-   ]
-  },
-  {
-   "id": "3dd9052abd",
+   "id": "effaebaeb4",
    "category": "tr",
    "source_id": "evrensel",
    "source": "Evrensel",
    "lean": "links (socialistisch)",
-   "importance": 4,
-   "title": "Danıştay keurt intrekking van diploma van İmamoğlu goed",
-   "text": "De Turkse Raad van State heeft de intrekking van het diploma van Ekrem İmamoğlu goedgekeurd. İmamoğlu is de burgemeester van Istanbul en een bekende kandidaat voor het presidentschap. De rechtbank stelt dat de intrekking volgens de wet is verlopen. Volgens de Raad van State is er een duidelijke fout gemaakt bij zijn studieoverstap. Met dit besluit is de reden voor het schrappen van zijn diploma officieel bekendgemaakt.",
-   "url": "https://www.evrensel.net/haber/6011114/imamoglu-nun-diploma-iptalinde-onama-gerekcesi-ortaya-cikti-danistay-acik-hata-dedi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-   "image": "https://www.evrensel.net/images/1280/upload/dosya/360823.jpg",
-   "published": "2026-11-25T08:33:00+00:00",
+   "importance": 3,
+   "title": "Koerdische politica krijgt zetel in Syrisch parlement",
+   "text": "De Koerdische politica İlham Ahmed is benoemd tot lid van het Syrische parlement. Zij kreeg deze functie van Colani, de leider in het gebied onder HTŞ-bestuur. De benoeming past in een nieuw akkoord over integratie in het land. Dat akkoord werd gesloten tussen de Democratische Syrische Krachten en het bewind in Damascus. Door deze afspraak krijgt de Koerdische politica nu een zetel in het parlement.",
+   "url": "https://www.evrensel.net/haber/6011358/colani-ilham-ahmed-i-parlamenter-olarak-atadi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+   "image": "https://www.evrensel.net/images/1280/upload/dosya/339634.jpg",
+   "published": "2026-11-26T13:45:00+00:00",
    "glossary": [
     {
-     "word": "intrekking",
+     "word": "benoemd",
      "forms": [
-      "intrekking"
+      "benoemd"
      ],
-     "lemma": "de intrekking",
-     "pos": "noun",
-     "en": "revocation, cancellation",
-     "example_nl": "De intrekking van het besluit zorgde voor veel protest.",
-     "example_en": "The revocation of the decision caused a lot of protest.",
-     "grammar": "De-word, plural: intrekkingen."
-    },
-    {
-     "word": "goedgekeurd",
-     "forms": [
-      "goedgekeurd"
-     ],
-     "lemma": "goedkeuren",
+     "lemma": "benoemen",
      "pos": "verb",
-     "en": "approved",
-     "example_nl": "De parlementariërs hebben de nieuwe begroting goedgekeurd.",
-     "example_en": "The parliamentarians approved the new budget.",
-     "grammar": "Separable verb (keurde goed, goedgekeurd)."
+     "en": "appointed",
+     "example_nl": "Hij is gisteren benoemd tot nieuwe burgemeester.",
+     "example_en": "He was appointed as the new mayor yesterday.",
+     "grammar": "Regular verb: benoemde, heeft benoemd."
     },
     {
-     "word": "burgemeester",
+     "word": "akkoord",
      "forms": [
-      "burgemeester"
+      "akkoord"
      ],
-     "lemma": "de burgemeester",
+     "lemma": "het akkoord",
      "pos": "noun",
-     "en": "mayor",
-     "example_nl": "De burgemeester sprak kort met de inwoners van de stad.",
-     "example_en": "The mayor spoke briefly with the city's residents.",
-     "grammar": "De-word, plural: burgemeesters."
+     "en": "agreement / deal",
+     "example_nl": "De twee landen hebben een belangrijk akkoord gesloten.",
+     "example_en": "The two countries signed an important agreement.",
+     "grammar": "Het-word. Plural: akkoorden."
     },
     {
-     "word": "rechtbank",
+     "word": "bewind",
      "forms": [
-      "rechtbank"
+      "bewind"
      ],
-     "lemma": "de rechtbank",
+     "lemma": "het bewind",
      "pos": "noun",
-     "en": "court",
-     "example_nl": "De zaak wordt morgen behandeld door de rechtbank.",
-     "example_en": "The case will be handled by the court tomorrow.",
-     "grammar": "De-word, plural: rechtbanken."
+     "en": "regime / government",
+     "example_nl": "Onder het nieuwe bewind veranderden veel wetten.",
+     "example_en": "Under the new regime, many laws changed.",
+     "grammar": "Het-word. Plural: bewinden."
     },
     {
-     "word": "studieoverstap",
+     "word": "integratie",
      "forms": [
-      "studieoverstap"
+      "integratie"
      ],
-     "lemma": "de studieoverstap",
+     "lemma": "de integratie",
      "pos": "noun",
-     "en": "academic transfer",
-     "example_nl": "Zijn studieoverstap naar de universiteit liep heel soepel.",
-     "example_en": "His academic transfer to the university went very smoothly.",
-     "grammar": "De-word, compound noun (studie + overstap), plural: studieoverstappen."
+     "en": "integration",
+     "example_nl": "De integratie van de twee bedrijven duurt een jaar.",
+     "example_en": "The integration of the two companies takes a year.",
+     "grammar": "De-word. Plural: integraties."
+    },
+    {
+     "word": "zetel",
+     "forms": [
+      "zetel"
+     ],
+     "lemma": "de zetel",
+     "pos": "noun",
+     "en": "parliamentary seat",
+     "example_nl": "De partij won gisteren een extra zetel.",
+     "example_en": "The party won an extra seat yesterday.",
+     "grammar": "De-word. Plural: zetels."
     }
    ]
   },
   {
-   "id": "69636c9f13",
+   "id": "a056faf391",
    "category": "tr",
    "source_id": "turkishminute",
    "source": "Turkish Minute",
    "lean": "oppositie (Engels)",
    "importance": 4,
-   "title": "Turkse toppoliticus stapt op na schandaal rond beleggingsfonds",
-   "text": "Hayati Yazıcı is opgestapt als vicevoorzitter van de Turkse regeringspartij AKP. Hij is een van de oprichters van de partij van president Erdoğan. Yazıcı nam het besluit nadat aanklagers zijn zoon hadden verhoord. De zoon werd ondervraagd in een groot onderzoek naar een schandaal met een beleggingsfonds. Yazıcı maakte zijn aftreden bekend via een bericht op sociale media.",
-   "url": "https://turkishminute.com/2026/11/24/deputy-chair-of-turkeys-ruling-party-resigns-over-fund-scandal/",
-   "image": "https://www.turkishminute.com/wp-content/uploads/2022/03/Hayati-Yazici.jpg",
-   "published": "2026-11-24T20:21:30+00:00",
+   "title": "Turkije overlegt over defensiepact met Saoedi-Arabië en Pakistan",
+   "text": "Vertegenwoordigers van Turkije, Saoedi-Arabië en Pakistan komen bijeen in de hoofdstad Islamabad. De ministers van Buitenlandse Zaken van Turkije en Saoedi-Arabië reizen op zevenentwintig en achtentwintig november naar Pakistan. Zij praten twee dagen lang over een gezamenlijk defensiepact. De drie landen hebben al eerder een belangrijk akkoord ondertekend. Tijdens de nieuwe gesprekken willen de landen hun verdrag op het gebied van verdediging verder uitwerken.",
+   "url": "https://turkishminute.com/2026/11/26/turkey-saudi-arabia-and-pakistan-to-discuss-defense-pact-in-islamabad-report/",
+   "image": "https://www.turkishminute.com/wp-content/uploads/2026/08/Mecca.jpeg",
+   "published": "2026-11-26T13:17:24+00:00",
    "glossary": [
     {
-     "word": "opgestapt",
+     "word": "vertegenwoordigers",
      "forms": [
-      "opgestapt"
+      "vertegenwoordigers"
      ],
-     "lemma": "opstappen",
+     "lemma": "de vertegenwoordiger",
+     "pos": "noun",
+     "en": "representatives",
+     "example_nl": "De vertegenwoordigers spraken over de nieuwe handelsovereenkomst.",
+     "example_en": "The representatives discussed the new trade agreement.",
+     "grammar": "De-word. Plural: vertegenwoordigers."
+    },
+    {
+     "word": "defensiepact",
+     "forms": [
+      "defensiepact"
+     ],
+     "lemma": "het defensiepact",
+     "pos": "noun",
+     "en": "defense pact",
+     "example_nl": "Het defensiepact zorgt voor meer veiligheid in de regio.",
+     "example_en": "The defense pact provides more security in the region.",
+     "grammar": "Het-word. Compound: defensie + pact. Plural: defensiepacten."
+    },
+    {
+     "word": "ondertekend",
+     "forms": [
+      "ondertekend"
+     ],
+     "lemma": "ondertekenen",
      "pos": "verb",
-     "en": "stepped down, resigned",
-     "example_nl": "De directeur is gisteren onverwachts opgestapt.",
-     "example_en": "The director unexpectedly stepped down yesterday.",
-     "grammar": "Separable verb (stapte op, is opgestapt), takes 'zijn' in perfect tense."
+     "en": "signed",
+     "example_nl": "De directeuren hebben het contract gisteren ondertekend.",
+     "example_en": "The directors signed the contract yesterday.",
+     "grammar": "Inseparable verb: ondertekende, heeft ondertekend."
     },
     {
-     "word": "vicevoorzitter",
+     "word": "verdrag",
      "forms": [
-      "vicevoorzitter"
+      "verdrag"
      ],
-     "lemma": "de vicevoorzitter",
+     "lemma": "het verdrag",
      "pos": "noun",
-     "en": "deputy chair, vice chairman",
-     "example_nl": "De vicevoorzitter leidde de vergadering in plaats van de voorzitter.",
-     "example_en": "The deputy chair led the meeting instead of the chairman.",
-     "grammar": "De-word, plural: vicevoorzitters."
+     "en": "treaty / agreement",
+     "example_nl": "Het verdrag werd door beide landen geaccepteerd.",
+     "example_en": "The treaty was accepted by both countries.",
+     "grammar": "Het-word. Plural: verdragen."
     },
     {
-     "word": "oprichters",
+     "word": "verdediging",
      "forms": [
-      "oprichters"
+      "verdediging"
      ],
-     "lemma": "de oprichter",
+     "lemma": "de verdediging",
      "pos": "noun",
-     "en": "founders",
-     "example_nl": "De oprichters van het bedrijf vierden het tienjarig bestaan.",
-     "example_en": "The founders of the company celebrated its ten-year anniversary.",
-     "grammar": "De-word, plural: oprichters."
-    },
-    {
-     "word": "verhoord",
-     "forms": [
-      "verhoord"
-     ],
-     "lemma": "verhoren",
-     "pos": "verb",
-     "en": "interrogated, questioned",
-     "example_nl": "De getuige werd urenlang door de politie verhoord.",
-     "example_en": "The witness was questioned by the police for hours.",
-     "grammar": "Inseparable verb (verhoorde, verhoord)."
-    },
-    {
-     "word": "aftreden",
-     "forms": [
-      "aftreden"
-     ],
-     "lemma": "het aftreden",
-     "pos": "noun",
-     "en": "resignation, stepping down",
-     "example_nl": "Het aftreden van de minister kwam als een verrassing.",
-     "example_en": "The minister's resignation came as a surprise.",
-     "grammar": "Het-word, derived from verb aftreden, singular only."
+     "en": "defense",
+     "example_nl": "Het land investeert meer geld in de verdediging.",
+     "example_en": "The country is investing more money in defense.",
+     "grammar": "De-word. Plural: verdedigingen."
     }
    ]
   },
   {
-   "id": "9327e4203e",
+   "id": "70e39bf9ba",
+   "category": "tr",
+   "source_id": "turkishminute",
+   "source": "Turkish Minute",
+   "lean": "oppositie (Engels)",
+   "importance": 4,
+   "title": "Turkse hoogste rechter wijst beroep van Ekrem İmamoğlu af",
+   "text": "Het Constitutioneel Hof van Turkije heeft het beroep van Ekrem İmamoğlu afgewezen. De geschorste burgemeester van Istanboel blijft daardoor in de gevangenis. Volgens de hoogste rechter zijn de rechten van de politicus niet geschonden tijdens zijn voorlopige hechtenis. İmamoğlu zit nu al zeshonderddertien dagen vast na een zaak over corruptie bij de gemeente. Hij geldt nog steeds als een van de belangrijkste politieke rivalen van president Erdoğan.",
+   "url": "https://turkishminute.com/2026/11/26/turkeys-top-court-finds-no-rights-violation-in-imamoglus-pretrial-detention/",
+   "image": "https://www.turkishminute.com/wp-content/uploads/2024/03/AFP__20240331__34N642Z__v1__Preview__TurkeyPoliticsMunicipalVote.jpg",
+   "published": "2026-11-26T10:44:52+00:00",
+   "glossary": [
+    {
+     "word": "beroep",
+     "forms": [
+      "beroep"
+     ],
+     "lemma": "het beroep",
+     "pos": "noun",
+     "en": "appeal",
+     "example_nl": "De advocaat ging direct in beroep tegen de uitspraak.",
+     "example_en": "The lawyer immediately appealed against the ruling.",
+     "grammar": "Het-word. Plural: beroepen."
+    },
+    {
+     "word": "afgewezen",
+     "forms": [
+      "afgewezen"
+     ],
+     "lemma": "afwijzen",
+     "pos": "verb",
+     "en": "rejected / denied",
+     "example_nl": "De rechter heeft het verzoek om vrijlating afgewezen.",
+     "example_en": "The judge rejected the request for release.",
+     "grammar": "Separable irregular verb: wees af, heeft afgewezen."
+    },
+    {
+     "word": "geschorste",
+     "forms": [
+      "geschorste"
+     ],
+     "lemma": "schorsen",
+     "pos": "verb",
+     "en": "suspended",
+     "example_nl": "De geschorste ambtenaar mag het gebouw niet in.",
+     "example_en": "The suspended official is not allowed to enter the building.",
+     "grammar": "Regular verb: schorste, heeft geschorst. Past participle used as adjective."
+    },
+    {
+     "word": "geschonden",
+     "forms": [
+      "geschonden"
+     ],
+     "lemma": "schenden",
+     "pos": "verb",
+     "en": "violated",
+     "example_nl": "De nieuwe regel heeft de mensenrechten geschonden.",
+     "example_en": "The new rule violated human rights.",
+     "grammar": "Irregular verb: schond, heeft geschonden."
+    },
+    {
+     "word": "voorlopige hechtenis",
+     "forms": [
+      "voorlopige hechtenis"
+     ],
+     "lemma": "de voorlopige hechtenis",
+     "pos": "noun phrase",
+     "en": "pretrial detention",
+     "example_nl": "De verdachte zit al drie maanden in voorlopige hechtenis.",
+     "example_en": "The suspect has been in pretrial detention for three months.",
+     "grammar": "De-word. Adjective 'voorlopige' inflects with -e."
+    }
+   ]
+  },
+  {
+   "id": "7747c53aad",
    "category": "tr",
    "source_id": "dailysabah",
    "source": "Daily Sabah",
    "lean": "regeringsgezind",
    "importance": 4,
-   "title": "Libische commandant Haftar bezoekt Turkije voor het eerst",
-   "text": "De Libische commandant Khalifa Haftar is woensdag op officieel bezoek gekomen in Turkije. Het is zijn eerste bezoek aan het land. Haftar leidt het oostelijke deel van het verdeelde Libië. Hij was in het verleden een fel tegenstander van Turkije. Tijdens zijn bezoek voert hij gesprekken met belangrijke Turkse functionarissen. Mogelijk ontmoet hij ook de Turkse president Recep Tayyip Erdoğan.",
-   "url": "https://www.dailysabah.com/politics/diplomacy/libyas-haftar-gets-warm-welcome-in-first-visit-to-turkiye",
-   "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/25/471921.jpg",
-   "published": "2026-11-25T07:28:00+00:00",
+   "title": "Turkije waarschuwt voor uitbreiding van oorlog naar Middellandse Zee",
+   "text": "Het Turkse ministerie van Defensie waarschuwt voor de gevolgen van de oorlog tussen Rusland en Oekraïne. De strijd kan zich volgens het ministerie uitbreiden naar de Middellandse Zee. Turkije houdt de situatie op het water nauwlettend in de gaten. Het land wil de maritieme veiligheid in de regio beschermen. Ankara herhaalt dat het zich blijft inzetten voor de veiligheid op zee.",
+   "url": "https://www.dailysabah.com/politics/turkiye-warns-against-spillover-of-russia-ukraine-war-into-mediterranean/news",
+   "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/26/472180.jpg",
+   "published": "2026-11-26T12:09:00+00:00",
    "glossary": [
     {
-     "word": "commandant",
+     "word": "gevolgen",
      "forms": [
-      "commandant"
+      "gevolgen"
      ],
-     "lemma": "de commandant",
+     "lemma": "het gevolg",
      "pos": "noun",
-     "en": "commander",
-     "example_nl": "De commandant gaf het bevel om te vertrekken.",
-     "example_en": "The commander gave the order to leave.",
-     "grammar": "De-word, plural: commandanten."
+     "en": "consequences / effects",
+     "example_nl": "Het besluit heeft grote gevolgen voor het bedrijf.",
+     "example_en": "The decision has major consequences for the company.",
+     "grammar": "Het-word. Plural: gevolgen."
     },
     {
-     "word": "verdeelde",
+     "word": "uitbreiden",
      "forms": [
-      "verdeelde"
+      "uitbreiden"
      ],
-     "lemma": "verdeeld",
-     "pos": "adj",
-     "en": "divided",
-     "example_nl": "Het eiland is al tientallen jaren een verdeeld gebied.",
-     "example_en": "The island has been a divided territory for decades.",
-     "grammar": "Inflected adjective from participle of verdelen."
-    },
-    {
-     "word": "tegenstander",
-     "forms": [
-      "tegenstander"
-     ],
-     "lemma": "de tegenstander",
-     "pos": "noun",
-     "en": "opponent",
-     "example_nl": "Hij feliciteerde zijn tegenstander na de wedstrijd.",
-     "example_en": "He congratulated his opponent after the match.",
-     "grammar": "De-word, plural: tegenstanders."
-    },
-    {
-     "word": "voert",
-     "forms": [
-      "voert"
-     ],
-     "lemma": "voeren",
+     "lemma": "uitbreiden",
      "pos": "verb",
-     "en": "to conduct, to carry out",
-     "example_nl": "De diplomaten voeren gesprekken over vrede.",
-     "example_en": "The diplomats are conducting talks about peace.",
-     "grammar": "Regular verb (voerde, gevoerd), fixed expression 'gesprekken voeren'."
+     "en": "to expand / spread",
+     "example_nl": "De winkel wil haar activiteiten volgend jaar uitbreiden.",
+     "example_en": "The store wants to expand its activities next year.",
+     "grammar": "Separable verb: breidde uit, heeft uitgebreid."
     },
     {
-     "word": "functionarissen",
+     "word": "nauwlettend",
      "forms": [
-      "functionarissen"
+      "nauwlettend"
      ],
-     "lemma": "de functionaris",
-     "pos": "noun",
-     "en": "officials",
-     "example_nl": "Verschillende functionarissen waren aanwezig bij de opening.",
-     "example_en": "Several officials were present at the opening.",
-     "grammar": "De-word, plural: functionarissen."
+     "lemma": "nauwlettend",
+     "pos": "adverb",
+     "en": "closely / carefully",
+     "example_nl": "De politie volgt de zaak nauwlettend.",
+     "example_en": "The police are following the case closely.",
+     "grammar": "Adverb."
+    },
+    {
+     "word": "beschermen",
+     "forms": [
+      "beschermen"
+     ],
+     "lemma": "beschermen",
+     "pos": "verb",
+     "en": "to protect",
+     "example_nl": "We moeten de natuur beter beschermen.",
+     "example_en": "We need to protect nature better.",
+     "grammar": "Regular verb: beschermde, heeft beschermd."
+    },
+    {
+     "word": "maritieme",
+     "forms": [
+      "maritieme"
+     ],
+     "lemma": "maritiem",
+     "pos": "adjective",
+     "en": "maritime / nautical",
+     "example_nl": "Het land heeft een sterke maritieme traditie.",
+     "example_en": "The country has a strong maritime tradition.",
+     "grammar": "Adjective. Takes -e when modifying a de-word or definite noun."
     }
    ]
   },
   {
-   "id": "a10372de4d",
+   "id": "a4b21a2f53",
+   "category": "tr",
+   "source_id": "dailysabah",
+   "source": "Daily Sabah",
+   "lean": "regeringsgezind",
+   "importance": 3,
+   "title": "Turkije en Rusland openen fabriek van 330 miljoen dollar",
+   "text": "In de noordwestelijke Turkse provincie Kocaeli is donderdag een nieuwe petrochemische fabriek geopend. De faciliteit werd gebouwd door het Russische bedrijf Tatneft. De bouw van het complex kostte ongeveer driehonderddertig miljoen dollar, wat gelijk is aan miljarden Turkse lira. Belangrijke Turkse en Russische bestuurders waren samen aanwezig bij de opening van de fabriek. Met het project is een hele grote investering gedaan in de regio.",
+   "url": "https://www.dailysabah.com/business/economy/turkiye-russias-tatneft-inaugurate-330m-petrochemical-plant",
+   "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/26/472151.jpg",
+   "published": "2026-11-26T11:12:00+00:00",
+   "glossary": [
+    {
+     "word": "petrochemische",
+     "forms": [
+      "petrochemische"
+     ],
+     "lemma": "petrochemisch",
+     "pos": "adjective",
+     "en": "petrochemical",
+     "example_nl": "De petrochemische industrie is erg belangrijk voor de haven.",
+     "example_en": "The petrochemical industry is very important for the port.",
+     "grammar": "Adjective. Takes -e before de-words or in definite phrases."
+    },
+    {
+     "word": "geopend",
+     "forms": [
+      "geopend"
+     ],
+     "lemma": "openen",
+     "pos": "verb",
+     "en": "opened",
+     "example_nl": "Het nieuwe museum werd vorige week geopend.",
+     "example_en": "The new museum was opened last week.",
+     "grammar": "Regular verb: opende, heeft geopend."
+    },
+    {
+     "word": "gebouwd",
+     "forms": [
+      "gebouwd"
+     ],
+     "lemma": "bouwen",
+     "pos": "verb",
+     "en": "built",
+     "example_nl": "De brug werd binnen twee jaar gebouwd.",
+     "example_en": "The bridge was built within two years.",
+     "grammar": "Regular verb: bouwde, heeft gebouwd."
+    },
+    {
+     "word": "bestuurders",
+     "forms": [
+      "bestuurders"
+     ],
+     "lemma": "de bestuurder",
+     "pos": "noun",
+     "en": "officials / managers",
+     "example_nl": "De bestuurders praatten over de toekomst van het bedrijf.",
+     "example_en": "The officials talked about the future of the company.",
+     "grammar": "De-word. Plural: bestuurders."
+    },
+    {
+     "word": "faciliteit",
+     "forms": [
+      "faciliteit"
+     ],
+     "lemma": "de faciliteit",
+     "pos": "noun",
+     "en": "facility",
+     "example_nl": "De sportzaal is een moderne faciliteit voor het dorp.",
+     "example_en": "The sports hall is a modern facility for the village.",
+     "grammar": "De-word. Plural: faciliteiten."
+    }
+   ]
+  },
+  {
+   "id": "b4953f66d4",
    "category": "tr",
    "source_id": "google_tr",
    "source": "Google Nieuws (Turkije)",
    "lean": "gemengd",
-   "importance": 3,
-   "title": "Commandant Haftar uit Oost-Libië bezoekt Turkije voor het eerst",
-   "text": "Commandant Haftar uit Oost-Libië brengt een officieel bezoek aan Turkije. Het is de eerste keer dat de legerleider officieel naar Turkije reist. Dit meldt het nieuwsmedium Turkish Minute. Haftar is een belangrijke commandant uit het oosten van Libië.",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODVFMk1jSHNBSkhEWlBFOEhlT1hpVmpPNlVXS0tmNjYxUURmOEJ3OVdrWDBScDRrSjBGTUE0cnpRd05TSEJtcUtRbFd1czc4YU5LS3BDWVlTUTNobkFQVVVtdW9WNFIwMzJNSHZVMUZaWndDLWVDLUtGTXhWeURPQ29UQ1NiRnZacGo3Y2txaEdUQ0tJVEkyWDFwdVpPQkVzYklpa2VEaGs0czZsdmdJ0gG0AUFVX3lxTE12ZHNxc21RaXU2QWVia0p4RnJsRVhnd21sWThadjU5SnM5bC0yMHNsQkFCeWg2THctWGdVNlg0anBNUW1jR2pVMVIzSWhLVVkwV0Fuelp0T3BlRzdDUFQ5SWItbEZWYmc3S2tCeWFjNkt4VnFEYllGZnNvRDhncmZfWTdHYVlDbzQ0ZFAwV1ZDdUFMaWZkcFA5TTNMZjMzS2JIWkpLdm1KNTZlTjBGcFROR1Y3VA?oc=5",
+   "importance": 4,
+   "title": "Vredesgesprekken tussen Turkije en de PKK gaan langzaam vooruit",
+   "text": "Turkije en de organisatie PKK voeren vredesgesprekken. Volgens het tijdschrift The Economist gaan deze gesprekken langzaam vooruit. De partijen maken stap voor stap vorderingen. Het proces van de gesprekken duurt voort.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3U1WDZhY1VJTU1PR1laNzRqYkhoRExNbGxMTkM4bHBwb2R4ZGlYTjRhSndVUUtRcFlpbllGSWFxNnhRRHdJZUM3VkY5dTgtX2hWOWMxSkE4OTIwLW1NbVZlVWw4MEZFTnB1QWJweHJGdlF0SzlwZ1NzaXNiRklSNUxXaFhzVmZjMW9vWlpvUW5aNFBTZUh4LXpn?oc=5",
    "image": null,
-   "published": "2026-11-25T07:04:10+00:00",
+   "published": "2026-11-26T13:45:02+00:00",
    "glossary": [
     {
-     "word": "commandant",
+     "word": "vredesgesprekken",
      "forms": [
-      "commandant"
+      "vredesgesprekken"
      ],
-     "lemma": "de commandant",
+     "lemma": "het vredesgesprek",
      "pos": "noun",
-     "en": "commander",
-     "example_nl": "De commandant gaf een duidelijk bevel aan de soldaten.",
-     "example_en": "The commander gave a clear order to the soldiers.",
-     "grammar": "De-word. Plural: commandanten."
+     "en": "peace talks",
+     "example_nl": "De twee landen houden morgen belangrijke vredesgesprekken.",
+     "example_en": "The two countries are holding important peace talks tomorrow.",
+     "grammar": "Het-word. Plural: vredesgesprekken. Compound of vrede (peace) and gesprek (talk)."
     },
     {
-     "word": "officieel",
+     "word": "voeren",
      "forms": [
-      "officieel"
+      "voeren"
      ],
-     "lemma": "officieel",
-     "pos": "adjective",
-     "en": "official",
-     "example_nl": "De burgemeester maakte een officieel bezoek aan de nieuwe school.",
-     "example_en": "The mayor made an official visit to the new school.",
-     "grammar": "Adjective. Takes an -e ending when placed before most nouns (officiële)."
-    },
-    {
-     "word": "legerleider",
-     "forms": [
-      "legerleider"
-     ],
-     "lemma": "de legerleider",
-     "pos": "noun",
-     "en": "military leader",
-     "example_nl": "De legerleider sprak met de ministers over de veiligheid.",
-     "example_en": "The military leader spoke with the ministers about safety.",
-     "grammar": "De-word. Plural: legerleiders. Compound noun: leger (army) + leider (leader)."
-    },
-    {
-     "word": "reist",
-     "forms": [
-      "reist"
-     ],
-     "lemma": "reizen",
+     "lemma": "voeren",
      "pos": "verb",
-     "en": "travels",
-     "example_nl": "Zij reist elke maand voor haar werk naar het buitenland.",
-     "example_en": "She travels abroad every month for her work.",
-     "grammar": "Regular verb. Conjugation: reist (stam + t). Past tense: reisde."
+     "en": "to conduct, to hold",
+     "example_nl": "Wij voeren een gesprek over de nieuwe plannen op het werk.",
+     "example_en": "We are having a conversation about the new plans at work.",
+     "grammar": "Regular verb. Present: voert, voeren; Past: voerde; Participle: gevoerd."
     },
     {
-     "word": "nieuwsmedium",
+     "word": "tijdschrift",
      "forms": [
-      "nieuwsmedium"
+      "tijdschrift"
      ],
-     "lemma": "het nieuwsmedium",
+     "lemma": "het tijdschrift",
      "pos": "noun",
-     "en": "news outlet / news medium",
-     "example_nl": "Het nieuwsmedium schreef een artikel over de verkiezingen.",
-     "example_en": "The news outlet wrote an article about the elections.",
-     "grammar": "Het-word. Plural: nieuwsmedia."
+     "en": "magazine, journal",
+     "example_nl": "Ik lees elke week een interessant tijdschrift over geschiedenis.",
+     "example_en": "I read an interesting history magazine every week.",
+     "grammar": "Het-word. Plural: tijdschriften."
+    },
+    {
+     "word": "langzaam",
+     "forms": [
+      "langzaam"
+     ],
+     "lemma": "langzaam",
+     "pos": "adjective",
+     "en": "slowly, slow",
+     "example_nl": "De trein rijdt heel langzaam door het station.",
+     "example_en": "The train runs very slowly through the station.",
+     "grammar": "Adverb or adjective. Add -e before nouns: een langzame trein."
+    },
+    {
+     "word": "vorderingen",
+     "forms": [
+      "vorderingen"
+     ],
+     "lemma": "de vordering",
+     "pos": "noun",
+     "en": "progress, advances",
+     "example_nl": "De studenten maken goede vorderingen met de Nederlandse taal.",
+     "example_en": "The students are making good progress with the Dutch language.",
+     "grammar": "De-word. Plural: vorderingen. Often used with the verb 'maken'."
+    },
+    {
+     "word": "duurt voort",
+     "forms": [
+      "duurt voort"
+     ],
+     "lemma": "voortduren",
+     "pos": "verb",
+     "en": "to continue, to go on",
+     "example_nl": "Het onderzoek duurt nog enkele weken voort.",
+     "example_en": "The investigation will continue for a few more weeks.",
+     "grammar": "Separable verb: duurt ... voort. Past: duurde voort; Participle: voortgeduurd."
     }
    ]
   },
   {
-   "id": "bc80fbde59",
+   "id": "e863d7b006",
    "category": "sport",
    "source_id": "nos_sport",
    "source": "NOS Sport",
    "lean": "publieke omroep",
    "importance": 4,
-   "title": "PSV verliest ruim van Real Madrid in Champions League",
-   "text": "PSV speelde dinsdagavond in de Champions League een lastige uitwedstrijd tegen Real Madrid. In de eerste helft in het stadion Santiago Bernabéu speelde PSV verrassend goed. De ploeg uit Eindhoven was de eerste 45 minuten zelfs de betere club op het veld. Na de rust walste de Spaanse topclub echter volledig over de Nederlandse bezoekers heen. Real Madrid scoorde vijf keer in de tweede helft en won het duel met 5-1. Door deze zware nederlaag blijft PSV steken op vier punten na vijf gespeelde duels.",
-   "url": "https://nos.nl/l/2640894",
-   "image": "https://images.cdn.nos.nl/4/3/P/p/q/U/B8TDXJoFZ8ZEbuoAB9ruHcpbQHN3NEcoeUwMSuu/8x175x3984x2241-1024x576.webp",
-   "published": "2026-11-24T21:52:32+00:00",
+   "title": "Eerste schaatsmarathon op natuurijs verreden in Winterswijk",
+   "text": "In Winterswijk wordt donderdagavond de eerste schaatsmarathon op natuurijs gereden. Volgens de ijsmeesters van de Winterswijkse IJsvereniging is het ijs 3 centimeter dik. De vrouwen rijden om 19.00 uur een wedstrijd van 70 ronden. Een uur later starten de mannen en zij schaatsen 100 ronden. Het is het derde jaar op rij dat de eerste natuurijsmarathon in Winterswijk is. Mensen kunnen de wedstrijden live volgen via de NOS en NPO Start.",
+   "url": "https://nos.nl/l/2641101",
+   "image": "https://images.cdn.nos.nl/3/4/x/e/E/p/AUcXESZAm7gGbCDGxP913mZaNBuxD3eJbMHCULt/109x1x3440x1935-1024x576.webp",
+   "published": "2026-11-26T12:24:12+00:00",
    "glossary": [
     {
-     "word": "uitwedstrijd",
+     "word": "natuurijs",
      "forms": [
-      "uitwedstrijd"
+      "natuurijs"
      ],
-     "lemma": "de uitwedstrijd",
+     "lemma": "het natuurijs",
      "pos": "noun",
-     "en": "away match",
-     "example_nl": "Feyenoord speelt dit weekend een moeilijke uitwedstrijd.",
-     "example_en": "Feyenoord is playing a difficult away match this weekend.",
-     "grammar": "De-noun. Plural: uitwedstrijden."
+     "en": "natural ice",
+     "example_nl": "Veel mensen hopen dat we deze winter op natuurijs kunnen schaatsen.",
+     "example_en": "Many people hope we can skate on natural ice this winter.",
+     "grammar": "Compound noun with 'het' (het ijs). It has no plural form."
     },
     {
-     "word": "verrassend",
+     "word": "ijsmeesters",
      "forms": [
-      "verrassend"
+      "ijsmeesters"
      ],
-     "lemma": "verrassend",
-     "pos": "adverb",
-     "en": "surprisingly",
-     "example_nl": "Het kleine team speelde verrassend goed tegen de kampioen.",
-     "example_en": "The small team played surprisingly well against the champion.",
-     "grammar": "Adverb used to modify verbs or adjectives."
-    },
-    {
-     "word": "rust",
-     "forms": [
-      "rust"
-     ],
-     "lemma": "de rust",
+     "lemma": "de ijsmeester",
      "pos": "noun",
-     "en": "half-time / break",
-     "example_nl": "De spelers gingen met een voorsprong de rust in.",
-     "example_en": "The players went into half-time with a lead.",
-     "grammar": "De-noun. In sports context, used without plural for half-time."
+     "en": "ice master",
+     "example_nl": "De ijsmeester controleert elke ochtend de dikte van het ijs.",
+     "example_en": "The ice master checks the thickness of the ice every morning.",
+     "grammar": "De-word. Plural takes '-s': de ijsmeesters."
     },
     {
-     "word": "walste",
+     "word": "starten",
      "forms": [
-      "walste"
+      "starten"
      ],
-     "lemma": "walsen",
+     "lemma": "starten",
      "pos": "verb",
-     "en": "rolled over / dominated",
-     "example_nl": "De tegenstander walste in de finale over ons heen.",
-     "example_en": "The opponent rolled over us in the final.",
-     "grammar": "Weak verb: walsen - walste - gewalst. Often combined with 'over... heen'."
+     "en": "to start",
+     "example_nl": "De lopers starten om negen uur aan hun marathon.",
+     "example_en": "The runners start their marathon at nine o'clock.",
+     "grammar": "Regular T-verb. Present tense plural form is 'starten'."
     },
     {
-     "word": "nederlaag",
+     "word": "schaatsen",
      "forms": [
-      "nederlaag"
+      "schaatsen"
      ],
-     "lemma": "de nederlaag",
-     "pos": "noun",
-     "en": "defeat / loss",
-     "example_nl": "Na de nederlaag was de trainer erg teleurgesteld.",
-     "example_en": "After the defeat, the coach was very disappointed.",
-     "grammar": "De-noun. Plural: nederlagen."
-    },
-    {
-     "word": "steken",
-     "forms": [
-      "steken"
-     ],
-     "lemma": "steken",
+     "lemma": "schaatsen",
      "pos": "verb",
-     "en": "remained stuck",
-     "example_nl": "Het team bleef op de vijfde plaats steken.",
-     "example_en": "The team remained stuck in fifth place.",
-     "grammar": "Irregular verb: steken - stak - gestoken. Often combined with 'blijven'."
+     "en": "to skate",
+     "example_nl": "In de winter schaatsen veel kinderen op de bevroren vijver.",
+     "example_en": "In the winter, many children skate on the frozen pond.",
+     "grammar": "Regular verb (schaatste, geschaatst). Used here in present tense plural."
+    },
+    {
+     "word": "op rij",
+     "forms": [
+      "op rij"
+     ],
+     "lemma": "op rij",
+     "pos": "phrase",
+     "en": "in a row",
+     "example_nl": "Ons team heeft nu drie wedstrijden op rij gewonnen.",
+     "example_en": "Our team has now won three matches in a row.",
+     "grammar": "Fixed prepositional expression meaning 'in a row' or 'consecutively'."
     }
    ]
   },
   {
-   "id": "afddf2016c",
+   "id": "a2d5f4a3a7",
    "category": "sport",
-   "source_id": "nu_sport",
-   "source": "NU.nl Sport",
-   "lean": "midden",
-   "importance": 3,
-   "title": "Noa Lang pakt met Napoli punt tegen Manchester City",
-   "text": "De Nederlandse aanvaller Noa Lang speelde dinsdag met zijn club Napoli tegen Manchester City. Lang leek zijn ploeg in de Champions League naar een mooie overwinning te schieten. De wedstrijd in de koningsklasse van het voetbal was ook voor Kevin De Bruyne bijzonder. De Italiaanse bezoekers kwamen op voorsprong, maar de Engelsen kwamen laat in het duel langszij. Rayan Cherki scoorde een laat doelpunt voor Manchester City, waardoor het 2-2 werd. Manchester City voorkwam zo op het laatste moment een echte heldenrol voor Noa Lang.",
-   "url": "https://www.nu.nl/voetbal/6417682/manchester-city-voorkomt-heldenrol-noa-lang-in-bijzonder-duel-voor-de-bruyne.html",
-   "image": "https://images.nu.nl/m/s9wxwvoaq3kx_sqr256/682/0/3074/3074/manchester-city-voorkomt-heldenrol-noa-lang-in-bijzonder-duel-voor-de-bruyne.jpg",
-   "published": "2026-11-24T21:57:07+00:00",
+   "source_id": "nos_sport",
+   "source": "NOS Sport",
+   "lean": "publieke omroep",
+   "importance": 4,
+   "title": "Nederlandse clubs hebben het moeilijk in Champions League",
+   "text": "PSV en Feyenoord hebben het erg moeilijk in de Champions League. Beide Nederlandse clubs staan na vijf wedstrijden laag op de ranglijst. PSV staat op de dertigste plaats en Feyenoord op de tweeëndertigste plek. Deze week verloor PSV met 5-1 van Real Madrid. Feyenoord verloor met 0-1 van FC Porto en heeft nu drie keer op rij verloren. De clubs hebben nog drie wedstrijden om bij de beste 24 teams te komen.",
+   "url": "https://nos.nl/l/2641069",
+   "image": "https://images.cdn.nos.nl/7/9/1/D/k/W/qZYd9dVx3MYs4GWHq7EFK5oPcYaM28weCtxQppr/4x178x2992x1683-1024x576.webp",
+   "published": "2026-11-26T08:46:03+00:00",
    "glossary": [
     {
-     "word": "aanvaller",
+     "word": "moeilijk",
      "forms": [
-      "aanvaller"
+      "moeilijk"
      ],
-     "lemma": "de aanvaller",
+     "lemma": "moeilijk",
+     "pos": "adj",
+     "en": "difficult / hard",
+     "example_nl": "Het Nederlands examen was dit jaar erg moeilijk.",
+     "example_en": "The Dutch exam was very difficult this year.",
+     "grammar": "Adjective used here in the fixed expression 'het moeilijk hebben' (to have a hard time)."
+    },
+    {
+     "word": "ranglijst",
+     "forms": [
+      "ranglijst"
+     ],
+     "lemma": "de ranglijst",
      "pos": "noun",
-     "en": "attacker / forward",
-     "example_nl": "De snelle aanvaller scoorde twee doelpunten in de wedstrijd.",
-     "example_en": "The fast attacker scored two goals in the match.",
-     "grammar": "De-noun. Plural: aanvallers."
+     "en": "ranking table",
+     "example_nl": "Na de overwinning steeg de club naar de eerste plaats op de ranglijst.",
+     "example_en": "After the victory, the club rose to first place on the ranking table.",
+     "grammar": "De-word. Plural form is 'de ranglijsten'."
     },
     {
-     "word": "overwinning",
+     "word": "verloor",
      "forms": [
-      "overwinning"
+      "verloor"
      ],
-     "lemma": "de overwinning",
-     "pos": "noun",
-     "en": "victory",
-     "example_nl": "De supporters vierden de belangrijke overwinning van hun club.",
-     "example_en": "The supporters celebrated their club's important victory.",
-     "grammar": "De-noun. Plural: overwinningen."
-    },
-    {
-     "word": "langszij",
-     "forms": [
-      "langszij"
-     ],
-     "lemma": "langszij",
-     "pos": "adverb",
-     "en": "alongside / level",
-     "example_nl": "In de laatste minuut kwam de tegenstander nog langszij.",
-     "example_en": "In the last minute, the opponent came level.",
-     "grammar": "Adverb. Used in sports as 'langszij komen' (to draw level)."
-    },
-    {
-     "word": "doelpunt",
-     "forms": [
-      "doelpunt"
-     ],
-     "lemma": "het doelpunt",
-     "pos": "noun",
-     "en": "goal",
-     "example_nl": "Het eerste doelpunt werd gemaakt door de aanvoerder.",
-     "example_en": "The first goal was scored by the captain.",
-     "grammar": "Het-noun. Plural: doelpunten."
-    },
-    {
-     "word": "voorkwam",
-     "forms": [
-      "voorkwam"
-     ],
-     "lemma": "voorkomen",
+     "lemma": "verliezen",
      "pos": "verb",
-     "en": "prevented",
-     "example_nl": "De keeper voorkwam een doelpunt met een mooie redding.",
-     "example_en": "The keeper prevented a goal with a nice save.",
-     "grammar": "Inseparable verb: voorkomen - voorkwam - voorkomen. Word order stays regular."
+     "en": "lost",
+     "example_nl": "Het elftal verloor de finale na een spannende wedstrijd.",
+     "example_en": "The team lost the final after an exciting match.",
+     "grammar": "Irregular verb (verliezen - verloor - verloren). Past tense singular form."
     },
     {
-     "word": "heldenrol",
+     "word": "beide",
      "forms": [
-      "heldenrol"
+      "beide"
      ],
-     "lemma": "de heldenrol",
+     "lemma": "beide",
+     "pos": "det",
+     "en": "both",
+     "example_nl": "Beide spelers kregen een gele kaart van de scheidsrechter.",
+     "example_en": "Both players received a yellow card from the referee.",
+     "grammar": "Determiner referring to two entities together."
+    },
+    {
+     "word": "plek",
+     "forms": [
+      "plek"
+     ],
+     "lemma": "de plek",
      "pos": "noun",
-     "en": "heroic role",
-     "example_nl": "De speler kreeg een heldenrol na zijn winnende doelpunt.",
-     "example_en": "The player got a heroic role after his winning goal.",
-     "grammar": "De-noun. Plural: heldenrollen."
+     "en": "place / spot",
+     "example_nl": "Onze ploeg staat op een mooie vierde plek in de competitie.",
+     "example_en": "Our team is in a nice fourth spot in the competition.",
+     "grammar": "De-word. Plural is 'de plekken'."
     }
    ]
   },
   {
-   "id": "2ca47d564e",
-   "category": "sport",
-   "source_id": "google_spor",
-   "source": "Google Nieuws (Turkse sport)",
-   "lean": "gemengd",
-   "importance": 3,
-   "title": "Spaanse media noemen voetballer Arda Güler een genie",
-   "text": "De Turkse voetballer Arda Güler krijgt momenteel heel veel lof in de Spaanse media. Güler speelt als jonge en talentvolle speler bij de bekende Spaanse topclub Real Madrid. Spaanse kranten en journalisten tonen zich heel erg enthousiast over de jonge Turk. Ze noemen de speler volgens het medium Son Dakika zelfs een echt genie. De Spaanse fans en media bewonderen het spel van het Turkse talent enorm op dit moment.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSnFKeDM3bE9uZnVwOF9zYTJlY1I2dDRVMEFqenRwVnpja0dpMW9LQTJIaDI2VERNXzRUb1o0UGVwZERiS19MWHlSSWhHWjdMTFZMM1hkV0xXYW1WU0t3NXhlNndpcGJ3bHFGdU9UWWtLbG1GdDVva2dDNGZOZWJEcUcxcHo4VzY4dDZMbXBhSUpYbHJxRXJ5bHhOTdIBmgFBVV95cUxOeDF5VG5uQlhXcGY0WUwzWEtsT0txMktKNkN2Y29SczREM2RueFVBTzc0R1I2ZVVzT2JNd3hiemdGa2NkeWpCVndtSXNUcVIxaEs0VHA5OWpsR3RVaFp6dWM4Um1WSzZCM1BsSlkyNkJZUDgyZXMxck5vWFd5cUpxTGgxdE93a3FMUEFPTU9nNHNaLXRnWnU5X3Vn?oc=5",
-   "image": null,
-   "published": "2026-11-25T08:50:17+00:00",
-   "glossary": [
-    {
-     "word": "lof",
-     "forms": [
-      "lof"
-     ],
-     "lemma": "de lof",
-     "pos": "noun",
-     "en": "praise",
-     "example_nl": "De jonge speler kreeg veel lof van zijn trainer.",
-     "example_en": "The young player received a lot of praise from his coach.",
-     "grammar": "De-noun. No plural form."
-    },
-    {
-     "word": "talentvolle",
-     "forms": [
-      "talentvolle"
-     ],
-     "lemma": "talentvol",
-     "pos": "adjective",
-     "en": "talented",
-     "example_nl": "De talentvolle zwemmer won gemakkelijk de gouden medaille.",
-     "example_en": "The talented swimmer easily won the gold medal.",
-     "grammar": "Inflected form (+e) when used before a de-noun or plural."
-    },
-    {
-     "word": "tonen",
-     "forms": [
-      "tonen"
-     ],
-     "lemma": "tonen",
-     "pos": "verb",
-     "en": "to show / display",
-     "example_nl": "De atleten tonen hun beste vorm tijdens het toernooi.",
-     "example_en": "The athletes show their best form during the tournament.",
-     "grammar": "Weak verb: tonen - toonde - getoond. 'Zich tonen' means to show oneself."
-    },
-    {
-     "word": "genie",
-     "forms": [
-      "genie"
-     ],
-     "lemma": "het genie",
-     "pos": "noun",
-     "en": "genius",
-     "example_nl": "Veel mensen vinden die voetballer een waar genie.",
-     "example_en": "Many people consider that footballer a true genius.",
-     "grammar": "Het-noun. Plural: genieën."
-    },
-    {
-     "word": "bewonderen",
-     "forms": [
-      "bewonderen"
-     ],
-     "lemma": "bewonderen",
-     "pos": "verb",
-     "en": "to admire",
-     "example_nl": "Mensen bewonderen de sportman om zijn doorzettingsvermogen.",
-     "example_en": "People admire the sportsman for his perseverance.",
-     "grammar": "Weak verb: bewonderen - bewonderde - bewonderd."
-    }
-   ]
-  },
-  {
-   "id": "7ba09c8edd",
-   "category": "sport",
-   "source_id": "bbc_football",
-   "source": "BBC Sport Football",
-   "lean": "internationaal",
-   "importance": 3,
-   "title": "Jude Bellingham blijft bescheiden na prachtig doelpunt voor Real Madrid",
-   "text": "De Engelse voetballer Jude Bellingham speelde een geweldige wedstrijd en maakte een prachtig doelpunt. Trainer José Mourinho noemde de Real Madrid-ster na de wedstrijd de beste middenvelder ter wereld. Veel mensen vergelijken de Engelse speler nu met de Franse voetballegende Zinedine Zidane. Bellingham reageerde na afloop van het duel erg bescheiden op die mooie woorden. Hij zwakt de vergelijking met Zidane zelf af en blijft heel nuchter. De speler vindt dat mensen hem niet meteen met Zidane moeten vergelijken.",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c893r9kdwl91o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/204f/live/561f0780-e85e-11f1-8c24-5f78b2492e15.jpg",
-   "published": "2026-11-24T23:54:10+00:00",
-   "glossary": [
-    {
-     "word": "middenvelder",
-     "forms": [
-      "middenvelder"
-     ],
-     "lemma": "de middenvelder",
-     "pos": "noun",
-     "en": "midfielder",
-     "example_nl": "De middenvelder gaf een mooie pass op de aanvaller.",
-     "example_en": "The midfielder gave a nice pass to the forward.",
-     "grammar": "De-noun. Plural: middenvelders."
-    },
-    {
-     "word": "legende",
-     "forms": [
-      "legende"
-     ],
-     "lemma": "de legende",
-     "pos": "noun",
-     "en": "legend",
-     "example_nl": "Johan Cruijff is een echte legende in het voetbal.",
-     "example_en": "Johan Cruijff is a true legend in football.",
-     "grammar": "De-noun. Plural: legendes or legenden."
-    },
-    {
-     "word": "bescheiden",
-     "forms": [
-      "bescheiden"
-     ],
-     "lemma": "bescheiden",
-     "pos": "adjective",
-     "en": "modest / humble",
-     "example_nl": "Ondanks al zijn succes blijft de tennisser heel bescheiden.",
-     "example_en": "Despite all his success, the tennis player remains very modest.",
-     "grammar": "Adjective. Does not take an extra -en ending."
-    },
-    {
-     "word": "zwakt",
-     "forms": [
-      "zwakt",
-      "af"
-     ],
-     "lemma": "afzwakken",
-     "pos": "verb",
-     "en": "to downplay / weaken",
-     "example_nl": "De politicus zwakt zijn uitspraken later weer af.",
-     "example_en": "The politician downplays his statements later.",
-     "grammar": "Separable verb: afzwakken - zwakte af - afgezwakt."
-    },
-    {
-     "word": "nuchter",
-     "forms": [
-      "nuchter"
-     ],
-     "lemma": "nuchter",
-     "pos": "adjective",
-     "en": "down-to-earth / pragmatic",
-     "example_nl": "De nuchtere trainer raakt niet snel in paniek.",
-     "example_en": "The down-to-earth coach does not panic easily.",
-     "grammar": "Adjective. Inflected form: nuchtere."
-    }
-   ]
-  },
-  {
-   "id": "bb8aa715d6",
+   "id": "fd1738420d",
    "category": "sport",
    "source_id": "guardian_football",
    "source": "The Guardian Football",
    "lean": "internationaal",
    "importance": 4,
-   "title": "Galatasaray wint van Aston Villa in Champions League",
-   "text": "Galatasaray heeft in de Champions League gewonnen van het Engelse Aston Villa. De Turkse club won de belangrijke thuiswedstrijd in Istanboel met 1-0. Het enige doelpunt werd in de 77e minuut gemaakt door invaller Deniz Gul. De aanvaller raakte bij zijn doelpunt gewond aan zijn gezicht en had een verband nodig. Galatasaray blijft door dit resultaat erg sterk presteren in het eigen stadion. Voor Aston Villa was het al de derde reis naar de stad Istanboel in dit kalenderjaar.",
-   "url": "https://www.theguardian.com/football/2026/nov/24/galatasaray-aston-villa-champions-league-match-report",
-   "image": "https://i.guim.co.uk/img/media/17acd8358e42f610050fa08970ffdfaa8d37e7ac/0_0_2985_2387/master/2985.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4a082851d16b4bd23b302f7f2928cd4f",
-   "published": "2026-11-24T20:03:50+00:00",
+   "title": "Grote Engelse voetbalclubs beginnen rechtszaak tegen Manchester City",
+   "text": "Manchester United, Liverpool en Tottenham starten een juridische claim tegen Manchester City. Volgens de clubs heeft City de financiële regels van de Premier League gebroken. Ze gebruiken hiervoor hetzelfde advocatenkantoor in Londen. De claim kan honderden miljoenen ponden waard zijn. Ook Arsenal bereidt een eigen zaak voor met andere advocaten.",
+   "url": "https://www.theguardian.com/football/2026/nov/26/manchester-united-liverpool-tottenham-arsenal-city-legal-claim-financial-breaches-damages",
+   "image": "https://i.guim.co.uk/img/media/2d8800366f7f8332f94b19e7e27114372d9bb59f/286_0_3540_2832/master/3540.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8793a4107e202ec4d66ef115fc8008ad",
+   "published": "2026-11-26T12:00:34+00:00",
    "glossary": [
     {
-     "word": "thuiswedstrijd",
+     "word": "rechtszaak",
      "forms": [
-      "thuiswedstrijd"
+      "rechtszaak",
+      "zaak"
      ],
-     "lemma": "de thuiswedstrijd",
+     "lemma": "de rechtszaak",
      "pos": "noun",
-     "en": "home match",
-     "example_nl": "De club won de belangrijke thuiswedstrijd met 2-0.",
-     "example_en": "The club won the important home match 2-0.",
-     "grammar": "de-word, plural: thuiswedstrijden. Compound of thuis (home) and wedstrijd (match)."
+     "en": "court case, lawsuit",
+     "example_nl": "De man start een rechtszaak tegen zijn baas.",
+     "example_en": "The man starts a lawsuit against his boss.",
+     "grammar": "De rechtszaak is feminine. Plural: de rechtszaken. Compound noun of recht and zaak."
     },
     {
-     "word": "invaller",
+     "word": "financiële",
      "forms": [
-      "invaller"
+      "financiële"
      ],
-     "lemma": "de invaller",
-     "pos": "noun",
-     "en": "substitute player",
-     "example_nl": "De invaller scoorde vlak voor het einde van de wedstrijd.",
-     "example_en": "The substitute scored right before the end of the match.",
-     "grammar": "de-word, plural: invallers. Derived from the verb invallen."
-    },
-    {
-     "word": "gewond",
-     "forms": [
-      "gewond"
-     ],
-     "lemma": "gewond",
+     "lemma": "financieel",
      "pos": "adjective",
-     "en": "injured",
-     "example_nl": "De speler raakte gewond aan zijn knie tijdens de training.",
-     "example_en": "The player got injured on his knee during training.",
-     "grammar": "Used with verbs like raken (to get/become) or zijn (to be)."
+     "en": "financial",
+     "example_nl": "Het bedrijf heeft financiële problemen.",
+     "example_en": "The company has financial problems.",
+     "grammar": "Adjective ending in -e because it comes before a plural noun (financiële regels)."
     },
     {
-     "word": "verband",
+     "word": "gebroken",
      "forms": [
-      "verband"
+      "gebroken"
      ],
-     "lemma": "het verband",
-     "pos": "noun",
-     "en": "bandage",
-     "example_nl": "De dokter deed een schoon verband om de wond.",
-     "example_en": "The doctor put a clean bandage around the wound.",
-     "grammar": "het-word, plural: verbanden."
+     "lemma": "breken",
+     "pos": "verb",
+     "en": "broken",
+     "example_nl": "Hij heeft per ongeluk de vaas gebroken.",
+     "example_en": "He accidentally broke the vase.",
+     "grammar": "Past participle of breken (strong verb). Auxiliary verb is hebben."
     },
     {
-     "word": "kalenderjaar",
+     "word": "advocatenkantoor",
      "forms": [
-      "kalenderjaar"
+      "advocatenkantoor"
      ],
-     "lemma": "het kalenderjaar",
+     "lemma": "het advocatenkantoor",
      "pos": "noun",
-     "en": "calendar year",
-     "example_nl": "We hebben in dit kalenderjaar veel wedstrijden gespeeld.",
-     "example_en": "We have played many matches in this calendar year.",
-     "grammar": "het-word, plural: kalenderjaren. Compound of kalender and jaar."
+     "en": "law firm",
+     "example_nl": "Zij werkt op een groot advocatenkantoor.",
+     "example_en": "She works at a large law firm.",
+     "grammar": "Neuter noun. Plural: de advocatenkantoren. Compound of advocaat and kantoor."
+    },
+    {
+     "word": "bereidt",
+     "forms": [
+      "bereidt"
+     ],
+     "lemma": "voorbereiden",
+     "pos": "verb",
+     "en": "prepares",
+     "example_nl": "De kok bereidt het eten voor.",
+     "example_en": "The chef prepares the food.",
+     "grammar": "Present tense of the separable verb voorbereiden (hij bereidt ... voor)."
     }
    ]
   },
   {
-   "id": "9e125a2b43",
+   "id": "c020fbf31d",
    "category": "sport",
    "source_id": "guardian_football",
    "source": "The Guardian Football",
    "lean": "internationaal",
    "importance": 3,
-   "title": "Borussia Dortmund pakt punt tegen Arsenal in Champions League",
-   "text": "Borussia Dortmund heeft met 1-1 gelijkgespeeld tegen Arsenal in de Champions League. De Engelse club Arsenal kwam op voorsprong door een hard schot van Viktor Gyökeres. In de tweede helft maakte Max Beier de gelijkmaker voor de Duitse club Dortmund. Jobe Bellingham scoorde later nog voor Dortmund, maar dat doelpunt werd afgekeurd wegens buitenspel. Voor Arsenal is dit het tweede gelijkspel in vier dagen tijd. Dortmund is pas het tweede team dat punten pakt tegen Arsenal in vijftien groepswedstrijden.",
-   "url": "https://www.theguardian.com/football/2026/nov/24/arsenal-borussia-dortmund-champions-league-match-report",
-   "image": "https://i.guim.co.uk/img/media/18f2fd21c98696c091fd67acabf0c30cdac59595/258_0_2325_1860/master/2325.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e5105b924c80bb40c9e6ffd75d02942d",
-   "published": "2026-11-24T22:01:50+00:00",
+   "title": "Joshua Kimmich bekritiseert Bayern München om behandeling Musiala",
+   "text": "Voetballer Joshua Kimmich is boos op zijn club Bayern München. Hij vindt de behandeling van teammate Jamal Musiala niet kunnen. Musiala heeft een medische aandoening waardoor hij soms aanvallen krijgt. Bayern-bazen hebben openlijk gevraagd over zijn prestaties en contract. Kimmich verdedigt zijn jonge teamgenoot nu in de media.",
+   "url": "https://www.theguardian.com/football/2026/nov/26/bayern-munich-joshua-kimmich-jamal-musiala",
+   "image": "https://i.guim.co.uk/img/media/3a4d6a0c81799d0b18edce883eb4d23cfff14f32/329_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=319df4ad1eaf0a65a5a2772e1b21c292",
+   "published": "2026-11-26T10:19:07+00:00",
    "glossary": [
     {
-     "word": "gelijkgespeeld",
+     "word": "bekritiseert",
      "forms": [
-      "gelijkgespeeld"
+      "bekritiseert"
      ],
-     "lemma": "gelijkspelen",
+     "lemma": "bekritiseren",
      "pos": "verb",
-     "en": "to draw (a game)",
-     "example_nl": "De twee teams hebben afgelopen zondag gelijkgespeeld.",
-     "example_en": "The two teams drew last Sunday.",
-     "grammar": "Separable verb: speelt gelijk, speelde gelijk, heeft gelijkgespeeld."
+     "en": "criticizes",
+     "example_nl": "De trainer bekritiseert het spel van het team.",
+     "example_en": "The coach criticizes the team's play.",
+     "grammar": "Present tense: ik bekritiseer, jij/hij bekritiseert, wij bekritiseren."
     },
     {
-     "word": "voorsprong",
+     "word": "boos",
      "forms": [
-      "voorsprong"
+      "boos"
      ],
-     "lemma": "de voorsprong",
+     "lemma": "boos",
+     "pos": "adjective",
+     "en": "angry",
+     "example_nl": "Waarom ben je zo boos op mij?",
+     "example_en": "Why are you so angry with me?",
+     "grammar": "Adjective. Can be used predicatively without -e ending."
+    },
+    {
+     "word": "aandoening",
+     "forms": [
+      "aandoening"
+     ],
+     "lemma": "de aandoening",
      "pos": "noun",
-     "en": "lead / advantage",
-     "example_nl": "Het team verdedigde de voorsprong tot het eindsignaal.",
-     "example_en": "The team defended the lead until the final whistle.",
-     "grammar": "de-word, plural: voorsprongen."
+     "en": "condition, disorder",
+     "example_nl": "De oude man heeft een zeldzame aandoening.",
+     "example_en": "The old man has a rare condition.",
+     "grammar": "Feminine noun (takes de). Plural: de aandoeningen."
     },
     {
-     "word": "gelijkmaker",
+     "word": "openlijk",
      "forms": [
-      "gelijkmaker"
+      "openlijk"
      ],
-     "lemma": "de gelijkmaker",
-     "pos": "noun",
-     "en": "equaliser",
-     "example_nl": "Hij schoot de gelijkmaker binnen in de laatste minuut.",
-     "example_en": "He scored the equaliser in the final minute.",
-     "grammar": "de-word, plural: gelijkmakers."
+     "lemma": "openlijk",
+     "pos": "adverb",
+     "en": "openly",
+     "example_nl": "Hij vertelt openlijk over zijn problemen.",
+     "example_en": "He talks openly about his problems.",
+     "grammar": "Adverb/adjective used without ending."
     },
     {
-     "word": "afgekeurd",
+     "word": "verdedigt",
      "forms": [
-      "afgekeurd"
+      "verdedigt"
      ],
-     "lemma": "afkeuren",
+     "lemma": "verdedigen",
      "pos": "verb",
-     "en": "disallowed / rejected",
-     "example_nl": "De scheidsrechter heeft de goal afgekeurd.",
-     "example_en": "The referee disallowed the goal.",
-     "grammar": "Separable verb: keurt af, keurde af, heeft afgekeurd."
-    },
-    {
-     "word": "buitenspel",
-     "forms": [
-      "buitenspel"
-     ],
-     "lemma": "het buitenspel",
-     "pos": "noun",
-     "en": "offside",
-     "example_nl": "De grensrechter vlagde meteen voor buitenspel.",
-     "example_en": "The linesman flagged for offside right away.",
-     "grammar": "het-word, no regular plural. Often used with prepositions like 'wegens' or 'in'."
+     "en": "defends",
+     "example_nl": "De speler verdedigt zijn mening heel goed.",
+     "example_en": "The player defends his opinion very well.",
+     "grammar": "Present tense of verdedigen: hij verdedigt (stem is verdedig + t)."
     }
    ]
   }
