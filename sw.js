@@ -1,5 +1,5 @@
 // Network first (so you always get the newest news), cache as offline fallback.
-const CACHE = 'nieuws-b1-v1';
+const CACHE = 'nieuws-b1-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
@@ -26,6 +26,12 @@ self.addEventListener('fetch', e => {
         caches.open(CACHE).then(c => c.put(req, copy)).catch(() => {});
         return res;
       })
-      .catch(() => caches.match(req).then(r => r || caches.match('./')))
+      .catch(() => caches.match(req).then(r => {
+        if (!r) return caches.match('./');
+        // tell the app this is an old saved copy, not fresh from the internet
+        const h = new Headers(r.headers);
+        h.set('x-from-cache', '1');
+        return r.blob().then(b => new Response(b, { status: r.status, statusText: r.statusText, headers: h }));
+      }))
   );
 });
