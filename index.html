@@ -178,7 +178,7 @@ const state = {
   words: store.get('words', {}),
   settings: Object.assign({ apiKey: '', model: 'gemini-3.5-flash-lite' }, store.get('settings', {})),
   busy: new Set(),
-  dates: [], day: null, meta: [], more: {},
+  dates: [], day: null, meta: [], more: {}, lastFromCache: false,
   sel: store.get('sources', {})
 };
 const saveWords = () => store.set('words', state.words);
@@ -206,6 +206,7 @@ function ago(iso) {
 async function getJson(url) {
   const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' });
   if (!r.ok) throw new Error(r.status);
+  state.lastFromCache = r.headers.get('x-from-cache') === '1';
   return r.json();
 }
 
@@ -225,6 +226,21 @@ async function loadNews(day = null) {
 async function loadDates() {
   try { state.dates = (await getJson('data/archive/index.json')).dates || []; }
   catch { state.dates = []; }
+}
+
+const ymd = d => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Amsterdam' }).format(d);
+const isFresh = () => !state.lastFromCache && state.news.generated && ymd(new Date(state.news.generated)) === ymd(new Date());
+
+// If the news is old (no internet at launch, or the morning update is not ready yet), try again a few times.
+let freshTimer;
+function ensureFresh(tries = 0) {
+  clearTimeout(freshTimer);
+  if (state.day !== null || isFresh() || tries >= 4) return;
+  freshTimer = setTimeout(async () => {
+    await loadNews();
+    if (state.tab === 'news' && state.day === null) renderNews();
+    ensureFresh(tries + 1);
+  }, [3000, 8000, 20000, 45000][tries]);
 }
 
 const isOn = s => (s.id in state.sel) ? !!state.sel[s.id] : !!s.default;
@@ -278,7 +294,7 @@ function renderNews() {
 
   const notice = stale
     ? `<div class="notice">Dit nieuws is niet van vandaag. De volgende update komt morgenochtend.</div>`
-    : (gen ? `<div class="notice">${latest ? 'Bijgewerkt ' + esc(ago(generated)) + '. ' : ''}Selecteer een woord in de tekst om het op te slaan.</div>` : '');
+    : (gen ? `<div class="notice">${latest ? (state.lastFromCache ? 'Je ziet een opgeslagen kopie (geen internet). ' : 'Bijgewerkt ' + esc(ago(generated)) + '. ') : ''}Selecteer een woord in de tekst om het op te slaan.</div>` : '');
 
   const body = list.length ? list.map(storyHtml).join('') :
     `<div class="empty"><b>Geen berichten</b>${state.news.items.length ? 'Er zijn geen berichten van je gekozen bronnen. Kies bronnen bij Instellingen.' : 'Kom later terug, of start de update in GitHub (Actions).'}</div>`;
@@ -672,8 +688,9 @@ document.querySelector('.tabs').addEventListener('click', e => {
 });
 
 document.addEventListener('visibilitychange', async () => {
-  if (document.visibilityState === 'visible' && state.day === null && Date.now() - state.loadedAt > 30 * 60e3) {
+  if (document.visibilityState === 'visible' && state.day === null && Date.now() - state.loadedAt > (isFresh() ? 30 * 60e3 : 20e3)) {
     await loadNews(); if (state.tab === 'news') renderNews();
+    ensureFresh();
   }
 });
 
@@ -686,10 +703,15 @@ function render() {
   else renderSettings();
 }
 
+window.addEventListener('online', async () => {
+  if (state.day === null) { await loadNews(); if (state.tab === 'news') renderNews(); }
+});
+
 (async function init() {
   $('#date').textContent = new Intl.DateTimeFormat('nl-NL', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
   await Promise.all([loadNews(), loadDates()]);
   render();
+  ensureFresh();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 })();
