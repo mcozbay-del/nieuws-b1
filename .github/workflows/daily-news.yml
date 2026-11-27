@@ -2,7 +2,12 @@ name: Daily news
 
 on:
   schedule:
-    - cron: "17 4 * * *"   # 04:17 UTC = 05:17 or 06:17 in the Netherlands
+    # GitHub often delays or skips scheduled runs, so we try several times each morning.
+    # The script does nothing if today's news already exists.
+    - cron: "17 3 * * *"
+    - cron: "47 4 * * *"
+    - cron: "17 6 * * *"
+    - cron: "17 8 * * *"
   workflow_dispatch:       # lets you run it by hand
 
 permissions:
@@ -29,6 +34,7 @@ jobs:
       - name: Build today's news
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python scripts/build_news.py
 
       - name: Commit changes
